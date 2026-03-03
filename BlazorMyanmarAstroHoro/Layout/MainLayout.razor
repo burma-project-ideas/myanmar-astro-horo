@@ -1,16 +1,66 @@
 ﻿@inherits LayoutComponentBase
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+@inject IJSRuntime JSRuntime
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+<div class="min-h-screen bg-background text-foreground transition-colors duration-300">
+    <header class="sticky top-0 z-40 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div class="container mx-auto px-4 flex h-16 items-center justify-between">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-star text-primary text-xl"></i>
+                <span class="font-zodiac font-bold text-xl tracking-tight">Myanmar Astro Horo</span>
+            </div>
+            
+            <button @onclick="ToggleTheme" class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10">
+                @if (IsDarkMode)
+                {
+                    <i class="fa-solid fa-moon text-lg"></i>
+                }
+                else
+                {
+                    <i class="fa-solid fa-sun text-lg"></i>
+                }
+                <span class="sr-only">Toggle theme</span>
+            </button>
         </div>
+    </header>
 
-        <article class="content px-4">
-            @Body
-        </article>
+    <main class="container mx-auto px-4 py-8">
+        @Body
     </main>
 </div>
+
+@code {
+    private bool IsDarkMode = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Check initial state from localStorage or system preference via JS interop
+            var theme = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "theme");
+            if (theme == "dark")
+            {
+                IsDarkMode = true;
+                StateHasChanged();
+            }
+        }
+    }
+
+    private async Task ToggleTheme()
+    {
+        IsDarkMode = !IsDarkMode;
+        var themeString = IsDarkMode ? "dark" : "light";
+        
+        // Update class on HTML element
+        if (IsDarkMode)
+        {
+            await JSRuntime.InvokeVoidAsync("document.documentElement.classList.add", "dark");
+        }
+        else
+        {
+            await JSRuntime.InvokeVoidAsync("document.documentElement.classList.remove", "dark");
+        }
+        
+        // Save preference
+        await JSRuntime.InvokeVoidAsync("localStorage.setItem", "theme", themeString);
+    }
+}

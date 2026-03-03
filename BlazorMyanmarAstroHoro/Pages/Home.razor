@@ -1,7 +1,353 @@
 ﻿@page "/"
+@inject AstroDataService AstroService
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Myanmar Astro Horo — Horoscope Calculator</PageTitle>
 
-<h1>Hello, world!</h1>
+<!-- Hero Section -->
+<div class="text-center mb-10">
+    <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary/10 mb-4">
+        <i class="fa-solid fa-star-and-crescent text-3xl text-primary"></i>
+    </div>
+    <h1 class="font-zodiac text-4xl md:text-5xl font-bold tracking-tight mb-3">
+        Myanmar Astro Horo
+    </h1>
+    <p class="text-muted-foreground text-lg max-w-xl mx-auto">
+        Traditional Myanmar astrological calculations based on the ancient <span class="text-primary font-medium">Surya Siddhanta</span> system.
+    </p>
+</div>
 
-Welcome to your new app.
+<!-- Input Form Card -->
+<div class="max-w-2xl mx-auto">
+    <div class="rounded-lg border border-border bg-card text-card-foreground shadow-lg">
+        <div class="flex flex-col space-y-1.5 p-6 pb-4">
+            <h2 class="font-zodiac text-2xl font-semibold leading-none tracking-tight flex items-center gap-2">
+                <i class="fa-regular fa-calendar text-primary"></i>
+                Horoscope Input
+            </h2>
+            <p class="text-sm text-muted-foreground">Enter the date, time, and location to calculate the horoscope.</p>
+        </div>
+        <div class="p-6 pt-0 space-y-6">
+            <!-- Date Row -->
+            <div>
+                <label class="text-sm font-medium leading-none text-muted-foreground mb-2 block">
+                    <i class="fa-regular fa-calendar-days mr-1"></i> Date
+                </label>
+                <div class="grid grid-cols-3 gap-3">
+                    <div>
+                        <label class="text-xs text-muted-foreground mb-1 block">Year</label>
+                        <input type="number" @bind="inputModel.Year" min="1" max="3000"
+                               class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" />
+                    </div>
+                    <div>
+                        <label class="text-xs text-muted-foreground mb-1 block">Month</label>
+                        <select @bind="inputModel.Month"
+                                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+                            @for (int m = 1; m <= 12; m++)
+                            {
+                                <option value="@m">@System.Globalization.CultureInfo.InvariantCulture.DateTimeFormat.GetMonthName(m)</option>
+                            }
+                        </select>
+                    </div>
+                    <div>
+                        <label class="text-xs text-muted-foreground mb-1 block">Day</label>
+                        <input type="number" @bind="inputModel.Day" min="1" max="31"
+                               class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Time Row -->
+            <div>
+                <label class="text-sm font-medium leading-none text-muted-foreground mb-2 block">
+                    <i class="fa-regular fa-clock mr-1"></i> Time
+                </label>
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="text-xs text-muted-foreground mb-1 block">Hour (0-23)</label>
+                        <input type="number" @bind="inputModel.Hour" min="0" max="23"
+                               class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" />
+                    </div>
+                    <div>
+                        <label class="text-xs text-muted-foreground mb-1 block">Minute (0-59)</label>
+                        <input type="number" @bind="inputModel.Minute" min="0" max="59"
+                               class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Location Row -->
+            <div>
+                <label class="text-sm font-medium leading-none text-muted-foreground mb-2 block">
+                    <i class="fa-solid fa-location-dot mr-1"></i> Location
+                </label>
+                <div class="grid grid-cols-3 gap-3">
+                    <div>
+                        <label class="text-xs text-muted-foreground mb-1 block">City</label>
+                        <select @bind="SelectedCity"
+                                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+                            <option value="Yangon">Yangon</option>
+                            <option value="Mandalay">Mandalay</option>
+                            <option value="Naypyidaw">Naypyidaw</option>
+                            <option value="Bagan">Bagan</option>
+                            <option value="Taunggyi">Taunggyi</option>
+                            <option value="Mawlamyine">Mawlamyine</option>
+                            <option value="Custom">Custom</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="text-xs text-muted-foreground mb-1 block">Latitude</label>
+                        <input type="number" step="0.0001" @bind="inputModel.Latitude"
+                               class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" />
+                    </div>
+                    <div>
+                        <label class="text-xs text-muted-foreground mb-1 block">Longitude</label>
+                        <input type="number" step="0.0001" @bind="inputModel.Longitude"
+                               class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Calculate Button -->
+        <div class="flex items-center p-6 pt-0">
+            <button @onclick="CalculateHoroscope" disabled="@isCalculating"
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 w-full gap-2 shadow-md hover:shadow-lg">
+                @if (isCalculating)
+                {
+                    <i class="fa-solid fa-spinner fa-spin"></i>
+                    <span>Calculating...</span>
+                }
+                else
+                {
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <span>Calculate Horoscope</span>
+                }
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Results Section -->
+@if (result != null)
+{
+    <div class="max-w-4xl mx-auto mt-10 space-y-6 animate-fade-in">
+        <!-- Result Header -->
+        <div class="text-center mb-6">
+            <h2 class="font-zodiac text-3xl font-bold text-primary flex items-center justify-center gap-2">
+                <i class="fa-solid fa-sun"></i>
+                Horoscope Results
+                <i class="fa-solid fa-moon"></i>
+            </h2>
+            <p class="text-muted-foreground text-sm mt-1">@result.DayOfWeekMyanmar · @result.MyanmarYear · @result.MyanmarMonth</p>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Myanmar Calendar Card -->
+            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                <div class="p-4">
+                    <div class="flex items-center gap-2 mb-3">
+                        <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                            <i class="fa-solid fa-calendar-alt text-primary text-sm"></i>
+                        </div>
+                        <h3 class="font-semibold text-sm">Myanmar Calendar</h3>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between"><span class="text-muted-foreground">Year</span><span class="font-medium">@result.MyanmarYear</span></div>
+                        <div class="flex justify-between"><span class="text-muted-foreground">Month</span><span class="font-medium">@result.MyanmarMonth</span></div>
+                        <div class="flex justify-between"><span class="text-muted-foreground">Day</span><span class="font-medium">@result.MyanmarDay</span></div>
+                        <div class="flex justify-between"><span class="text-muted-foreground">Moon Phase</span><span class="font-medium">@result.MoonPhase</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Astro Data Card -->
+            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                <div class="p-4">
+                    <div class="flex items-center gap-2 mb-3">
+                        <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                            <i class="fa-solid fa-star text-primary text-sm"></i>
+                        </div>
+                        <h3 class="font-semibold text-sm">Astrological Data</h3>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between"><span class="text-muted-foreground">Thithi</span><span class="font-medium">@result.Thithi</span></div>
+                        <div class="flex justify-between"><span class="text-muted-foreground">Nakshatra</span><span class="font-medium text-right max-w-[60%]">@result.Nakshatra</span></div>
+                        <div class="flex justify-between"><span class="text-muted-foreground">Yoga</span><span class="font-medium">@result.Yoga</span></div>
+                        <div class="flex justify-between"><span class="text-muted-foreground">Karana</span><span class="font-medium">@result.Karana</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day & Time Card -->
+            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                <div class="p-4">
+                    <div class="flex items-center gap-2 mb-3">
+                        <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                            <i class="fa-regular fa-sun text-primary text-sm"></i>
+                        </div>
+                        <h3 class="font-semibold text-sm">Day & Solar</h3>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between"><span class="text-muted-foreground">Day</span><span class="font-medium">@result.DayOfWeekMyanmar</span></div>
+                        <div class="flex justify-between"><span class="text-muted-foreground">Sunrise</span><span class="font-medium">@result.Sunrise</span></div>
+                        <div class="flex justify-between"><span class="text-muted-foreground">Sunset</span><span class="font-medium">@result.Sunset</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zodiac Signs Card -->
+            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                <div class="p-4">
+                    <div class="flex items-center gap-2 mb-3">
+                        <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                            <i class="fa-solid fa-yin-yang text-primary text-sm"></i>
+                        </div>
+                        <h3 class="font-semibold text-sm">Zodiac Signs</h3>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between"><span class="text-muted-foreground">Sun Sign</span><span class="font-medium text-right max-w-[60%]">@result.SunSign</span></div>
+                        <div class="flex justify-between"><span class="text-muted-foreground">Moon Sign</span><span class="font-medium text-right max-w-[60%]">@result.MoonSign</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fortune Card -->
+            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                <div class="p-4">
+                    <div class="flex items-center gap-2 mb-3">
+                        <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                            <i class="fa-solid fa-gem text-primary text-sm"></i>
+                        </div>
+                        <h3 class="font-semibold text-sm">Fortune (Tarin / Hawrat)</h3>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between"><span class="text-muted-foreground">Tarin</span><span class="font-medium">@result.Tarin</span></div>
+                        <div class="flex justify-between"><span class="text-muted-foreground">Hawrat</span><span class="font-medium">@result.Hawrat</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Planetary Positions Table -->
+        <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm">
+            <div class="p-4">
+                <div class="flex items-center gap-2 mb-4">
+                    <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                        <i class="fa-solid fa-globe text-primary text-sm"></i>
+                    </div>
+                    <h3 class="font-semibold">Planetary Positions</h3>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="border-b border-border">
+                                <th class="text-left py-2 px-3 text-muted-foreground font-medium">Planet</th>
+                                <th class="text-left py-2 px-3 text-muted-foreground font-medium">Position</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var planet in result.PlanetaryPositions)
+                            {
+                                <tr class="border-b border-border/50 hover:bg-muted/50 transition-colors">
+                                    <td class="py-2.5 px-3 font-medium">@planet.Key</td>
+                                    <td class="py-2.5 px-3 text-muted-foreground">@planet.Value</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- Footer -->
+<footer class="mt-16 mb-8 text-center text-sm text-muted-foreground">
+    <div class="flex items-center justify-center gap-2 mb-2">
+        <i class="fa-solid fa-star text-primary/50 text-xs"></i>
+        <span>Powered by Surya Siddhanta (Makaranta) System</span>
+        <i class="fa-solid fa-star text-primary/50 text-xs"></i>
+    </div>
+    <p>Myanmar Astro Horo — Open Source Traditional Astrological Calculator</p>
+</footer>
+
+<style>
+    @@keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in {
+        animation: fadeIn 0.5s ease-out forwards;
+    }
+</style>
+
+@code {
+    private AstroInputModel inputModel = new();
+    private AstroResultModel? result;
+    private bool isCalculating = false;
+
+    private string _selectedCity = "Yangon";
+    private string SelectedCity
+    {
+        get => _selectedCity;
+        set
+        {
+            _selectedCity = value;
+            SetCityCoordinates(value);
+        }
+    }
+
+    private void SetCityCoordinates(string city)
+    {
+        switch (city)
+        {
+            case "Yangon":
+                inputModel.Latitude = 16.8661;
+                inputModel.Longitude = 96.1951;
+                inputModel.LocationName = "Yangon";
+                break;
+            case "Mandalay":
+                inputModel.Latitude = 21.9588;
+                inputModel.Longitude = 96.0891;
+                inputModel.LocationName = "Mandalay";
+                break;
+            case "Naypyidaw":
+                inputModel.Latitude = 19.7633;
+                inputModel.Longitude = 96.0785;
+                inputModel.LocationName = "Naypyidaw";
+                break;
+            case "Bagan":
+                inputModel.Latitude = 21.1717;
+                inputModel.Longitude = 94.8585;
+                inputModel.LocationName = "Bagan";
+                break;
+            case "Taunggyi":
+                inputModel.Latitude = 20.7891;
+                inputModel.Longitude = 97.0378;
+                inputModel.LocationName = "Taunggyi";
+                break;
+            case "Mawlamyine":
+                inputModel.Latitude = 16.4905;
+                inputModel.Longitude = 97.6286;
+                inputModel.LocationName = "Mawlamyine";
+                break;
+        }
+    }
+
+    private async Task CalculateHoroscope()
+    {
+        isCalculating = true;
+        StateHasChanged();
+
+        try
+        {
+            result = await AstroService.CalculateAstroAsync(inputModel);
+        }
+        finally
+        {
+            isCalculating = false;
+            StateHasChanged();
+        }
+    }
+}
