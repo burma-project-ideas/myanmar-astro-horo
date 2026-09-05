@@ -1,0 +1,9218 @@
+[
+  {
+    "id": 0,
+    "name": "AALBORG",
+    "country": "DENMARK",
+    "latitude": 57.05,
+    "longitude": 9.933333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1,
+    "name": "AARHUS",
+    "country": "DENMARK",
+    "latitude": 56.166667,
+    "longitude": 10.216667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 2,
+    "name": "ABERDEEN",
+    "country": "SCOTLAND",
+    "latitude": 57.133333,
+    "longitude": -2.1,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 3,
+    "name": "ABIDJAN",
+    "country": "IVORY COAST",
+    "latitude": 5.316667,
+    "longitude": -4.033333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 4,
+    "name": "ABILENE",
+    "country": "TEXAS",
+    "latitude": 32.466667,
+    "longitude": -99.716667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 5,
+    "name": "ABU DHABI",
+    "country": "UNITED ARAB EMIRATES",
+    "latitude": 24.466667,
+    "longitude": 54.416667,
+    "utcOffset": 4.0
+  },
+  {
+    "id": 6,
+    "name": "ACAPULCO",
+    "country": "MEXICO",
+    "latitude": 16.833333,
+    "longitude": -99.916667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 7,
+    "name": "ACCRA",
+    "country": "GHANA",
+    "latitude": 5.55,
+    "longitude": 0.25,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 8,
+    "name": "ADANA",
+    "country": "TURKEY",
+    "latitude": 37.0,
+    "longitude": 35.316667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 9,
+    "name": "ADDIS ABABA",
+    "country": "ETHIOPIA",
+    "latitude": 9.033333,
+    "longitude": 38.783333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 10,
+    "name": "ADELAIDE",
+    "country": "AUSTRALIA",
+    "latitude": -34.933333,
+    "longitude": 138.6,
+    "utcOffset": 9.5
+  },
+  {
+    "id": 11,
+    "name": "ADEN",
+    "country": "SOUTH YEMEN",
+    "latitude": 12.766667,
+    "longitude": 45.016667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 12,
+    "name": "AGADEZ",
+    "country": "NIGER",
+    "latitude": 17.0,
+    "longitude": 7.933333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 13,
+    "name": "AGADIR",
+    "country": "MOROCCO",
+    "latitude": 30.5,
+    "longitude": -9.666667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 14,
+    "name": "AHMEDABAD",
+    "country": "INDIA",
+    "latitude": 23.0,
+    "longitude": 72.666667,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 15,
+    "name": "AKRON",
+    "country": "OHIO",
+    "latitude": 41.083333,
+    "longitude": 81.516667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 16,
+    "name": "AKUREYRI",
+    "country": "ICELAND",
+    "latitude": 65.683333,
+    "longitude": -18.066667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 17,
+    "name": "AKYAB",
+    "country": "BURMA",
+    "latitude": 20.15,
+    "longitude": 92.916667,
+    "utcOffset": 6.5
+  },
+  {
+    "id": 18,
+    "name": "AL-MOBARRAZ",
+    "country": "SAUDI ARABIA",
+    "latitude": 25.433333,
+    "longitude": 49.616667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 19,
+    "name": "AL OBEID",
+    "country": "SUDAN",
+    "latitude": 13.183333,
+    "longitude": 30.166667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 20,
+    "name": "ALBANY",
+    "country": "GEORGIA",
+    "latitude": 31.566667,
+    "longitude": -84.15,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 21,
+    "name": "ALBANY",
+    "country": "NEW YORK",
+    "latitude": 42.65,
+    "longitude": -73.75,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 22,
+    "name": "ALBUQUERQUE",
+    "country": "NEW MEXICO",
+    "latitude": 35.083333,
+    "longitude": -106.65,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 23,
+    "name": "ALEPPO",
+    "country": "SYRIA",
+    "latitude": 36.233333,
+    "longitude": 37.166667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 24,
+    "name": "ALEXANDRIA",
+    "country": "EGYPT",
+    "latitude": 31.216667,
+    "longitude": 29.916667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 25,
+    "name": "ALEXANDRIA",
+    "country": "LOUISIANA",
+    "latitude": 31.3,
+    "longitude": -92.45,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 26,
+    "name": "ALEXANDRIA",
+    "country": "VIRGINIA",
+    "latitude": 38.8,
+    "longitude": -77.05,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 27,
+    "name": "ALGIERS",
+    "country": "ALGERIA",
+    "latitude": 36.783333,
+    "longitude": 3.05,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 28,
+    "name": "ALLENTOWN",
+    "country": "PENNSYLVANIA",
+    "latitude": 40.6,
+    "longitude": -75.466667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 29,
+    "name": "ALTOONA",
+    "country": "PENNSYLVANIA",
+    "latitude": 40.516667,
+    "longitude": -78.4,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 30,
+    "name": "AMADORA",
+    "country": "PORTUGAL",
+    "latitude": 38.75,
+    "longitude": -9.216667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 31,
+    "name": "AMARILLO",
+    "country": "TEXAS",
+    "latitude": 35.2,
+    "longitude": -101.833333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 32,
+    "name": "AMBATO",
+    "country": "ECUADOR",
+    "latitude": -1.3,
+    "longitude": -78.65,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 33,
+    "name": "AMMAN",
+    "country": "JORDAN",
+    "latitude": 31.95,
+    "longitude": 35.933333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 34,
+    "name": "AMSTERDAM",
+    "country": "NETHERLANDS",
+    "latitude": 52.383333,
+    "longitude": 4.9,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 35,
+    "name": "AN NAJAF",
+    "country": "IRAQ",
+    "latitude": 31.983333,
+    "longitude": 44.316667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 36,
+    "name": "ANAHEIM",
+    "country": "CALIFORNIA",
+    "latitude": 33.833333,
+    "longitude": -117.916667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 37,
+    "name": "ANCHORAGE",
+    "country": "ALASKA",
+    "latitude": 61.216667,
+    "longitude": -149.883333,
+    "utcOffset": -9.0
+  },
+  {
+    "id": 38,
+    "name": "ANDORRA LA VELLA",
+    "country": "ANDORRA",
+    "latitude": 42.5,
+    "longitude": 1.5,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 39,
+    "name": "ANGELES CITY",
+    "country": "PHILIPPINES",
+    "latitude": 15.15,
+    "longitude": 120.55,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 40,
+    "name": "ANKARA",
+    "country": "TURKEY",
+    "latitude": 39.933333,
+    "longitude": 32.866667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 41,
+    "name": "ANN ARBOR",
+    "country": "MICHIGAN",
+    "latitude": 42.283333,
+    "longitude": -83.75,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 42,
+    "name": "ANNABA",
+    "country": "ALGERIA",
+    "latitude": 36.916667,
+    "longitude": 7.783333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 43,
+    "name": "ANNAPOLIS",
+    "country": "MARYLAND",
+    "latitude": 38.983333,
+    "longitude": -76.5,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 44,
+    "name": "ANTANANARIVO",
+    "country": "MADAGASCAR",
+    "latitude": -18.866667,
+    "longitude": 47.5,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 45,
+    "name": "ANTOFAGASTA",
+    "country": "CHILE",
+    "latitude": -23.65,
+    "longitude": -70.4,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 46,
+    "name": "ANTSIRABE",
+    "country": "MADAGASCAR",
+    "latitude": -19.85,
+    "longitude": 47.016667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 47,
+    "name": "ANTSIRANANA",
+    "country": "MADAGASCAR",
+    "latitude": -12.416667,
+    "longitude": 49.333333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 48,
+    "name": "ANTWERP",
+    "country": "BELGIUM",
+    "latitude": 51.216667,
+    "longitude": 4.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 49,
+    "name": "APELDOORN",
+    "country": "NETHERLANDS",
+    "latitude": 52.216667,
+    "longitude": 5.95,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 50,
+    "name": "APIA",
+    "country": "SAMOA",
+    "latitude": -13.833333,
+    "longitude": -171.733333,
+    "utcOffset": -12.0
+  },
+  {
+    "id": 51,
+    "name": "AREQUIPA",
+    "country": "PERU",
+    "latitude": -16.4,
+    "longitude": -71.55,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 52,
+    "name": "ARIANA",
+    "country": "TUNISIA",
+    "latitude": 36.866667,
+    "longitude": 10.2,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 53,
+    "name": "ARICA",
+    "country": "CHILE",
+    "latitude": -18.5,
+    "longitude": -70.333333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 54,
+    "name": "ARLINGTON",
+    "country": "VIRGINIA",
+    "latitude": 38.883333,
+    "longitude": -77.116667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 55,
+    "name": "ARUSHA",
+    "country": "TANZANIA",
+    "latitude": -3.383333,
+    "longitude": 36.666667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 56,
+    "name": "ASHEVILLE",
+    "country": "NORTH CAROLINA",
+    "latitude": 35.6,
+    "longitude": -82.55,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 57,
+    "name": "ASMARA",
+    "country": "ETHIOPIA",
+    "latitude": 15.333333,
+    "longitude": 38.966667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 58,
+    "name": "ASUNCION",
+    "country": "PARAGUAY",
+    "latitude": -25.266667,
+    "longitude": -57.666667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 59,
+    "name": "ASYUT",
+    "country": "EGYPT",
+    "latitude": 27.233333,
+    "longitude": 31.116667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 60,
+    "name": "ATBARA",
+    "country": "SUDAN",
+    "latitude": 17.7,
+    "longitude": 34.0,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 61,
+    "name": "ATHENS",
+    "country": "GREECE",
+    "latitude": 37.966667,
+    "longitude": 23.716667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 62,
+    "name": "ATLANTA",
+    "country": "GEORGIA",
+    "latitude": 33.75,
+    "longitude": -84.4,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 63,
+    "name": "ATLANTIC CITY",
+    "country": "NEW JERSEY",
+    "latitude": 39.366667,
+    "longitude": -74.433333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 64,
+    "name": "AUCKLAND",
+    "country": "NEW ZEALAND",
+    "latitude": -36.85,
+    "longitude": 174.75,
+    "utcOffset": 12.0
+  },
+  {
+    "id": 65,
+    "name": "AUGUSTA",
+    "country": "GEORGIA",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 66,
+    "name": "AUSTIN",
+    "country": "TEXAS",
+    "latitude": 30.266667,
+    "longitude": -97.75,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 67,
+    "name": "BACOLOD CITY",
+    "country": "PHILIPPINES",
+    "latitude": 10.633333,
+    "longitude": 122.966667,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 68,
+    "name": "BAGHDAD",
+    "country": "IRAQ",
+    "latitude": 33.35,
+    "longitude": 44.416667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 69,
+    "name": "BAHIA BLANCA",
+    "country": "ARGENTINA",
+    "latitude": -38.75,
+    "longitude": -62.25,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 70,
+    "name": "BAKERSFIELD",
+    "country": "CALIFORNIA",
+    "latitude": 35.366667,
+    "longitude": -119.016667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 71,
+    "name": "BAKHTARAN",
+    "country": "IRAN",
+    "latitude": 31.466667,
+    "longitude": 54.9,
+    "utcOffset": 3.5
+  },
+  {
+    "id": 72,
+    "name": "BAKU",
+    "country": "USSR",
+    "latitude": 40.383333,
+    "longitude": 49.85,
+    "utcOffset": 4.0
+  },
+  {
+    "id": 73,
+    "name": "BALTIMORE",
+    "country": "MARYLAND",
+    "latitude": 39.283333,
+    "longitude": -76.616667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 74,
+    "name": "BAMAKO",
+    "country": "MALI",
+    "latitude": 12.666667,
+    "longitude": -7.983333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 75,
+    "name": "BANDAR SERI BEGAWAN",
+    "country": "BRUNEI",
+    "latitude": 4.933333,
+    "longitude": 114.966667,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 76,
+    "name": "BANDUNG",
+    "country": "INDONESIA",
+    "latitude": -6.95,
+    "longitude": 107.566667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 77,
+    "name": "BANGALORE",
+    "country": "INDIA",
+    "latitude": 12.966667,
+    "longitude": 77.583333,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 78,
+    "name": "BANGKOK",
+    "country": "THAILAND",
+    "latitude": 13.75,
+    "longitude": 100.516667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 79,
+    "name": "BANGOR",
+    "country": "MAINE",
+    "latitude": 44.8,
+    "longitude": -68.766667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 80,
+    "name": "BANGUI",
+    "country": "CENTRAL AFRICAN REPUBLIC",
+    "latitude": 4.383333,
+    "longitude": 18.616667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 81,
+    "name": "BANJUL",
+    "country": "GAMBIA",
+    "latitude": 13.466667,
+    "longitude": -16.65,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 82,
+    "name": "BARCELONA",
+    "country": "SPAIN",
+    "latitude": 41.383333,
+    "longitude": 2.183333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 83,
+    "name": "BARCELONA",
+    "country": "VENEZUELA",
+    "latitude": 10.133333,
+    "longitude": -64.716667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 84,
+    "name": "BARI",
+    "country": "ITALY",
+    "latitude": 41.116667,
+    "longitude": 16.866667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 85,
+    "name": "BARQUISIMETO",
+    "country": "VENEZUELA",
+    "latitude": 10.05,
+    "longitude": -69.3,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 86,
+    "name": "BARRANQUILLA",
+    "country": "COLUMBIA",
+    "latitude": 10.983333,
+    "longitude": -74.8,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 87,
+    "name": "BARREIRO",
+    "country": "PORTUGAL",
+    "latitude": 38.666667,
+    "longitude": -9.083333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 88,
+    "name": "BASEL",
+    "country": "SWITZERLAND",
+    "latitude": 47.55,
+    "longitude": 7.6,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 89,
+    "name": "BASRA",
+    "country": "IRAQ",
+    "latitude": 30.5,
+    "longitude": 47.833333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 90,
+    "name": "BASSEIN",
+    "country": "BURMA",
+    "latitude": 16.766667,
+    "longitude": 94.75,
+    "utcOffset": 6.5
+  },
+  {
+    "id": 91,
+    "name": "BASSETERRE",
+    "country": "ST. KITTS-NEVIS",
+    "latitude": 17.283333,
+    "longitude": -62.716667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 92,
+    "name": "BATA",
+    "country": "EQUATORIAL GUINEA",
+    "latitude": 1.85,
+    "longitude": 9.766667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 93,
+    "name": "BATON ROUGE",
+    "country": "LOUISIANA",
+    "latitude": 30.45,
+    "longitude": -91.183333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 94,
+    "name": "BEAUMONT",
+    "country": "TEXAS",
+    "latitude": 30.083333,
+    "longitude": -94.1,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 95,
+    "name": "BEERSHEBA",
+    "country": "ISRAEL",
+    "latitude": 31.25,
+    "longitude": 34.783333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 96,
+    "name": "BEIJING",
+    "country": "CHINA",
+    "latitude": 39.933333,
+    "longitude": 116.4,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 97,
+    "name": "BEIRA",
+    "country": "MOZAMBIQUE",
+    "latitude": -19.816667,
+    "longitude": 34.866667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 98,
+    "name": "BEIRUT",
+    "country": "LEBANON",
+    "latitude": 33.883333,
+    "longitude": 35.5,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 99,
+    "name": "BELEM",
+    "country": "BRAZIL",
+    "latitude": -1.45,
+    "longitude": -48.483333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 100,
+    "name": "BELFAST",
+    "country": "NORTHERN IRELAND",
+    "latitude": 54.6,
+    "longitude": -5.933333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 101,
+    "name": "BELGRADE",
+    "country": "YUGOSLAVIA",
+    "latitude": 44.833333,
+    "longitude": 20.5,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 102,
+    "name": "BELIZE",
+    "country": "BELIZE",
+    "latitude": 17.5,
+    "longitude": -88.2,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 103,
+    "name": "BELMOPAN",
+    "country": "BELIZE",
+    "latitude": 17.216667,
+    "longitude": -88.8,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 104,
+    "name": "BELO HORIZONTE",
+    "country": "BRAZIL",
+    "latitude": -19.9,
+    "longitude": -43.9,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 105,
+    "name": "BENE BERAQ",
+    "country": "ISRAEL",
+    "latitude": 32.083333,
+    "longitude": 34.866667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 106,
+    "name": "BENGHAZI",
+    "country": "LIBYA",
+    "latitude": 32.116667,
+    "longitude": 20.066667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 107,
+    "name": "BERBERA",
+    "country": "SOMALIA",
+    "latitude": 10.466667,
+    "longitude": 45.033333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 108,
+    "name": "BERGEN",
+    "country": "NORWAY",
+    "latitude": 60.383333,
+    "longitude": 5.333333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 109,
+    "name": "BERLIN",
+    "country": "GERMANY",
+    "latitude": 52.55,
+    "longitude": 13.366667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 110,
+    "name": "BERN",
+    "country": "SWITZERLAND",
+    "latitude": 46.95,
+    "longitude": 7.466667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 111,
+    "name": "BETHLEHEM",
+    "country": "PENNSYLVANIA",
+    "latitude": 40.616667,
+    "longitude": -75.383333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 112,
+    "name": "BIEL",
+    "country": "SWITZERLAND",
+    "latitude": 46.45,
+    "longitude": 8.216667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 113,
+    "name": "BILBAO",
+    "country": "SPAIN",
+    "latitude": 43.25,
+    "longitude": -2.933333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 114,
+    "name": "BILLINGS",
+    "country": "MONTANA",
+    "latitude": 45.783333,
+    "longitude": -108.5,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 115,
+    "name": "BILOXI",
+    "country": "MISSISSIPPI",
+    "latitude": 30.4,
+    "longitude": -88.883333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 116,
+    "name": "BINGHAMTON",
+    "country": "NEW YORK",
+    "latitude": 42.1,
+    "longitude": -75.916667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 117,
+    "name": "BIRMINGHAM",
+    "country": "ALABAMA",
+    "latitude": 33.516667,
+    "longitude": -86.816667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 118,
+    "name": "BIRMINGHAM",
+    "country": "ENGLAND",
+    "latitude": 52.483333,
+    "longitude": -1.883333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 119,
+    "name": "BISMARCK",
+    "country": "NORTH DAKOTA",
+    "latitude": 46.8,
+    "longitude": -100.783333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 120,
+    "name": "BISSAU",
+    "country": "GUINEA-BISSAU",
+    "latitude": 11.866667,
+    "longitude": -15.65,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 121,
+    "name": "BIZERTA",
+    "country": "TUNISIA",
+    "latitude": 37.3,
+    "longitude": 9.866667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 122,
+    "name": "BLANTYRE",
+    "country": "MALAWI",
+    "latitude": -15.766667,
+    "longitude": 35.0,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 123,
+    "name": "BLIDA",
+    "country": "ALGERIA",
+    "latitude": 36.5,
+    "longitude": 2.833333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 124,
+    "name": "BO",
+    "country": "SIERRA LEONE",
+    "latitude": 7.966667,
+    "longitude": -11.75,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 125,
+    "name": "BOBO-DIOULASSO",
+    "country": "BURKINA FASO",
+    "latitude": 11.183333,
+    "longitude": -4.3,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 126,
+    "name": "BOGATA",
+    "country": "COLUMBIA",
+    "latitude": 4.6,
+    "longitude": -74.083333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 127,
+    "name": "BOISE",
+    "country": "IDAHO",
+    "latitude": 43.616667,
+    "longitude": -116.2,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 128,
+    "name": "BOLOGNA",
+    "country": "ITALY",
+    "latitude": 44.5,
+    "longitude": 11.333333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 129,
+    "name": "BOMBAY",
+    "country": "INDIA",
+    "latitude": 18.966667,
+    "longitude": 72.833333,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 130,
+    "name": "BONN",
+    "country": "GERMANY",
+    "latitude": 50.733333,
+    "longitude": 7.1,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 131,
+    "name": "BORAS",
+    "country": "SWEDEN",
+    "latitude": 57.733333,
+    "longitude": 12.916667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 132,
+    "name": "BORDEAUX",
+    "country": "FRANCE",
+    "latitude": 44.833333,
+    "longitude": 0.566667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 133,
+    "name": "BOSTON",
+    "country": "MASSACHUSETTS",
+    "latitude": 42.35,
+    "longitude": -71.05,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 134,
+    "name": "BOUAKE",
+    "country": "IVORY COAST",
+    "latitude": 7.7,
+    "longitude": -5.0,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 135,
+    "name": "BOULDER",
+    "country": "COLORADO",
+    "latitude": 40.016667,
+    "longitude": -105.283333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 136,
+    "name": "BOULOGNE",
+    "country": "FRANCE",
+    "latitude": 50.716667,
+    "longitude": 1.616667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 137,
+    "name": "BRADFORD",
+    "country": "ENGLAND",
+    "latitude": 53.8,
+    "longitude": -1.75,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 138,
+    "name": "BRAGA",
+    "country": "PORTUGAL",
+    "latitude": 41.533333,
+    "longitude": -8.433333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 139,
+    "name": "BRAILA",
+    "country": "ROMANIA",
+    "latitude": 45.283333,
+    "longitude": 27.966667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 140,
+    "name": "BRASILIA",
+    "country": "BRAZIL",
+    "latitude": -15.783333,
+    "longitude": -47.916667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 141,
+    "name": "BRASOV",
+    "country": "ROMANIA",
+    "latitude": 45.65,
+    "longitude": 25.583333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 142,
+    "name": "BRATISLAVA",
+    "country": "CZECHOSLOVAKIA",
+    "latitude": 48.166667,
+    "longitude": 17.166667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 143,
+    "name": "BRAZZAVILLE",
+    "country": "CONGO",
+    "latitude": -4.233333,
+    "longitude": 15.233333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 144,
+    "name": "BREMEN",
+    "country": "GERMANY",
+    "latitude": 53.083333,
+    "longitude": 8.8,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 145,
+    "name": "BRIDGEPORT",
+    "country": "CONNECTICUT",
+    "latitude": 41.183333,
+    "longitude": -73.183333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 146,
+    "name": "BRIDGETOWN",
+    "country": "BARBADOS",
+    "latitude": 13.1,
+    "longitude": -59.616667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 147,
+    "name": "BRISBANE",
+    "country": "AUSTRALIA",
+    "latitude": -27.5,
+    "longitude": 153.016667,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 148,
+    "name": "BRISTOL",
+    "country": "UNITED KINGDOM",
+    "latitude": 51.45,
+    "longitude": -2.583333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 149,
+    "name": "BRNO",
+    "country": "CZECHOSLOVAKIA",
+    "latitude": 49.216667,
+    "longitude": 16.666667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 150,
+    "name": "BROWNSVILLE",
+    "country": "TEXAS",
+    "latitude": 25.9,
+    "longitude": -97.5,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 151,
+    "name": "BRUGES",
+    "country": "BELGIUM",
+    "latitude": 51.216667,
+    "longitude": 3.233333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 152,
+    "name": "BRUSSELS",
+    "country": "BELGIUM",
+    "latitude": 50.833333,
+    "longitude": 4.333333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 153,
+    "name": "BUCARAMANGA",
+    "country": "COLOMBIA",
+    "latitude": 7.133333,
+    "longitude": -73.166667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 154,
+    "name": "BUCHAREST",
+    "country": "ROMANIA",
+    "latitude": 44.433333,
+    "longitude": 26.1,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 155,
+    "name": "BUDAPEST",
+    "country": "HUNGARY",
+    "latitude": 47.5,
+    "longitude": 19.083333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 156,
+    "name": "BUENOS AIRES",
+    "country": "ARGENTINA",
+    "latitude": -34.6,
+    "longitude": -58.45,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 157,
+    "name": "BUFFALO",
+    "country": "NEW YORK",
+    "latitude": 42.883333,
+    "longitude": -78.866667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 158,
+    "name": "BUJUMBURA",
+    "country": "BURUNDI",
+    "latitude": -3.366667,
+    "longitude": 29.316667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 159,
+    "name": "BUKAVU",
+    "country": "ZAIRE",
+    "latitude": -2.5,
+    "longitude": 28.833333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 160,
+    "name": "BULAWAYO",
+    "country": "ZIMBABWE",
+    "latitude": -20.166667,
+    "longitude": 28.716667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 161,
+    "name": "BURAIDAH",
+    "country": "SAUDI ARABIA",
+    "latitude": 26.333333,
+    "longitude": 43.983333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 162,
+    "name": "BURGAS",
+    "country": "BULGARIA",
+    "latitude": 42.5,
+    "longitude": 27.483333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 163,
+    "name": "BURLINGTON",
+    "country": "VERMONT",
+    "latitude": 44.483333,
+    "longitude": -73.216667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 164,
+    "name": "BURSA",
+    "country": "TURKEY",
+    "latitude": 40.2,
+    "longitude": 29.066667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 165,
+    "name": "BUTARE",
+    "country": "RWANDA",
+    "latitude": -2.583333,
+    "longitude": 29.733333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 166,
+    "name": "BUTTE",
+    "country": "MONTANA",
+    "latitude": 46.0,
+    "longitude": -112.533333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 167,
+    "name": "BYDGOSZCZ",
+    "country": "POLAND",
+    "latitude": 53.266667,
+    "longitude": 18.0,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 168,
+    "name": "CAGAYAN DE ORO CITY",
+    "country": "PHILIPPINES",
+    "latitude": 8.483333,
+    "longitude": 124.666667,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 169,
+    "name": "CAIRO",
+    "country": "EGYPT",
+    "latitude": 30.05,
+    "longitude": 31.25,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 170,
+    "name": "CALCUTTA",
+    "country": "INDIA",
+    "latitude": 22.533333,
+    "longitude": 88.366667,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 171,
+    "name": "CALGARY",
+    "country": "CANADA",
+    "latitude": 51.05,
+    "longitude": -114.083333,
+    "utcOffset": -7.0
+  },
+  {
+    "id": 172,
+    "name": "CALI",
+    "country": "COLUMBIA",
+    "latitude": 3.45,
+    "longitude": -76.516667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 173,
+    "name": "CALLAO",
+    "country": "PERU",
+    "latitude": -12.083333,
+    "longitude": -77.133333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 174,
+    "name": "CALOOCAN CITY",
+    "country": "PHILIPPINES",
+    "latitude": 14.633333,
+    "longitude": 120.966667,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 175,
+    "name": "CAM RANH",
+    "country": "VIETNAM",
+    "latitude": 11.9,
+    "longitude": 109.233333,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 176,
+    "name": "CAMAGUEY",
+    "country": "CUBA",
+    "latitude": 21.416667,
+    "longitude": -77.916667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 177,
+    "name": "CAMDEN",
+    "country": "NEW JERSEY",
+    "latitude": 39.95,
+    "longitude": -75.116667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 178,
+    "name": "CANBERRA",
+    "country": "AUSTRALIA",
+    "latitude": -35.333333,
+    "longitude": 149.166667,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 179,
+    "name": "CANEA",
+    "country": "GREECE",
+    "latitude": 35.516667,
+    "longitude": 24.016667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 180,
+    "name": "CANTON",
+    "country": "CHINA (GUANGZHOU)",
+    "latitude": 23.116667,
+    "longitude": 113.25,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 181,
+    "name": "CANTON",
+    "country": "OHIO",
+    "latitude": 40.8,
+    "longitude": -81.383333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 182,
+    "name": "CAP-HAITIEN",
+    "country": "HAITI",
+    "latitude": 19.783333,
+    "longitude": -72.283333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 183,
+    "name": "CAPE TOWN",
+    "country": "SOUTH AFRICA",
+    "latitude": -33.916667,
+    "longitude": 18.45,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 184,
+    "name": "CARACAS",
+    "country": "VENEZUELA",
+    "latitude": 10.5,
+    "longitude": -66.916667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 185,
+    "name": "CARDIFF",
+    "country": "WALES",
+    "latitude": 51.483333,
+    "longitude": -3.166667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 186,
+    "name": "CARTAGENA",
+    "country": "COLOMBIA",
+    "latitude": 10.4,
+    "longitude": -75.55,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 187,
+    "name": "CASABLANCA",
+    "country": "MOROCCO",
+    "latitude": 33.6,
+    "longitude": -7.616667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 188,
+    "name": "CASPER",
+    "country": "WYOMING",
+    "latitude": 42.85,
+    "longitude": -106.316667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 189,
+    "name": "CASTRIES",
+    "country": "ST. LUCIA",
+    "latitude": 14.016667,
+    "longitude": -60.983333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 190,
+    "name": "CATANIA",
+    "country": "ITALY",
+    "latitude": 37.516667,
+    "longitude": 15.066667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 191,
+    "name": "CAYENNE",
+    "country": "FRENCH GUIANA",
+    "latitude": 4.933333,
+    "longitude": -52.333333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 192,
+    "name": "CEBU CITY",
+    "country": "PHILIPPINES",
+    "latitude": 10.283333,
+    "longitude": 123.933333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 193,
+    "name": "CEDAR RAPIDS",
+    "country": "IOWA",
+    "latitude": 41.966667,
+    "longitude": -91.666667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 194,
+    "name": "CHAMPAIGN",
+    "country": "ILLINOIS",
+    "latitude": 40.116667,
+    "longitude": -88.25,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 195,
+    "name": "CHARLEROI",
+    "country": "BELGIUM",
+    "latitude": 50.416667,
+    "longitude": 4.45,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 196,
+    "name": "CHARLESTON",
+    "country": "SOUTH CAROLINA",
+    "latitude": 32.783333,
+    "longitude": -79.933333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 197,
+    "name": "CHARLESTON",
+    "country": "WEST VIRGINIA",
+    "latitude": 38.35,
+    "longitude": -81.633333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 198,
+    "name": "CHARLOTTE",
+    "country": "NORTH CAROLINA",
+    "latitude": 35.216667,
+    "longitude": -80.85,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 199,
+    "name": "CHARLOTTESVILLE",
+    "country": "VIRGINIA",
+    "latitude": 38.033333,
+    "longitude": -78.5,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 200,
+    "name": "CHATTANOOGA",
+    "country": "TENNESSEE",
+    "latitude": 35.05,
+    "longitude": -85.316667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 201,
+    "name": "CHENGDU",
+    "country": "CHINA",
+    "latitude": 30.616667,
+    "longitude": 104.1,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 202,
+    "name": "CHEYENNE",
+    "country": "WYOMING",
+    "latitude": 41.133333,
+    "longitude": -104.816667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 203,
+    "name": "CHIALI",
+    "country": "TAIWAN",
+    "latitude": 23.15,
+    "longitude": 120.183333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 204,
+    "name": "CHIANG MAI",
+    "country": "THAILAND",
+    "latitude": 18.8,
+    "longitude": 98.983333,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 205,
+    "name": "CHICAGO",
+    "country": "ILLINOIS",
+    "latitude": 41.866667,
+    "longitude": -87.633333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 206,
+    "name": "CHICLAYO",
+    "country": "PERU",
+    "latitude": -6.783333,
+    "longitude": -79.783333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 207,
+    "name": "CHIHUAHUA",
+    "country": "MEXICO",
+    "latitude": 28.633333,
+    "longitude": -106.083333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 208,
+    "name": "CHILLAN",
+    "country": "CHILE",
+    "latitude": -36.616667,
+    "longitude": -72.166667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 209,
+    "name": "CHIMBOTE",
+    "country": "PERU",
+    "latitude": -9.066667,
+    "longitude": -78.566667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 210,
+    "name": "CHINGOLA",
+    "country": "ZAMBIA",
+    "latitude": -12.516667,
+    "longitude": 27.883333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 211,
+    "name": "CHISIMAYU",
+    "country": "SOMALIA",
+    "latitude": 0.416667,
+    "longitude": 42.516667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 212,
+    "name": "CHITTAGONG",
+    "country": "BANGLADESH",
+    "latitude": 22.333333,
+    "longitude": 91.8,
+    "utcOffset": 6.0
+  },
+  {
+    "id": 213,
+    "name": "CHITUNGWIZA",
+    "country": "ZIMBABWE",
+    "latitude": -18.0,
+    "longitude": 31.1,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 214,
+    "name": "CHOLUTECA",
+    "country": "HONDURAS",
+    "latitude": 13.25,
+    "longitude": -87.166667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 215,
+    "name": "CHON BURI",
+    "country": "THAILAND",
+    "latitude": 13.4,
+    "longitude": 100.983333,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 216,
+    "name": "CHONGJIN",
+    "country": "NORTH KOREA",
+    "latitude": 41.833333,
+    "longitude": 129.916667,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 217,
+    "name": "CHONGQING",
+    "country": "CHINA",
+    "latitude": 29.5,
+    "longitude": 106.583333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 218,
+    "name": "CHOYBALSAN",
+    "country": "MONGOLIA",
+    "latitude": 48.033333,
+    "longitude": 114.533333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 219,
+    "name": "CHRISTCHURCH",
+    "country": "NEW ZEALAND",
+    "latitude": -43.583333,
+    "longitude": 172.6,
+    "utcOffset": 12.0
+  },
+  {
+    "id": 220,
+    "name": "CHUNGLI",
+    "country": "TAIWAN",
+    "latitude": 24.916667,
+    "longitude": 121.133333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 221,
+    "name": "CINCINNATI",
+    "country": "OHIO",
+    "latitude": 39.1,
+    "longitude": -84.516667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 222,
+    "name": "CIRCLEVILLE",
+    "country": "OHIO",
+    "latitude": 39.566667,
+    "longitude": -83.033333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 223,
+    "name": "CIUDAD GUAYANA",
+    "country": "VENEZUELA",
+    "latitude": 8.366667,
+    "longitude": -62.616667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 224,
+    "name": "CIUDAD JUAREZ",
+    "country": "MEXICO",
+    "latitude": 31.7,
+    "longitude": -106.483333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 225,
+    "name": "CLARKSVILLE",
+    "country": "TENNESSEE",
+    "latitude": 36.533333,
+    "longitude": -87.35,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 226,
+    "name": "CLEVELAND",
+    "country": "OHIO",
+    "latitude": 41.5,
+    "longitude": -81.7,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 227,
+    "name": "CLUJ-NAPOCA",
+    "country": "ROMANIA",
+    "latitude": 46.783333,
+    "longitude": 23.616667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 228,
+    "name": "COCHABAMBA",
+    "country": "BOLIVIA",
+    "latitude": -17.4,
+    "longitude": -66.15,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 229,
+    "name": "COIMBRA",
+    "country": "PORTUGAL",
+    "latitude": 40.2,
+    "longitude": -8.416667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 230,
+    "name": "COLOGNE",
+    "country": "GERMANY",
+    "latitude": 50.933333,
+    "longitude": 6.95,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 231,
+    "name": "COLOMBO",
+    "country": "SRI LANKA",
+    "latitude": 6.933333,
+    "longitude": 79.85,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 232,
+    "name": "COLON",
+    "country": "PANAMA",
+    "latitude": 9.35,
+    "longitude": -79.9,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 233,
+    "name": "COLORADO SPRINGS",
+    "country": "COLORADO",
+    "latitude": 38.833333,
+    "longitude": -104.816667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 234,
+    "name": "COLUMBIA",
+    "country": "MISSOURI",
+    "latitude": 38.95,
+    "longitude": -92.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 235,
+    "name": "COLUMBIA",
+    "country": "SOUTH CAROLINA",
+    "latitude": 34.0,
+    "longitude": -81.033333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 236,
+    "name": "COLUMBUS",
+    "country": "GEORGIA",
+    "latitude": 32.466667,
+    "longitude": -84.983333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 237,
+    "name": "COLUMBUS",
+    "country": "OHIO",
+    "latitude": 39.966667,
+    "longitude": -83.0,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 238,
+    "name": "CONAKRY",
+    "country": "GUINEA",
+    "latitude": 9.516667,
+    "longitude": -13.716667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 239,
+    "name": "CONCEPCION",
+    "country": "CHILE",
+    "latitude": -36.833333,
+    "longitude": -73.05,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 240,
+    "name": "CONCEPCION",
+    "country": "PARAGUAY",
+    "latitude": -23.366667,
+    "longitude": -57.433333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 241,
+    "name": "CONCORD",
+    "country": "NEW HAMPSHIRE",
+    "latitude": 43.2,
+    "longitude": -71.533333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 242,
+    "name": "CONSTANTA",
+    "country": "ROMANIA",
+    "latitude": 44.2,
+    "longitude": 28.666667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 243,
+    "name": "CONSTANTINE",
+    "country": "ALGERIA",
+    "latitude": 36.366667,
+    "longitude": 6.666667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 244,
+    "name": "COPENHAGEN",
+    "country": "DENMARK",
+    "latitude": 55.666667,
+    "longitude": 12.583333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 245,
+    "name": "CORDOBA",
+    "country": "ARGENTINA",
+    "latitude": -31.4,
+    "longitude": -64.183333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 246,
+    "name": "CORK",
+    "country": "IRELAND",
+    "latitude": 51.9,
+    "longitude": -8.466667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 247,
+    "name": "COROZAL",
+    "country": "BELIZE",
+    "latitude": 18.383333,
+    "longitude": -88.383333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 248,
+    "name": "CORPUS CHRISTI",
+    "country": "TEXAS",
+    "latitude": 27.8,
+    "longitude": -97.4,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 249,
+    "name": "COTONOU",
+    "country": "BENIN",
+    "latitude": 6.4,
+    "longitude": 2.516667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 250,
+    "name": "CRAIOVA",
+    "country": "ROMANIA",
+    "latitude": 44.3,
+    "longitude": 23.783333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 251,
+    "name": "CUCUTA",
+    "country": "COLOMBIA",
+    "latitude": 7.916667,
+    "longitude": -72.516667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 252,
+    "name": "CUENCA",
+    "country": "ECUADOR",
+    "latitude": -2.9,
+    "longitude": -79.0,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 253,
+    "name": "CURITIBA",
+    "country": "BRAZIL",
+    "latitude": -25.416667,
+    "longitude": -49.25,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 254,
+    "name": "CUZCO",
+    "country": "PERU",
+    "latitude": -13.533333,
+    "longitude": -71.95,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 255,
+    "name": "DA NANG",
+    "country": "VIETNAM",
+    "latitude": 16.066667,
+    "longitude": 108.233333,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 256,
+    "name": "DACCA",
+    "country": "BANGLADESH",
+    "latitude": 23.716667,
+    "longitude": 90.416667,
+    "utcOffset": 6.0
+  },
+  {
+    "id": 257,
+    "name": "DAEGU",
+    "country": "SOUTH KOREA",
+    "latitude": 35.866667,
+    "longitude": 128.6,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 258,
+    "name": "DAKAR",
+    "country": "SENEGAL",
+    "latitude": 14.666667,
+    "longitude": -17.433333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 259,
+    "name": "DAKHLA",
+    "country": "WESTERN SAHARA",
+    "latitude": 23.833333,
+    "longitude": -15.55,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 260,
+    "name": "DALLAS",
+    "country": "TEXAS",
+    "latitude": 32.783333,
+    "longitude": -96.8,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 261,
+    "name": "DALOA",
+    "country": "IVORY COAST",
+    "latitude": 6.933333,
+    "longitude": -6.466667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 262,
+    "name": "DAMASCUS",
+    "country": "SYRIA",
+    "latitude": 33.5,
+    "longitude": 36.3,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 263,
+    "name": "DAMMAM",
+    "country": "SAUDI ARABIA",
+    "latitude": 26.416667,
+    "longitude": 50.1,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 264,
+    "name": "DANBURY",
+    "country": "CONNECTICUT",
+    "latitude": 41.4,
+    "longitude": -73.466667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 265,
+    "name": "DANGRIGA",
+    "country": "BELIZE",
+    "latitude": 16.983333,
+    "longitude": -88.216667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 266,
+    "name": "DAR ES SALAAM",
+    "country": "TANZANIA",
+    "latitude": -6.8,
+    "longitude": 39.283333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 267,
+    "name": "DARHAN",
+    "country": "MONGOLIA",
+    "latitude": 46.483333,
+    "longitude": 109.4,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 268,
+    "name": "DAVAO",
+    "country": "PHILIPPINES",
+    "latitude": 7.066667,
+    "longitude": 125.6,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 269,
+    "name": "DAVID",
+    "country": "PANAMA",
+    "latitude": 8.433333,
+    "longitude": -82.433333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 270,
+    "name": "DAYTON",
+    "country": "OHIO",
+    "latitude": 39.766667,
+    "longitude": -84.2,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 271,
+    "name": "DAYTONA BEACH",
+    "country": "FLORIDA",
+    "latitude": 29.216667,
+    "longitude": -81.016667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 272,
+    "name": "DEBRECEN",
+    "country": "HUNGARY",
+    "latitude": 47.5,
+    "longitude": 21.616667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 273,
+    "name": "DEHIWALA",
+    "country": "SRI LANKA",
+    "latitude": 6.866667,
+    "longitude": 79.866667,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 274,
+    "name": "DEIR EZ-ZOR",
+    "country": "SYRIA",
+    "latitude": 35.333333,
+    "longitude": 40.083333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 275,
+    "name": "DENVER",
+    "country": "COLORADO",
+    "latitude": 39.75,
+    "longitude": -104.983333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 276,
+    "name": "DES MOINES",
+    "country": "IOWA",
+    "latitude": 41.583333,
+    "longitude": -93.616667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 277,
+    "name": "DETROIT",
+    "country": "MICHIGAN",
+    "latitude": 42.333333,
+    "longitude": -83.05,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 278,
+    "name": "DIFFERDANGE",
+    "country": "LUXEMBOURG",
+    "latitude": 49.533333,
+    "longitude": 5.883333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 279,
+    "name": "DJERBA",
+    "country": "TUNISIA",
+    "latitude": 33.866667,
+    "longitude": 10.85,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 280,
+    "name": "DJIBOUTI",
+    "country": "DJIBOUTI",
+    "latitude": 11.5,
+    "longitude": 45.083333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 281,
+    "name": "DODOMA",
+    "country": "TANZANIA",
+    "latitude": -6.166667,
+    "longitude": 35.666667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 282,
+    "name": "DOHA",
+    "country": "QATAR",
+    "latitude": 25.25,
+    "longitude": 51.6,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 283,
+    "name": "DONETSK",
+    "country": "USSR",
+    "latitude": 48.0,
+    "longitude": 37.8,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 284,
+    "name": "DORTMUND",
+    "country": "GERMANY",
+    "latitude": 51.533333,
+    "longitude": 7.45,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 285,
+    "name": "DOUALA",
+    "country": "CAMEROON",
+    "latitude": 4.066667,
+    "longitude": 9.716667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 286,
+    "name": "DRAMMEN",
+    "country": "NORWAY",
+    "latitude": 59.75,
+    "longitude": 10.25,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 287,
+    "name": "DRESDEN",
+    "country": "GERMANY",
+    "latitude": 51.05,
+    "longitude": 13.75,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 288,
+    "name": "DUBAI",
+    "country": "UNITED ARAB EMIRATES",
+    "latitude": 25.233333,
+    "longitude": 55.283333,
+    "utcOffset": 4.0
+  },
+  {
+    "id": 289,
+    "name": "DUBLIN",
+    "country": "IRELAND",
+    "latitude": 53.333333,
+    "longitude": -6.25,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 290,
+    "name": "DUDELANGE",
+    "country": "LUXEMBOURG",
+    "latitude": 49.466667,
+    "longitude": 6.083333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 291,
+    "name": "DULUTH",
+    "country": "MINNESOTA",
+    "latitude": 46.783333,
+    "longitude": -92.1,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 292,
+    "name": "DUNEDIN",
+    "country": "NEW ZEALAND",
+    "latitude": -45.866667,
+    "longitude": 170.5,
+    "utcOffset": 12.0
+  },
+  {
+    "id": 293,
+    "name": "DURBAN",
+    "country": "SOUTH AFRICA",
+    "latitude": -29.883333,
+    "longitude": 31.0,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 294,
+    "name": "DURHAM",
+    "country": "NORTH CAROLINA",
+    "latitude": 36.0,
+    "longitude": -78.916667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 295,
+    "name": "DURRES",
+    "country": "ALBANIA",
+    "latitude": 41.3,
+    "longitude": 19.466667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 296,
+    "name": "DUSSELDORF",
+    "country": "GERMANY",
+    "latitude": 51.216667,
+    "longitude": 6.783333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 297,
+    "name": "EDINBURGH",
+    "country": "SCOTLAND",
+    "latitude": 55.95,
+    "longitude": -3.2,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 298,
+    "name": "EDMONTON",
+    "country": "CANADA",
+    "latitude": 53.55,
+    "longitude": -113.466667,
+    "utcOffset": -7.0
+  },
+  {
+    "id": 299,
+    "name": "EINDHOVEN",
+    "country": "NETHERLANDS",
+    "latitude": 51.433333,
+    "longitude": 5.5,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 300,
+    "name": "EL MAHALLA EL KOUBRA",
+    "country": "EGYPT",
+    "latitude": 30.983333,
+    "longitude": 31.166667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 301,
+    "name": "EL-MANSOURA",
+    "country": "EGYPT",
+    "latitude": 31.05,
+    "longitude": 31.383333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 302,
+    "name": "EL PASO",
+    "country": "TEXAS",
+    "latitude": 31.766667,
+    "longitude": -106.483333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 303,
+    "name": "ELIZABETH",
+    "country": "NEW JERSEY",
+    "latitude": 40.666667,
+    "longitude": -74.216667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 304,
+    "name": "ELMIRA",
+    "country": "NEW YORK",
+    "latitude": 42.1,
+    "longitude": -76.8,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 305,
+    "name": "ELSINORE",
+    "country": "DENMARK",
+    "latitude": 56.05,
+    "longitude": 12.633333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 306,
+    "name": "ENCARNACION",
+    "country": "PARAGUAY",
+    "latitude": -27.333333,
+    "longitude": -55.833333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 307,
+    "name": "ENSCHEDE",
+    "country": "NETHERLANDS",
+    "latitude": 52.216667,
+    "longitude": 6.916667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 308,
+    "name": "ENTEBBE",
+    "country": "UGANDA",
+    "latitude": 0.066667,
+    "longitude": 32.45,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 309,
+    "name": "ERDENET",
+    "country": "MONGOLIA",
+    "latitude": 46.3,
+    "longitude": 100.583333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 310,
+    "name": "ERFURT",
+    "country": "GERMANY",
+    "latitude": 50.966667,
+    "longitude": 11.033333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 311,
+    "name": "ERIE",
+    "country": "PENNSYLVANIA",
+    "latitude": 42.116667,
+    "longitude": -80.083333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 312,
+    "name": "ESBJERG",
+    "country": "DENMARK",
+    "latitude": 55.466667,
+    "longitude": 8.466667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 313,
+    "name": "ESCH",
+    "country": "LUXEMBOURG",
+    "latitude": 49.533333,
+    "longitude": 6.0,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 314,
+    "name": "ESCUINTLA",
+    "country": "GUATEMALA",
+    "latitude": 14.3,
+    "longitude": -90.783333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 315,
+    "name": "ESMERALDAS",
+    "country": "ECUADOR",
+    "latitude": 0.933333,
+    "longitude": -79.666667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 316,
+    "name": "ESPOO",
+    "country": "FINLAND",
+    "latitude": 60.166667,
+    "longitude": 24.7,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 317,
+    "name": "ESSEN",
+    "country": "GERMANY",
+    "latitude": 52.716667,
+    "longitude": 7.933333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 318,
+    "name": "EUGENE",
+    "country": "OREGON",
+    "latitude": 44.05,
+    "longitude": -123.083333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 319,
+    "name": "EVANSVILLE",
+    "country": "INDIANA",
+    "latitude": 37.966667,
+    "longitude": -87.566667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 320,
+    "name": "FAIRBANKS",
+    "country": "ALASKA",
+    "latitude": 64.85,
+    "longitude": -147.716667,
+    "utcOffset": -9.0
+  },
+  {
+    "id": 321,
+    "name": "FAISALABAD",
+    "country": "PAKISTAN",
+    "latitude": 31.416667,
+    "longitude": 73.15,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 322,
+    "name": "FARGO",
+    "country": "NORTH DAKOTA",
+    "latitude": 46.866667,
+    "longitude": -96.783333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 323,
+    "name": "FAYETTEVILLE",
+    "country": "NORTH CAROLINA",
+    "latitude": 35.05,
+    "longitude": -78.883333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 324,
+    "name": "FERNANDO DE LA MORA",
+    "country": "PARAGUAY",
+    "latitude": -25.316667,
+    "longitude": -57.6,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 325,
+    "name": "FEZ",
+    "country": "MOROCCO",
+    "latitude": 34.083333,
+    "longitude": -5.0,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 326,
+    "name": "FIARNARANTSOA",
+    "country": "MADAGASCAR",
+    "latitude": -21.45,
+    "longitude": 47.083333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 327,
+    "name": "FLINT",
+    "country": "MICHIGAN",
+    "latitude": 43.016667,
+    "longitude": -83.7,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 328,
+    "name": "FLORENCE",
+    "country": "ITALY",
+    "latitude": 43.766667,
+    "longitude": 11.25,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 329,
+    "name": "FORT DE FRANCE",
+    "country": "MARTINIQUE",
+    "latitude": 14.6,
+    "longitude": -61.083333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 330,
+    "name": "FORT LAUDERDALE",
+    "country": "FLORIDA",
+    "latitude": 26.116667,
+    "longitude": -80.133333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 331,
+    "name": "FORT SMITH",
+    "country": "ARKANSAS",
+    "latitude": 35.383333,
+    "longitude": -94.416667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 332,
+    "name": "FORT WAYNE",
+    "country": "INDIANA",
+    "latitude": 41.066667,
+    "longitude": -85.133333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 333,
+    "name": "FORT WORTH",
+    "country": "TEXAS",
+    "latitude": 32.75,
+    "longitude": -97.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 334,
+    "name": "FORTALEZA",
+    "country": "BRAZIL",
+    "latitude": -3.75,
+    "longitude": -38.583333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 335,
+    "name": "FRANCISTOWN",
+    "country": "BOTSWANA",
+    "latitude": -21.116667,
+    "longitude": 27.533333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 336,
+    "name": "FRANKFURT",
+    "country": "GERMANY",
+    "latitude": 50.116667,
+    "longitude": 8.683333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 337,
+    "name": "FREEPORT",
+    "country": "BAHAMAS",
+    "latitude": 26.5,
+    "longitude": -78.7,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 338,
+    "name": "FREETOWN",
+    "country": "SIERRA LEONE",
+    "latitude": 8.483333,
+    "longitude": -13.216667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 339,
+    "name": "FRESNO",
+    "country": "CALIFORNIA",
+    "latitude": 36.733333,
+    "longitude": -119.783333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 340,
+    "name": "FT LAUDERDALE",
+    "country": "FLORIDA",
+    "latitude": 26.116667,
+    "longitude": -80.133333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 341,
+    "name": "FT SMITH",
+    "country": "ARKANSAS",
+    "latitude": 35.383333,
+    "longitude": -94.416667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 342,
+    "name": "FT WAYNE",
+    "country": "INDIANA",
+    "latitude": 41.066667,
+    "longitude": -85.133333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 343,
+    "name": "FT WORTH",
+    "country": "TEXAS",
+    "latitude": 32.75,
+    "longitude": -97.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 344,
+    "name": "FT. WORTH",
+    "country": "TEXAS",
+    "latitude": 32.75,
+    "longitude": -97.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 345,
+    "name": "FUKUOKA",
+    "country": "JAPAN",
+    "latitude": 33.65,
+    "longitude": 130.35,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 346,
+    "name": "FUNAFUTI",
+    "country": "TUVALU",
+    "latitude": -8.5,
+    "longitude": 179.2,
+    "utcOffset": 12.0
+  },
+  {
+    "id": 347,
+    "name": "FUNCHAL",
+    "country": "PORTUGAL",
+    "latitude": 40.133333,
+    "longitude": -7.5,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 348,
+    "name": "GABORONE",
+    "country": "BOTSWANA",
+    "latitude": -24.75,
+    "longitude": 25.916667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 349,
+    "name": "GAINESVILLE",
+    "country": "FLORIDA",
+    "latitude": 29.666667,
+    "longitude": -82.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 350,
+    "name": "GALATI",
+    "country": "ROMANIA",
+    "latitude": 45.45,
+    "longitude": 28.033333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 351,
+    "name": "GALLE",
+    "country": "SRI LANKA",
+    "latitude": 6.016667,
+    "longitude": 80.216667,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 352,
+    "name": "GALVESTON",
+    "country": "TEXAS",
+    "latitude": 29.3,
+    "longitude": -94.8,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 353,
+    "name": "GALWAY",
+    "country": "IRELAND",
+    "latitude": 53.266667,
+    "longitude": -9.05,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 354,
+    "name": "GAO",
+    "country": "MALI",
+    "latitude": 16.316667,
+    "longitude": 0.15,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 355,
+    "name": "GARLAND",
+    "country": "TEXAS",
+    "latitude": 32.9,
+    "longitude": -96.633333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 356,
+    "name": "GARY",
+    "country": "INDIANA",
+    "latitude": 41.6,
+    "longitude": -87.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 357,
+    "name": "GASIANTEP",
+    "country": "TURKEY",
+    "latitude": 37.1,
+    "longitude": 37.383333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 358,
+    "name": "GDANSK",
+    "country": "POLAND",
+    "latitude": 54.333333,
+    "longitude": 18.666667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 359,
+    "name": "GEELONG",
+    "country": "AUSTRALIA",
+    "latitude": -38.166667,
+    "longitude": 144.433333,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 360,
+    "name": "GENEVA",
+    "country": "SWITZERLAND",
+    "latitude": 46.2,
+    "longitude": 6.166667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 361,
+    "name": "GENOA",
+    "country": "ITALY",
+    "latitude": 44.4,
+    "longitude": 8.933333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 362,
+    "name": "GEORGETOWN",
+    "country": "GUYANA",
+    "latitude": 6.766667,
+    "longitude": -58.166667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 363,
+    "name": "GEORGETOWN",
+    "country": "MALAYSIA",
+    "latitude": 5.5,
+    "longitude": 100.466667,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 364,
+    "name": "GERMISTON",
+    "country": "SOUTH AFRICA",
+    "latitude": -26.25,
+    "longitude": 28.166667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 365,
+    "name": "GHENT",
+    "country": "BELGIUM",
+    "latitude": 51.033333,
+    "longitude": 3.7,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 366,
+    "name": "GIBRALTAR",
+    "country": "GIBRALTAR",
+    "latitude": 36.1,
+    "longitude": -5.35,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 367,
+    "name": "GIZA",
+    "country": "EGYPT",
+    "latitude": 30.016667,
+    "longitude": 31.166667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 368,
+    "name": "GLASGOW",
+    "country": "SCOTLAND",
+    "latitude": 55.85,
+    "longitude": -4.266667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 369,
+    "name": "GOLD COAST",
+    "country": "AUSTRALIA",
+    "latitude": -27.983333,
+    "longitude": 153.366667,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 370,
+    "name": "GORKY",
+    "country": "USSR",
+    "latitude": 56.333333,
+    "longitude": 44.0,
+    "utcOffset": 4.0
+  },
+  {
+    "id": 371,
+    "name": "GOTHENBURG",
+    "country": "SWEDEN",
+    "latitude": 57.716667,
+    "longitude": 11.966667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 372,
+    "name": "GRANADA",
+    "country": "NICARAGUA",
+    "latitude": 11.966667,
+    "longitude": -85.983333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 373,
+    "name": "GRAND FORKS",
+    "country": "NORTH DAKOTA",
+    "latitude": 47.916667,
+    "longitude": -97.05,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 374,
+    "name": "GRAND RAPIDS",
+    "country": "MICHIGAN",
+    "latitude": 42.966667,
+    "longitude": -85.666667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 375,
+    "name": "GRAZ",
+    "country": "AUSTRIA",
+    "latitude": 47.083333,
+    "longitude": 15.366667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 376,
+    "name": "GREAT FALLS",
+    "country": "MONTANA",
+    "latitude": 47.5,
+    "longitude": -111.283333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 377,
+    "name": "GREEN BAY",
+    "country": "WISCONSIN",
+    "latitude": 44.516667,
+    "longitude": -88.016667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 378,
+    "name": "GREENSBORO",
+    "country": "NORTH CAROLINA",
+    "latitude": 36.066667,
+    "longitude": -79.783333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 379,
+    "name": "GREENVILLE",
+    "country": "SOUTH CAROLINA",
+    "latitude": 34.85,
+    "longitude": -82.4,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 380,
+    "name": "GRONINGEN",
+    "country": "NETHERLANDS",
+    "latitude": 53.216667,
+    "longitude": 6.566667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 381,
+    "name": "GUADALAJARA",
+    "country": "MEXICO",
+    "latitude": 20.666667,
+    "longitude": -103.333333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 382,
+    "name": "GUANGZHOU",
+    "country": "CHINA (CANTON)",
+    "latitude": 23.116667,
+    "longitude": 113.25,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 383,
+    "name": "GUANTANAMO",
+    "country": "CUBA",
+    "latitude": 19.983333,
+    "longitude": -75.166667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 384,
+    "name": "GUATEMALA CITY",
+    "country": "GUATEMALA",
+    "latitude": 14.633333,
+    "longitude": -90.516667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 385,
+    "name": "GUAYAQUIL",
+    "country": "ECUADOR",
+    "latitude": -2.166667,
+    "longitude": -79.833333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 386,
+    "name": "GUJRANWALA",
+    "country": "PAKISTAN",
+    "latitude": 32.1,
+    "longitude": 74.183333,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 387,
+    "name": "GULF PORT",
+    "country": "MISSISSIPPI",
+    "latitude": 30.366667,
+    "longitude": -89.083333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 388,
+    "name": "GWERU",
+    "country": "ZIMBABWE",
+    "latitude": -19.45,
+    "longitude": 29.816667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 389,
+    "name": "GYOR",
+    "country": "HUNGARY",
+    "latitude": 47.683333,
+    "longitude": 17.666667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 390,
+    "name": "HAARLEM",
+    "country": "NETHERLANDS",
+    "latitude": 52.383333,
+    "longitude": 4.633333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 391,
+    "name": "HAIFA",
+    "country": "ISRAEL",
+    "latitude": 32.816667,
+    "longitude": 34.983333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 392,
+    "name": "HAIPHONG",
+    "country": "VIETNAM",
+    "latitude": 20.833333,
+    "longitude": 106.683333,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 393,
+    "name": "HALLE",
+    "country": "GERMANY",
+    "latitude": 51.466667,
+    "longitude": 11.966667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 394,
+    "name": "HAMA",
+    "country": "SYRIA",
+    "latitude": 35.083333,
+    "longitude": 36.666667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 395,
+    "name": "HAMBURG",
+    "country": "GERMANY",
+    "latitude": 53.55,
+    "longitude": 10.0,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 396,
+    "name": "HAMILTON",
+    "country": "BERMUDA",
+    "latitude": 32.283333,
+    "longitude": -64.766667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 397,
+    "name": "HAMILTON",
+    "country": "CANADA",
+    "latitude": 43.233333,
+    "longitude": -79.85,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 398,
+    "name": "HAMILTON",
+    "country": "NEW ZEALAND",
+    "latitude": -37.766667,
+    "longitude": 175.3,
+    "utcOffset": 12.0
+  },
+  {
+    "id": 399,
+    "name": "HAMPTON",
+    "country": "VIRGINIA",
+    "latitude": 37.016667,
+    "longitude": -76.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 400,
+    "name": "HANOI",
+    "country": "VIETNAM",
+    "latitude": 21.033333,
+    "longitude": 105.85,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 401,
+    "name": "HANOVER",
+    "country": "GERMANY",
+    "latitude": 52.366667,
+    "longitude": 9.716667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 402,
+    "name": "HARARE",
+    "country": "ZIMBABWE",
+    "latitude": -17.833333,
+    "longitude": 31.05,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 403,
+    "name": "HARBIN",
+    "country": "CHINA",
+    "latitude": 45.75,
+    "longitude": 126.683333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 404,
+    "name": "HARGEYSA",
+    "country": "SOMALIA",
+    "latitude": 9.516667,
+    "longitude": 44.033333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 405,
+    "name": "HARRISBURG",
+    "country": "PENNSYLVANIA",
+    "latitude": 40.266667,
+    "longitude": -76.883333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 406,
+    "name": "HARTFORD",
+    "country": "CONNECTICUT",
+    "latitude": 41.766667,
+    "longitude": -72.683333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 407,
+    "name": "HAVANA",
+    "country": "CUBA",
+    "latitude": 23.133333,
+    "longitude": -82.366667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 408,
+    "name": "HELENA",
+    "country": "MONTANA",
+    "latitude": 46.6,
+    "longitude": -112.033333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 409,
+    "name": "HELSINGBORG",
+    "country": "SWEDEN",
+    "latitude": 56.083333,
+    "longitude": 12.75,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 410,
+    "name": "HELSINKI",
+    "country": "FINLAND",
+    "latitude": 60.166667,
+    "longitude": 24.966667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 411,
+    "name": "HERAT",
+    "country": "AFGHANISTAN",
+    "latitude": 34.333333,
+    "longitude": 62.2,
+    "utcOffset": 4.5
+  },
+  {
+    "id": 412,
+    "name": "HIGH POINT",
+    "country": "NORTH CAROLINA",
+    "latitude": 35.95,
+    "longitude": -80.0,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 413,
+    "name": "HILO",
+    "country": "HAWAII",
+    "latitude": 19.716667,
+    "longitude": -155.083333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 414,
+    "name": "HIROSHIMA",
+    "country": "JAPAN",
+    "latitude": 34.383333,
+    "longitude": 132.45,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 415,
+    "name": "HO CHI MINH CITY",
+    "country": "VIETNAM",
+    "latitude": 10.75,
+    "longitude": 106.666667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 416,
+    "name": "HOBART",
+    "country": "AUSTRALIA",
+    "latitude": -42.916667,
+    "longitude": 147.333333,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 417,
+    "name": "HODEIDA",
+    "country": "NORTH YEMEN",
+    "latitude": 14.833333,
+    "longitude": 42.966667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 418,
+    "name": "HOLGUIN",
+    "country": "CUBA",
+    "latitude": 20.9,
+    "longitude": -76.25,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 419,
+    "name": "HOLMS",
+    "country": "SYRIA",
+    "latitude": 34.733333,
+    "longitude": 37.283333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 420,
+    "name": "HOLON",
+    "country": "ISRAEL",
+    "latitude": 32.033333,
+    "longitude": 34.783333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 421,
+    "name": "HONG KONG",
+    "country": "HONG KONG",
+    "latitude": 22.283333,
+    "longitude": 114.15,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 422,
+    "name": "HONIARA",
+    "country": "SOLOMON ISLANDS",
+    "latitude": -9.466667,
+    "longitude": 159.95,
+    "utcOffset": 11.0
+  },
+  {
+    "id": 423,
+    "name": "HONOLULU",
+    "country": "HAWAII",
+    "latitude": 21.316667,
+    "longitude": -157.866667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 424,
+    "name": "HORSENS",
+    "country": "DENMARK",
+    "latitude": 57.116667,
+    "longitude": 10.116667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 425,
+    "name": "HOSPITALET",
+    "country": "SPAIN",
+    "latitude": 41.35,
+    "longitude": 2.1,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 426,
+    "name": "HOUSTON",
+    "country": "TEXAS",
+    "latitude": 29.75,
+    "longitude": -95.366667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 427,
+    "name": "HSINCHU",
+    "country": "TAIWAN",
+    "latitude": 24.8,
+    "longitude": 120.983333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 428,
+    "name": "HUAMBO",
+    "country": "ANGOLA",
+    "latitude": -12.733333,
+    "longitude": 15.783333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 429,
+    "name": "HUFUF",
+    "country": "SAUDI ARABIA",
+    "latitude": 25.333333,
+    "longitude": 49.566667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 430,
+    "name": "HUNGNAM",
+    "country": "NORTH KOREA",
+    "latitude": 39.816667,
+    "longitude": 127.666667,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 431,
+    "name": "HUNTINGTON",
+    "country": "WEST VIRGINIA",
+    "latitude": 38.416667,
+    "longitude": -82.45,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 432,
+    "name": "HUNTSVILLE",
+    "country": "ALABAMA",
+    "latitude": 34.733333,
+    "longitude": -86.583333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 433,
+    "name": "HYDERABAD",
+    "country": "INDIA",
+    "latitude": 17.366667,
+    "longitude": 78.433333,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 434,
+    "name": "HYDERABAD",
+    "country": "PAKISTAN",
+    "latitude": 25.383333,
+    "longitude": 68.4,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 435,
+    "name": "IASI",
+    "country": "ROMANIA",
+    "latitude": 47.15,
+    "longitude": 27.633333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 436,
+    "name": "IBADAN",
+    "country": "NIGERIA",
+    "latitude": 7.383333,
+    "longitude": 3.933333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 437,
+    "name": "IBAGUE",
+    "country": "COLOMBIA",
+    "latitude": 4.416667,
+    "longitude": -75.333333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 438,
+    "name": "IDAHO FALLS",
+    "country": "IDAHO",
+    "latitude": 43.483333,
+    "longitude": -112.033333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 439,
+    "name": "ILOILO",
+    "country": "PHILIPPINES",
+    "latitude": 10.683333,
+    "longitude": 122.55,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 440,
+    "name": "INCHON",
+    "country": "SOUTH KOREA",
+    "latitude": 37.5,
+    "longitude": 126.633333,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 441,
+    "name": "INDEPENDENCE",
+    "country": "MISSOURI",
+    "latitude": 39.1,
+    "longitude": -94.416667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 442,
+    "name": "INDIANAPOLIS",
+    "country": "INDIANA",
+    "latitude": 39.766667,
+    "longitude": -86.166667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 443,
+    "name": "INNSBRUCK",
+    "country": "AUSTRIA",
+    "latitude": 47.266667,
+    "longitude": 11.4,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 444,
+    "name": "IPOH",
+    "country": "MALAYSIA",
+    "latitude": 4.6,
+    "longitude": 101.033333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 445,
+    "name": "IQUITOS",
+    "country": "PERU",
+    "latitude": -3.85,
+    "longitude": -73.216667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 446,
+    "name": "IRAKLION",
+    "country": "GREECE",
+    "latitude": 35.333333,
+    "longitude": 25.2,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 447,
+    "name": "IRBID",
+    "country": "JORDAN",
+    "latitude": 32.55,
+    "longitude": 35.85,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 448,
+    "name": "IRKUTSK",
+    "country": "USSR",
+    "latitude": 52.266667,
+    "longitude": 104.333333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 449,
+    "name": "ISFAHAN",
+    "country": "IRAN",
+    "latitude": 32.683333,
+    "longitude": 51.683333,
+    "utcOffset": 3.5
+  },
+  {
+    "id": 450,
+    "name": "ISLAMABAD",
+    "country": "PAKISTAN",
+    "latitude": 33.7,
+    "longitude": 73.166667,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 451,
+    "name": "ISTAMBUL",
+    "country": "TURKEY",
+    "latitude": 41.016667,
+    "longitude": 28.966667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 452,
+    "name": "IZMIR",
+    "country": "TURKEY",
+    "latitude": 38.416667,
+    "longitude": 27.166667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 453,
+    "name": "JACKSON",
+    "country": "MISSISSIPPI",
+    "latitude": 32.3,
+    "longitude": -90.183333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 454,
+    "name": "JACKSONVILLE",
+    "country": "FLORIDA",
+    "latitude": 30.333333,
+    "longitude": -81.666667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 455,
+    "name": "JAFFNA",
+    "country": "SRI LANKA",
+    "latitude": 9.666667,
+    "longitude": 80.016667,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 456,
+    "name": "JAIPUR",
+    "country": "INDIA",
+    "latitude": 26.883333,
+    "longitude": 75.833333,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 457,
+    "name": "JAKARTA",
+    "country": "INDONESIA",
+    "latitude": -6.166667,
+    "longitude": 106.816667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 458,
+    "name": "JALALABAD",
+    "country": "AFGHANISTAN",
+    "latitude": 34.433333,
+    "longitude": 70.466667,
+    "utcOffset": 4.5
+  },
+  {
+    "id": 459,
+    "name": "JEDDAH",
+    "country": "SAUDI ARABIA",
+    "latitude": 21.5,
+    "longitude": 39.166667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 460,
+    "name": "JEFFERSON CITY",
+    "country": "MISSOURI",
+    "latitude": 38.566667,
+    "longitude": -92.166667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 461,
+    "name": "JERSEY CITY",
+    "country": "NEW JERSEY",
+    "latitude": 40.733333,
+    "longitude": -74.066667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 462,
+    "name": "JERUSALEM",
+    "country": "ISRAEL",
+    "latitude": 31.783333,
+    "longitude": 35.216667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 463,
+    "name": "JINJA",
+    "country": "UGANDA",
+    "latitude": 0.45,
+    "longitude": 33.233333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 464,
+    "name": "JOHANNESBURG",
+    "country": "SOUTH AFRICA",
+    "latitude": -26.166667,
+    "longitude": 28.033333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 465,
+    "name": "JOHNSTOWN",
+    "country": "PENNSYLVANIA",
+    "latitude": 40.333333,
+    "longitude": -78.916667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 466,
+    "name": "JOHORE BAHRU",
+    "country": "MALAYSIA",
+    "latitude": 1.483333,
+    "longitude": 103.733333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 467,
+    "name": "JONKOPING",
+    "country": "SWEDEN",
+    "latitude": 57.75,
+    "longitude": 14.166667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 468,
+    "name": "JUMLA",
+    "country": "NEPAL",
+    "latitude": 29.283333,
+    "longitude": 82.166667,
+    "utcOffset": 5.7
+  },
+  {
+    "id": 469,
+    "name": "JURONG",
+    "country": "SINGAPORE",
+    "latitude": 1.35,
+    "longitude": 103.7,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 470,
+    "name": "KABUL",
+    "country": "AFGHANISTAN",
+    "latitude": 34.5,
+    "longitude": 69.216667,
+    "utcOffset": 4.5
+  },
+  {
+    "id": 471,
+    "name": "KAESONG",
+    "country": "NORTH KOREA",
+    "latitude": 37.983333,
+    "longitude": 126.5,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 472,
+    "name": "KALAMAZOO",
+    "country": "MICHIGAN",
+    "latitude": 42.283333,
+    "longitude": -85.583333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 473,
+    "name": "KAMPALA",
+    "country": "UGANDA",
+    "latitude": 0.333333,
+    "longitude": 32.583333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 474,
+    "name": "KANANGA",
+    "country": "ZAIRE",
+    "latitude": -5.883333,
+    "longitude": 22.433333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 475,
+    "name": "KANDY",
+    "country": "SRI LANKA",
+    "latitude": 7.283333,
+    "longitude": 80.666667,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 476,
+    "name": "KANKAN",
+    "country": "GUINEA",
+    "latitude": 10.383333,
+    "longitude": -9.3,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 477,
+    "name": "KANO",
+    "country": "NIGERIA",
+    "latitude": 12.0,
+    "longitude": 8.5,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 478,
+    "name": "KANPUR",
+    "country": "INDIA",
+    "latitude": 26.45,
+    "longitude": 80.233333,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 479,
+    "name": "KANSAS CITY",
+    "country": "KANSAS",
+    "latitude": 39.116667,
+    "longitude": -94.633333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 480,
+    "name": "KANSAS CITY",
+    "country": "MISSOURI",
+    "latitude": 39.083333,
+    "longitude": -94.583333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 481,
+    "name": "KAOHSIUNG",
+    "country": "TAIWAN",
+    "latitude": 22.633333,
+    "longitude": 120.283333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 482,
+    "name": "KAOLACK",
+    "country": "SENEGAL",
+    "latitude": 14.15,
+    "longitude": -16.133333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 483,
+    "name": "KARACHI",
+    "country": "PAKISTAN",
+    "latitude": 24.866667,
+    "longitude": 67.05,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 484,
+    "name": "KARL MARX STADT",
+    "country": "GERMANY",
+    "latitude": 50.833333,
+    "longitude": 12.916667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 485,
+    "name": "KARONGA",
+    "country": "MALAWI",
+    "latitude": -9.9,
+    "longitude": 35.916667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 486,
+    "name": "KATHMANDU",
+    "country": "NEPAL",
+    "latitude": 27.7,
+    "longitude": 85.333333,
+    "utcOffset": 5.7
+  },
+  {
+    "id": 487,
+    "name": "KATOWICE",
+    "country": "POLAND",
+    "latitude": 50.25,
+    "longitude": 18.983333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 488,
+    "name": "KAVALA",
+    "country": "GREECE",
+    "latitude": 41.083333,
+    "longitude": 24.916667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 489,
+    "name": "KAWASAKI",
+    "country": "JAPAN",
+    "latitude": 35.533333,
+    "longitude": 139.683333,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 490,
+    "name": "KAYES",
+    "country": "MALI",
+    "latitude": 14.433333,
+    "longitude": -11.466667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 491,
+    "name": "KAZAN",
+    "country": "USSR",
+    "latitude": 55.75,
+    "longitude": 49.0,
+    "utcOffset": 4.0
+  },
+  {
+    "id": 492,
+    "name": "KEELUNG",
+    "country": "TAIWAN",
+    "latitude": 25.133333,
+    "longitude": 121.733333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 493,
+    "name": "KEETMANSHOOP",
+    "country": "NAMIBIA",
+    "latitude": -26.6,
+    "longitude": 18.133333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 494,
+    "name": "KENITRA",
+    "country": "MOROCCO",
+    "latitude": 34.333333,
+    "longitude": -6.566667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 495,
+    "name": "KEY WEST",
+    "country": "FLORIDA",
+    "latitude": 24.55,
+    "longitude": -81.8,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 496,
+    "name": "KHAMIS-MUSHAIT",
+    "country": "SAUDI ARABIA",
+    "latitude": 18.316667,
+    "longitude": 42.75,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 497,
+    "name": "KHARKOV",
+    "country": "USSR",
+    "latitude": 50.0,
+    "longitude": 36.25,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 498,
+    "name": "KHARTOUM",
+    "country": "SUDAN",
+    "latitude": 15.6,
+    "longitude": 32.533333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 499,
+    "name": "KIEV",
+    "country": "USSR",
+    "latitude": 50.433333,
+    "longitude": 30.516667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 500,
+    "name": "KIGALI",
+    "country": "RWANDA",
+    "latitude": -1.933333,
+    "longitude": 30.066667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 501,
+    "name": "KINGSTON",
+    "country": "JAMAICA",
+    "latitude": 18.0,
+    "longitude": -76.8,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 502,
+    "name": "KINGSTOWN",
+    "country": "ST. VINCENT",
+    "latitude": 13.2,
+    "longitude": -61.233333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 503,
+    "name": "KINSHASA",
+    "country": "ZAIRE",
+    "latitude": -4.3,
+    "longitude": 15.3,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 504,
+    "name": "KIRKUK",
+    "country": "IRAQ",
+    "latitude": 35.466667,
+    "longitude": 44.433333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 505,
+    "name": "KISANGANI",
+    "country": "ZAIRE",
+    "latitude": 0.55,
+    "longitude": 25.233333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 506,
+    "name": "KISUMU",
+    "country": "KENYA",
+    "latitude": 0.133333,
+    "longitude": 34.783333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 507,
+    "name": "KITAKYUSHU",
+    "country": "JAPAN",
+    "latitude": 33.866667,
+    "longitude": 130.816667,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 508,
+    "name": "KITCHENER",
+    "country": "CANADA",
+    "latitude": 43.45,
+    "longitude": -80.5,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 509,
+    "name": "KITWE",
+    "country": "ZAMBIA",
+    "latitude": -12.833333,
+    "longitude": 28.183333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 510,
+    "name": "KLAGENFURT",
+    "country": "AUSTRIA",
+    "latitude": 46.633333,
+    "longitude": 14.333333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 511,
+    "name": "KNOXVILLE",
+    "country": "TENNESSEE",
+    "latitude": 35.966667,
+    "longitude": -83.916667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 512,
+    "name": "KOBE",
+    "country": "JAPAN",
+    "latitude": 34.666667,
+    "longitude": 135.2,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 513,
+    "name": "KOLDING",
+    "country": "DENMARK",
+    "latitude": 55.483333,
+    "longitude": 9.5,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 514,
+    "name": "KONIZ",
+    "country": "SWITZERLAND",
+    "latitude": 46.933333,
+    "longitude": 7.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 515,
+    "name": "KORTRIJK",
+    "country": "BELGIUM",
+    "latitude": 50.833333,
+    "longitude": 3.283333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 516,
+    "name": "KOSICE",
+    "country": "CZECHOSLOVAKIA",
+    "latitude": 48.733333,
+    "longitude": 21.25,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 517,
+    "name": "KOTA BAHRU",
+    "country": "MALAYSIA",
+    "latitude": 6.116667,
+    "longitude": 102.25,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 518,
+    "name": "KOWLOON",
+    "country": "HONG KONG",
+    "latitude": 22.333333,
+    "longitude": 114.25,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 519,
+    "name": "KRAKOW",
+    "country": "POLAND",
+    "latitude": 50.083333,
+    "longitude": 19.916667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 520,
+    "name": "KRISTIANSAND",
+    "country": "NORWAY",
+    "latitude": 58.133333,
+    "longitude": 8.016667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 521,
+    "name": "KUALA LUMPUR",
+    "country": "MALAYSIA",
+    "latitude": 3.016667,
+    "longitude": 101.7,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 522,
+    "name": "KUALA TRENGGANU",
+    "country": "MALAYSIA",
+    "latitude": 5.333333,
+    "longitude": 103.116667,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 523,
+    "name": "KUMASI",
+    "country": "GHANA",
+    "latitude": 6.75,
+    "longitude": -1.583333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 524,
+    "name": "KUOPIO",
+    "country": "FINLAND",
+    "latitude": 62.9,
+    "longitude": 27.666667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 525,
+    "name": "KUWAIT",
+    "country": "KUWAIT",
+    "latitude": 29.333333,
+    "longitude": 47.983333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 526,
+    "name": "KUYBYSHEV",
+    "country": "USSR",
+    "latitude": 53.2,
+    "longitude": 50.15,
+    "utcOffset": 4.0
+  },
+  {
+    "id": 527,
+    "name": "KWANGJU",
+    "country": "SOUTH KOREA",
+    "latitude": 35.116667,
+    "longitude": 126.866667,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 528,
+    "name": "KYOTO",
+    "country": "JAPAN",
+    "latitude": 35.033333,
+    "longitude": 135.75,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 529,
+    "name": "LA CEIBA",
+    "country": "HONDURAS",
+    "latitude": 15.75,
+    "longitude": -86.75,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 530,
+    "name": "LA CHORRERA",
+    "country": "PANAMA",
+    "latitude": 8.85,
+    "longitude": -79.766667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 531,
+    "name": "LA CROSSE",
+    "country": "WISCONSIN",
+    "latitude": 43.8,
+    "longitude": -91.25,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 532,
+    "name": "LA PAZ",
+    "country": "BOLIVIA",
+    "latitude": -16.5,
+    "longitude": -68.15,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 533,
+    "name": "LA PLATA",
+    "country": "ARGENTINA",
+    "latitude": -44.916667,
+    "longitude": -71.833333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 534,
+    "name": "LA ROMANA",
+    "country": "DOMINICAN REPUBLIC",
+    "latitude": 18.45,
+    "longitude": -68.95,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 535,
+    "name": "LAAYOUNE",
+    "country": "WESTERN SAHARA",
+    "latitude": 27.166667,
+    "longitude": -13.183333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 536,
+    "name": "LABE",
+    "country": "GUINEA",
+    "latitude": 11.316667,
+    "longitude": -12.283333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 537,
+    "name": "LAE",
+    "country": "PAPUA NEW GUINEA",
+    "latitude": -6.75,
+    "longitude": 147.0,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 538,
+    "name": "LAGOS",
+    "country": "NIGERIA",
+    "latitude": 6.433333,
+    "longitude": 3.533333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 539,
+    "name": "LAHORE",
+    "country": "PAKISTAN",
+    "latitude": 31.566667,
+    "longitude": 74.366667,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 540,
+    "name": "LAHTI",
+    "country": "FINLAND",
+    "latitude": 61.0,
+    "longitude": 25.666667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 541,
+    "name": "LANCASTER",
+    "country": "PENNSYLVANIA",
+    "latitude": 40.033333,
+    "longitude": -76.3,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 542,
+    "name": "LANSING",
+    "country": "MICHIGAN",
+    "latitude": 42.733333,
+    "longitude": -84.55,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 543,
+    "name": "LAREDO",
+    "country": "TEXAS",
+    "latitude": 27.5,
+    "longitude": -99.5,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 544,
+    "name": "LARISSA",
+    "country": "GREECE",
+    "latitude": 39.633333,
+    "longitude": 22.416667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 545,
+    "name": "LAS CRUCES",
+    "country": "NEW MEXICO",
+    "latitude": 32.316667,
+    "longitude": -106.783333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 546,
+    "name": "LAS PALMAS",
+    "country": "CANARY ISLANDS",
+    "latitude": 28.1,
+    "longitude": -15.4,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 547,
+    "name": "LAS PIEDRAS",
+    "country": "URUGUAY",
+    "latitude": -34.7,
+    "longitude": -56.233333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 548,
+    "name": "LAS VEGAS",
+    "country": "NEVADA",
+    "latitude": 36.166667,
+    "longitude": -115.15,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 549,
+    "name": "LATAKAIA",
+    "country": "SYRIA",
+    "latitude": 35.516667,
+    "longitude": 35.783333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 550,
+    "name": "LAUSANNE",
+    "country": "SWITZERLAND",
+    "latitude": 46.533333,
+    "longitude": 6.65,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 551,
+    "name": "LAWRENCE",
+    "country": "KANSAS",
+    "latitude": 38.966667,
+    "longitude": -95.233333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 552,
+    "name": "LAWRENCE",
+    "country": "MASSACHUSETTS",
+    "latitude": 42.7,
+    "longitude": -71.166667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 553,
+    "name": "LE HAVRE",
+    "country": "FRANCE",
+    "latitude": 49.5,
+    "longitude": 0.1,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 554,
+    "name": "LEEDS",
+    "country": "UNITED KINGDOM",
+    "latitude": 53.833333,
+    "longitude": -1.583333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 555,
+    "name": "LEIPZIG",
+    "country": "GERMANY",
+    "latitude": 51.333333,
+    "longitude": 12.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 556,
+    "name": "LENINGRAD",
+    "country": "USSR",
+    "latitude": 59.916667,
+    "longitude": 30.25,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 557,
+    "name": "LEON",
+    "country": "MEXICO",
+    "latitude": 21.116667,
+    "longitude": -101.666667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 558,
+    "name": "LEWISTON",
+    "country": "MAINE",
+    "latitude": 44.1,
+    "longitude": -70.216667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 559,
+    "name": "LEXINGTON",
+    "country": "KENTUCKY",
+    "latitude": 38.05,
+    "longitude": -84.5,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 560,
+    "name": "LIBEREC",
+    "country": "CZECHOSLOVAKIA",
+    "latitude": 50.8,
+    "longitude": 15.083333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 561,
+    "name": "LIBREVILLE",
+    "country": "GABON",
+    "latitude": 0.5,
+    "longitude": 9.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 562,
+    "name": "LIEGE",
+    "country": "BELGIUM",
+    "latitude": 50.633333,
+    "longitude": 5.583333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 563,
+    "name": "LILONGWE",
+    "country": "MALAWI",
+    "latitude": -13.966667,
+    "longitude": 33.816667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 564,
+    "name": "LIMA",
+    "country": "PERU",
+    "latitude": -12.05,
+    "longitude": -77.05,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 565,
+    "name": "LIMASSOL",
+    "country": "CYPRUS",
+    "latitude": 34.666667,
+    "longitude": 33.05,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 566,
+    "name": "LIMERICK",
+    "country": "IRELAND",
+    "latitude": 52.666667,
+    "longitude": -8.633333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 567,
+    "name": "LIMON",
+    "country": "COSTA RICA",
+    "latitude": 10.0,
+    "longitude": -83.016667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 568,
+    "name": "LINCOLN",
+    "country": "NEBRASKA",
+    "latitude": 40.816667,
+    "longitude": -96.7,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 569,
+    "name": "LINDEN",
+    "country": "GUYANA",
+    "latitude": 5.983333,
+    "longitude": -58.316667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 570,
+    "name": "LINKOPING",
+    "country": "SWEDEN",
+    "latitude": 58.416667,
+    "longitude": 15.583333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 571,
+    "name": "LINZ",
+    "country": "AUSTRIA",
+    "latitude": 48.316667,
+    "longitude": 14.3,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 572,
+    "name": "LISBON",
+    "country": "PORTUGAL",
+    "latitude": 38.716667,
+    "longitude": -9.133333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 573,
+    "name": "LITTLE ROCK",
+    "country": "ARKANSAS",
+    "latitude": 34.75,
+    "longitude": -92.283333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 574,
+    "name": "LIVERPOOL",
+    "country": "ENGLAND",
+    "latitude": 53.383333,
+    "longitude": -3.0,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 575,
+    "name": "LJUBLJANA",
+    "country": "YUGOSLAVIA",
+    "latitude": 46.066667,
+    "longitude": 14.5,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 576,
+    "name": "LODZ",
+    "country": "POLAND",
+    "latitude": 51.816667,
+    "longitude": 19.466667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 577,
+    "name": "LOME",
+    "country": "TOGO",
+    "latitude": 6.133333,
+    "longitude": 1.216667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 578,
+    "name": "LONDON",
+    "country": "ENGLAND",
+    "latitude": 51.516667,
+    "longitude": 0.083333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 579,
+    "name": "LONG BEACH",
+    "country": "CALIFORNIA",
+    "latitude": 33.766667,
+    "longitude": -118.183333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 580,
+    "name": "LOS ANGELES",
+    "country": "CALIFORNIA",
+    "latitude": 34.05,
+    "longitude": -118.233333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 581,
+    "name": "LOUISVILLE",
+    "country": "KENTUCKY",
+    "latitude": 38.25,
+    "longitude": -85.766667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 582,
+    "name": "LOWELL",
+    "country": "MASSACHUSETTS",
+    "latitude": 42.633333,
+    "longitude": -71.316667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 583,
+    "name": "LUANDA",
+    "country": "ANGOLA",
+    "latitude": -8.833333,
+    "longitude": 13.25,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 584,
+    "name": "LUANG PRABANG",
+    "country": "LAOS",
+    "latitude": 19.883333,
+    "longitude": 102.166667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 585,
+    "name": "LUBANGO",
+    "country": "ANGOLA",
+    "latitude": -14.916667,
+    "longitude": 13.5,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 586,
+    "name": "LUBBOCK",
+    "country": "TEXAS",
+    "latitude": 33.583333,
+    "longitude": -101.85,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 587,
+    "name": "LUBLIN",
+    "country": "POLAND",
+    "latitude": 51.3,
+    "longitude": 22.516667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 588,
+    "name": "LUBUMBASHI",
+    "country": "ZAIRE",
+    "latitude": -11.683333,
+    "longitude": 27.483333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 589,
+    "name": "LUSAKA",
+    "country": "ZAMBIA",
+    "latitude": -15.416667,
+    "longitude": 28.283333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 590,
+    "name": "LUXEMBOURG",
+    "country": "LUXEMBOURG",
+    "latitude": 49.6,
+    "longitude": 6.116667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 591,
+    "name": "LUZERN",
+    "country": "SWITZERLAND",
+    "latitude": 47.033333,
+    "longitude": 7.916667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 592,
+    "name": "LYNCHBURG",
+    "country": "VIRGINIA",
+    "latitude": 37.416667,
+    "longitude": -79.15,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 593,
+    "name": "LYONS",
+    "country": "FRANCE",
+    "latitude": 45.75,
+    "longitude": 4.85,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 594,
+    "name": "MAASTRICHT",
+    "country": "BELGIUM",
+    "latitude": 50.85,
+    "longitude": 5.7,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 595,
+    "name": "MACAO",
+    "country": "MACAO",
+    "latitude": 22.2,
+    "longitude": 113.533333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 596,
+    "name": "MACHALA",
+    "country": "ECUADOR",
+    "latitude": -3.333333,
+    "longitude": -79.95,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 597,
+    "name": "MACHAZE",
+    "country": "MOZAMBIQUE",
+    "latitude": -20.85,
+    "longitude": 33.433333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 598,
+    "name": "MACON",
+    "country": "GEORGIA",
+    "latitude": 32.833333,
+    "longitude": -83.633333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 599,
+    "name": "MADISON",
+    "country": "WISCONSIN",
+    "latitude": 43.066667,
+    "longitude": -89.383333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 600,
+    "name": "MADRAS",
+    "country": "INDIA",
+    "latitude": 13.083333,
+    "longitude": 80.283333,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 601,
+    "name": "MADRID",
+    "country": "SPAIN",
+    "latitude": 40.4,
+    "longitude": -3.683333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 602,
+    "name": "MAGDEBURG",
+    "country": "GERMANY",
+    "latitude": 52.133333,
+    "longitude": 11.616667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 603,
+    "name": "MAJUNGA",
+    "country": "MADAGASCAR",
+    "latitude": -15.666667,
+    "longitude": 46.333333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 604,
+    "name": "MALABO",
+    "country": "EQUATORIAL GUINEA",
+    "latitude": 3.75,
+    "longitude": 8.8,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 605,
+    "name": "MALAGA",
+    "country": "SPAIN",
+    "latitude": 36.716667,
+    "longitude": -4.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 606,
+    "name": "MALANG",
+    "country": "INDONESIA",
+    "latitude": -7.983333,
+    "longitude": 112.75,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 607,
+    "name": "MALDEN BRIDGE",
+    "country": "NEW YORK",
+    "latitude": 42.466667,
+    "longitude": -73.633333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 608,
+    "name": "MALE",
+    "country": "MALDIVES",
+    "latitude": 4.0,
+    "longitude": 73.466667,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 609,
+    "name": "MALMO",
+    "country": "SWEDEN",
+    "latitude": 55.6,
+    "longitude": 13.0,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 610,
+    "name": "MANAGUA",
+    "country": "NICARAGUA",
+    "latitude": 12.15,
+    "longitude": -86.283333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 611,
+    "name": "MANAMA",
+    "country": "BAHRAIN",
+    "latitude": 26.2,
+    "longitude": 50.633333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 612,
+    "name": "MANAUS",
+    "country": "BRAZIL",
+    "latitude": -3.133333,
+    "longitude": -60.016667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 613,
+    "name": "MANCHESTER",
+    "country": "ENGLAND",
+    "latitude": 53.466667,
+    "longitude": -2.233333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 614,
+    "name": "MANCHESTER",
+    "country": "NEW HAMPSHIRE",
+    "latitude": 42.983333,
+    "longitude": -71.466667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 615,
+    "name": "MANDALAY",
+    "country": "BURMA",
+    "latitude": 21.95,
+    "longitude": 96.066667,
+    "utcOffset": 6.5
+  },
+  {
+    "id": 616,
+    "name": "MANILA",
+    "country": "PHILIPPINES",
+    "latitude": 14.6,
+    "longitude": 120.983333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 617,
+    "name": "MANIZALES",
+    "country": "COLOMBIA",
+    "latitude": 5.05,
+    "longitude": -75.533333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 618,
+    "name": "MANTA",
+    "country": "ECUADOR",
+    "latitude": 0.983333,
+    "longitude": -80.733333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 619,
+    "name": "MAPUTO",
+    "country": "MOZAMBIQUE",
+    "latitude": -25.966667,
+    "longitude": 32.583333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 620,
+    "name": "MAR DEL PLATA",
+    "country": "ARGENTINA",
+    "latitude": -38.0,
+    "longitude": -57.55,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 621,
+    "name": "MARACAIBO",
+    "country": "VENEZUELA",
+    "latitude": 10.666667,
+    "longitude": -71.616667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 622,
+    "name": "MARACAY",
+    "country": "VENEZUELA",
+    "latitude": 10.25,
+    "longitude": -67.6,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 623,
+    "name": "MARADI",
+    "country": "NIGER",
+    "latitude": 13.483333,
+    "longitude": 7.166667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 624,
+    "name": "MAROUA",
+    "country": "CAMEROON",
+    "latitude": 10.583333,
+    "longitude": 14.333333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 625,
+    "name": "MARRAKECH",
+    "country": "MOROCCO",
+    "latitude": 31.816667,
+    "longitude": -8.0,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 626,
+    "name": "MARSEILLES",
+    "country": "FRANCE",
+    "latitude": 43.3,
+    "longitude": 5.4,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 627,
+    "name": "MASERU",
+    "country": "LESOTHO",
+    "latitude": -29.316667,
+    "longitude": 27.483333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 628,
+    "name": "MASHAD",
+    "country": "IRAN",
+    "latitude": 36.683333,
+    "longitude": 52.65,
+    "utcOffset": 3.5
+  },
+  {
+    "id": 629,
+    "name": "MAZAR-I-SHARIF",
+    "country": "AFGHANISTAN",
+    "latitude": 36.7,
+    "longitude": 67.1,
+    "utcOffset": 4.5
+  },
+  {
+    "id": 630,
+    "name": "MBABANE",
+    "country": "SWAZILAND",
+    "latitude": -26.333333,
+    "longitude": 31.133333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 631,
+    "name": "MBALE",
+    "country": "UGANDA",
+    "latitude": 1.066667,
+    "longitude": 4.2,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 632,
+    "name": "MBUJI-MAYI",
+    "country": "ZAIRE",
+    "latitude": -6.166667,
+    "longitude": 23.65,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 633,
+    "name": "MECCA",
+    "country": "SAUDI ARABIA",
+    "latitude": 21.45,
+    "longitude": 39.816667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 634,
+    "name": "MECHELEN",
+    "country": "BELGIUM",
+    "latitude": 51.033333,
+    "longitude": 4.483333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 635,
+    "name": "MEDAN",
+    "country": "INDONESIA",
+    "latitude": 3.583333,
+    "longitude": 98.65,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 636,
+    "name": "MEDELLIM",
+    "country": "COLUMBIA",
+    "latitude": 6.25,
+    "longitude": -74.583333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 637,
+    "name": "MEDINA",
+    "country": "SAUDI ARABIA",
+    "latitude": 24.5,
+    "longitude": 39.583333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 638,
+    "name": "MEKNES",
+    "country": "MOROCCO",
+    "latitude": 33.883333,
+    "longitude": -5.616667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 639,
+    "name": "MELBOURNE",
+    "country": "AUSTRALIA",
+    "latitude": -37.833333,
+    "longitude": 145.0,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 640,
+    "name": "MELBOURNE",
+    "country": "FLORIDA",
+    "latitude": 28.083333,
+    "longitude": -80.6,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 641,
+    "name": "MEMPHIS",
+    "country": "TENNESSEE",
+    "latitude": 35.15,
+    "longitude": -90.05,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 642,
+    "name": "MENDOZA",
+    "country": "ARGENTINA",
+    "latitude": -32.883333,
+    "longitude": -68.816667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 643,
+    "name": "MERIDA",
+    "country": "MEXICO",
+    "latitude": 20.966667,
+    "longitude": -89.616667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 644,
+    "name": "MERIDIAN",
+    "country": "MISSISSIPPI",
+    "latitude": 32.366667,
+    "longitude": -88.7,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 645,
+    "name": "MEXICALI",
+    "country": "MEXICO",
+    "latitude": 32.6,
+    "longitude": -115.5,
+    "utcOffset": -8.0
+  },
+  {
+    "id": 646,
+    "name": "MEXICO CITY",
+    "country": "MEXICO",
+    "latitude": 19.4,
+    "longitude": -99.15,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 647,
+    "name": "MIAMI",
+    "country": "FLORIDA",
+    "latitude": 25.783333,
+    "longitude": -80.2,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 648,
+    "name": "MIDDLETOWN",
+    "country": "OHIO",
+    "latitude": 39.516667,
+    "longitude": -84.4,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 649,
+    "name": "MIDLAND",
+    "country": "TEXAS",
+    "latitude": 32.0,
+    "longitude": -102.083333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 650,
+    "name": "MILAN",
+    "country": "ITALY",
+    "latitude": 45.466667,
+    "longitude": 9.2,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 651,
+    "name": "MILWAUKEE",
+    "country": "WISCONSIN",
+    "latitude": 43.033333,
+    "longitude": -87.9,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 652,
+    "name": "MINDELO",
+    "country": "CAPE VERDE",
+    "latitude": 16.9,
+    "longitude": -25.0,
+    "utcOffset": -1.0
+  },
+  {
+    "id": 653,
+    "name": "MINNEAPOLIS",
+    "country": "MINNESOTA",
+    "latitude": 44.983333,
+    "longitude": -93.266667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 654,
+    "name": "MINSK",
+    "country": "USSR",
+    "latitude": 53.9,
+    "longitude": 27.566667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 655,
+    "name": "MISKOLC",
+    "country": "HUNGARY",
+    "latitude": 48.116667,
+    "longitude": 20.783333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 656,
+    "name": "MOBILE",
+    "country": "ALABAMA",
+    "latitude": 30.7,
+    "longitude": -88.05,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 657,
+    "name": "MOGADISHU",
+    "country": "SOMALIA",
+    "latitude": 2.033333,
+    "longitude": 45.35,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 658,
+    "name": "MOMBASA",
+    "country": "KENYA",
+    "latitude": -4.066667,
+    "longitude": 39.666667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 659,
+    "name": "MONACO",
+    "country": "MONACO",
+    "latitude": 43.733333,
+    "longitude": 7.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 660,
+    "name": "MONROE",
+    "country": "LOUISIANA",
+    "latitude": 32.5,
+    "longitude": -92.116667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 661,
+    "name": "MONROVIA",
+    "country": "LIBERIA",
+    "latitude": 6.333333,
+    "longitude": -10.766667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 662,
+    "name": "MONS",
+    "country": "BELGIUM",
+    "latitude": 50.466667,
+    "longitude": 3.966667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 663,
+    "name": "MONTE CARLO",
+    "country": "MONACO",
+    "latitude": 43.733333,
+    "longitude": 7.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 664,
+    "name": "MONTEGO BAY",
+    "country": "JAMAICA",
+    "latitude": 18.45,
+    "longitude": -77.933333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 665,
+    "name": "MONTERREY",
+    "country": "MEXICO",
+    "latitude": 25.666667,
+    "longitude": -100.316667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 666,
+    "name": "MONTEVIDEO",
+    "country": "URUGUAY",
+    "latitude": -34.883333,
+    "longitude": -56.183333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 667,
+    "name": "MONTGOMERY",
+    "country": "ALABAMA",
+    "latitude": 32.383333,
+    "longitude": -86.316667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 668,
+    "name": "MONTPELLIER",
+    "country": "FRANCE",
+    "latitude": 43.6,
+    "longitude": 3.883333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 669,
+    "name": "MONTREAL",
+    "country": "CANADA",
+    "latitude": 45.5,
+    "longitude": -73.583333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 670,
+    "name": "MOPTI",
+    "country": "MALI",
+    "latitude": 14.483333,
+    "longitude": -4.166667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 671,
+    "name": "MORATUWA",
+    "country": "SRI LANKA",
+    "latitude": 6.783333,
+    "longitude": 79.883333,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 672,
+    "name": "MORONI",
+    "country": "COMOROS",
+    "latitude": -11.666667,
+    "longitude": 43.266667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 673,
+    "name": "MOSCOW",
+    "country": "USSR",
+    "latitude": 55.75,
+    "longitude": 37.583333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 674,
+    "name": "MOSUL",
+    "country": "IRAQ",
+    "latitude": 36.35,
+    "longitude": 43.133333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 675,
+    "name": "MOULMEIN",
+    "country": "BURMA",
+    "latitude": 16.5,
+    "longitude": 97.65,
+    "utcOffset": 6.5
+  },
+  {
+    "id": 676,
+    "name": "MOUNT VERNON",
+    "country": "NEW YORK",
+    "latitude": 40.916667,
+    "longitude": -73.816667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 677,
+    "name": "MUKALLA",
+    "country": "SOUTH YEMEN",
+    "latitude": 14.566667,
+    "longitude": 49.116667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 678,
+    "name": "MULTAN",
+    "country": "PAKISTAN",
+    "latitude": 30.166667,
+    "longitude": 71.6,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 679,
+    "name": "MUNCIE",
+    "country": "INDIANA",
+    "latitude": 40.183333,
+    "longitude": -85.383333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 680,
+    "name": "MUNICH",
+    "country": "GERMANY",
+    "latitude": 48.15,
+    "longitude": 1.583333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 681,
+    "name": "MUSCAT",
+    "country": "OMAN",
+    "latitude": 23.616667,
+    "longitude": 58.633333,
+    "utcOffset": 4.0
+  },
+  {
+    "id": 682,
+    "name": "MWANZA",
+    "country": "TANZANIA",
+    "latitude": -2.516667,
+    "longitude": 32.933333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 683,
+    "name": "N'DJAMENA",
+    "country": "CHAD",
+    "latitude": 12.166667,
+    "longitude": 14.983333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 684,
+    "name": "NACALA",
+    "country": "MOZAMBIQUE",
+    "latitude": -14.55,
+    "longitude": 40.666667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 685,
+    "name": "NAGASAKI",
+    "country": "JAPAN",
+    "latitude": 32.8,
+    "longitude": 129.916667,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 686,
+    "name": "NAGOYA",
+    "country": "JAPAN",
+    "latitude": 35.133333,
+    "longitude": 136.883333,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 687,
+    "name": "NAGPUR",
+    "country": "INDIA",
+    "latitude": 21.166667,
+    "longitude": 79.2,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 688,
+    "name": "NAIROBI",
+    "country": "KENYA",
+    "latitude": -1.283333,
+    "longitude": 36.816667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 689,
+    "name": "NAKHON RATCHASIMA",
+    "country": "THAILAND",
+    "latitude": 15.0,
+    "longitude": 102.1,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 690,
+    "name": "NAKHON SI THAMMARAT",
+    "country": "THAILAND",
+    "latitude": 8.4,
+    "longitude": 99.966667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 691,
+    "name": "NAKURU",
+    "country": "KENYA",
+    "latitude": 0.266667,
+    "longitude": 36.066667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 692,
+    "name": "NAMUR",
+    "country": "BELGIUM",
+    "latitude": 50.466667,
+    "longitude": 4.866667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 693,
+    "name": "NANJING",
+    "country": "CHINA",
+    "latitude": 32.05,
+    "longitude": 118.783333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 694,
+    "name": "NANTES",
+    "country": "FRANCE",
+    "latitude": 47.216667,
+    "longitude": -1.55,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 695,
+    "name": "NAPLES",
+    "country": "ITALY",
+    "latitude": 40.833333,
+    "longitude": 14.25,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 696,
+    "name": "NASHUA",
+    "country": "NEW HAMPSHIRE",
+    "latitude": 42.75,
+    "longitude": -71.466667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 697,
+    "name": "NASHVILLE",
+    "country": "TENNESSEE",
+    "latitude": 36.166667,
+    "longitude": -86.783333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 698,
+    "name": "NASSAU",
+    "country": "BAHAMAS",
+    "latitude": 25.083333,
+    "longitude": -77.35,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 699,
+    "name": "NATCHEZ",
+    "country": "MISSISSIPPI",
+    "latitude": 31.566667,
+    "longitude": -91.383333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 700,
+    "name": "NATITINGOU",
+    "country": "BENIN",
+    "latitude": 10.283333,
+    "longitude": 1.483333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 701,
+    "name": "NDOLA",
+    "country": "ZAMBIA",
+    "latitude": -13.0,
+    "longitude": 28.65,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 702,
+    "name": "NEE SOON",
+    "country": "SINGAPORE",
+    "latitude": 1.4,
+    "longitude": 103.816667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 703,
+    "name": "NEW BEDFORD",
+    "country": "MASSACHUSETTS",
+    "latitude": 41.633333,
+    "longitude": -70.933333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 704,
+    "name": "NEW DELHI",
+    "country": "INDIA",
+    "latitude": 28.6,
+    "longitude": 77.2,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 705,
+    "name": "NEW HAVEN",
+    "country": "CONNECTICUT",
+    "latitude": 41.3,
+    "longitude": -72.916667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 706,
+    "name": "NEW ORLEANS",
+    "country": "LOUISIANA",
+    "latitude": 29.95,
+    "longitude": -90.066667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 707,
+    "name": "NEW YORK",
+    "country": "NEW YORK",
+    "latitude": 40.75,
+    "longitude": -74.0,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 708,
+    "name": "NEWARK",
+    "country": "NEW JERSEY",
+    "latitude": 40.733333,
+    "longitude": -74.166667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 709,
+    "name": "NEWCASTLE",
+    "country": "AUSTRALIA",
+    "latitude": -32.916667,
+    "longitude": 151.75,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 710,
+    "name": "NEWPORT NEWS",
+    "country": "VIRGINIA",
+    "latitude": 36.983333,
+    "longitude": -76.416667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 711,
+    "name": "NEWPORT",
+    "country": "RHODE ISLAND",
+    "latitude": 41.483333,
+    "longitude": -71.316667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 712,
+    "name": "NHA TRANG",
+    "country": "VIETNAM",
+    "latitude": 12.25,
+    "longitude": 109.166667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 713,
+    "name": "NIAGARA FALLS",
+    "country": "NEW YORK",
+    "latitude": 43.1,
+    "longitude": -79.05,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 714,
+    "name": "NIAMEY",
+    "country": "NIGER",
+    "latitude": 13.533333,
+    "longitude": 2.083333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 715,
+    "name": "NICE",
+    "country": "FRANCE",
+    "latitude": 43.7,
+    "longitude": 7.25,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 716,
+    "name": "NICOSIA",
+    "country": "CYPRUS",
+    "latitude": 35.183333,
+    "longitude": 33.383333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 717,
+    "name": "NIJMEGEN",
+    "country": "NETHERLANDS",
+    "latitude": 51.833333,
+    "longitude": 5.866667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 718,
+    "name": "NIS",
+    "country": "YUGOSLAVIA",
+    "latitude": 43.333333,
+    "longitude": 21.9,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 719,
+    "name": "NORFOLK",
+    "country": "VIRGINIA",
+    "latitude": 36.85,
+    "longitude": -76.283333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 720,
+    "name": "NORRKOPING",
+    "country": "SWEDEN",
+    "latitude": 58.583333,
+    "longitude": 16.166667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 721,
+    "name": "NORTH POLE",
+    "country": "EARTH",
+    "latitude": 89.983333,
+    "longitude": 0.0,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 722,
+    "name": "NORWICH",
+    "country": "CONNECTICUT",
+    "latitude": 41.516667,
+    "longitude": -72.083333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 723,
+    "name": "NOUADHIBOU",
+    "country": "MAURITANIA",
+    "latitude": 20.9,
+    "longitude": -17.016667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 724,
+    "name": "NOUAKCHOTT",
+    "country": "MAURITANIA",
+    "latitude": 18.15,
+    "longitude": -15.966667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 725,
+    "name": "NOVA IGUACU",
+    "country": "BRAZIL",
+    "latitude": -22.75,
+    "longitude": -43.466667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 726,
+    "name": "NOVI SAD",
+    "country": "YUGOSLAVIA",
+    "latitude": 45.25,
+    "longitude": 19.85,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 727,
+    "name": "NOVOSIBIRSK",
+    "country": "USSR",
+    "latitude": 55.033333,
+    "longitude": 82.916667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 728,
+    "name": "NUKU'ALOFA",
+    "country": "TONGA",
+    "latitude": -21.15,
+    "longitude": -175.233333,
+    "utcOffset": 13.0
+  },
+  {
+    "id": 729,
+    "name": "NUREMBERG",
+    "country": "GERMANY",
+    "latitude": 49.45,
+    "longitude": 11.083333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 730,
+    "name": "NZEREKORE",
+    "country": "GUINEA",
+    "latitude": 7.75,
+    "longitude": -8.816667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 731,
+    "name": "OAKLAND",
+    "country": "CALIFORNIA",
+    "latitude": 37.8,
+    "longitude": -122.266667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 732,
+    "name": "ODENSE",
+    "country": "DENMARK",
+    "latitude": 55.4,
+    "longitude": 10.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 733,
+    "name": "ODESSA",
+    "country": "TEXAS",
+    "latitude": 31.85,
+    "longitude": -102.366667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 734,
+    "name": "ODESSA",
+    "country": "USSR",
+    "latitude": 46.466667,
+    "longitude": 30.733333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 735,
+    "name": "OGBOMOSHO",
+    "country": "NIGERIA",
+    "latitude": 8.083333,
+    "longitude": 4.183333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 736,
+    "name": "OGDEN",
+    "country": "UTAH",
+    "latitude": 41.233333,
+    "longitude": -111.966667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 737,
+    "name": "OKLAHOMA CITY",
+    "country": "OKLAHOMA",
+    "latitude": 35.466667,
+    "longitude": -97.516667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 738,
+    "name": "OLOMOUC",
+    "country": "CZECHOSLOVAKIA",
+    "latitude": 49.633333,
+    "longitude": 17.25,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 739,
+    "name": "OMAHA",
+    "country": "NEBRASKA",
+    "latitude": 41.266667,
+    "longitude": -95.933333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 740,
+    "name": "OMDURMAN",
+    "country": "SUDAN",
+    "latitude": 15.616667,
+    "longitude": 32.483333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 741,
+    "name": "OMSK",
+    "country": "USSR",
+    "latitude": 55.0,
+    "longitude": 73.4,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 742,
+    "name": "OOSTENDE",
+    "country": "BELGIUM",
+    "latitude": 51.216667,
+    "longitude": 2.916667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 743,
+    "name": "OPORTO",
+    "country": "PORTUGAL",
+    "latitude": 41.15,
+    "longitude": -8.616667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 744,
+    "name": "ORAN",
+    "country": "ALGERIA",
+    "latitude": 35.75,
+    "longitude": 0.633333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 745,
+    "name": "ORANGE WALK",
+    "country": "BELIZE",
+    "latitude": 18.1,
+    "longitude": -88.516667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 746,
+    "name": "ORANJESTAD",
+    "country": "DUTCH ANTILLES",
+    "latitude": 12.533333,
+    "longitude": -70.033333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 747,
+    "name": "OREBRO",
+    "country": "SWEDEN",
+    "latitude": 59.3,
+    "longitude": 15.083333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 748,
+    "name": "ORLANDO",
+    "country": "FLORIDA",
+    "latitude": 28.55,
+    "longitude": -81.383333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 749,
+    "name": "ORURO",
+    "country": "BOLIVIA",
+    "latitude": -17.983333,
+    "longitude": -67.133333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 750,
+    "name": "OSAKA",
+    "country": "JAPAN",
+    "latitude": 34.666667,
+    "longitude": 135.5,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 751,
+    "name": "OSHKOSH",
+    "country": "WISCONSIN",
+    "latitude": 44.016667,
+    "longitude": -88.55,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 752,
+    "name": "OSIJEK",
+    "country": "YUGOSLAVIA",
+    "latitude": 45.55,
+    "longitude": 18.683333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 753,
+    "name": "OSLO",
+    "country": "NORWAY",
+    "latitude": 59.916667,
+    "longitude": 10.733333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 754,
+    "name": "OSTRAVA",
+    "country": "CZECHOSLOVAKIA",
+    "latitude": 49.833333,
+    "longitude": 18.25,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 755,
+    "name": "OTTAWA",
+    "country": "CANADA",
+    "latitude": 45.416667,
+    "longitude": -75.7,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 756,
+    "name": "OUAGADOUGOU",
+    "country": "UPPER VOLTA",
+    "latitude": 12.366667,
+    "longitude": -1.516667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 757,
+    "name": "OUJDA",
+    "country": "MOROCCO",
+    "latitude": 34.683333,
+    "longitude": -1.75,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 758,
+    "name": "OULU",
+    "country": "FINLAND",
+    "latitude": 65.0,
+    "longitude": 25.433333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 759,
+    "name": "OWENSBORO",
+    "country": "KENTUCKY",
+    "latitude": 37.766667,
+    "longitude": -87.116667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 760,
+    "name": "OXFORD",
+    "country": "ENGLAND",
+    "latitude": 51.75,
+    "longitude": -1.25,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 761,
+    "name": "PADANG",
+    "country": "INDONESIA",
+    "latitude": -6.2,
+    "longitude": 120.45,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 762,
+    "name": "PAKSE",
+    "country": "LAOS",
+    "latitude": 14.15,
+    "longitude": 105.833333,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 763,
+    "name": "PALEMBANG",
+    "country": "INDONESIA",
+    "latitude": -2.983333,
+    "longitude": 104.75,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 764,
+    "name": "PALERMO",
+    "country": "ITALY",
+    "latitude": 38.116667,
+    "longitude": 13.366667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 765,
+    "name": "PALM SPRINGS",
+    "country": "CALIFORNIA",
+    "latitude": 33.833333,
+    "longitude": -116.55,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 766,
+    "name": "PALMA DE MALLORCA",
+    "country": "SPAIN",
+    "latitude": 39.583333,
+    "longitude": 2.65,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 767,
+    "name": "PANAMA CITY",
+    "country": "PANAMA",
+    "latitude": 8.95,
+    "longitude": -79.533333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 768,
+    "name": "PANCHIAO",
+    "country": "TAIWAN",
+    "latitude": 25.016667,
+    "longitude": 121.45,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 769,
+    "name": "PAPEETE",
+    "country": "TAHITI",
+    "latitude": -17.533333,
+    "longitude": -149.566667,
+    "utcOffset": -12.0
+  },
+  {
+    "id": 770,
+    "name": "PARAMARIBO",
+    "country": "SURINAME",
+    "latitude": 5.833333,
+    "longitude": -55.216667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 771,
+    "name": "PARIS",
+    "country": "FRANCE",
+    "latitude": 48.866667,
+    "longitude": 2.333333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 772,
+    "name": "PASADENA",
+    "country": "CALIFORNIA",
+    "latitude": 34.15,
+    "longitude": -118.15,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 773,
+    "name": "PASAY CITY",
+    "country": "PHILIPPINES",
+    "latitude": 14.55,
+    "longitude": 121.0,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 774,
+    "name": "PATERSON",
+    "country": "NEW JERSEY",
+    "latitude": 40.916667,
+    "longitude": -74.166667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 775,
+    "name": "PATRAS",
+    "country": "GREECE",
+    "latitude": 38.233333,
+    "longitude": 21.733333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 776,
+    "name": "PAU",
+    "country": "FRANCE",
+    "latitude": 43.3,
+    "longitude": 0.366667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 777,
+    "name": "PAYSANDU",
+    "country": "URUGUAY",
+    "latitude": -32.35,
+    "longitude": -58.083333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 778,
+    "name": "PECS",
+    "country": "HUNGARY",
+    "latitude": 46.066667,
+    "longitude": 18.25,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 779,
+    "name": "PEDRO JUAN CABALLERO",
+    "country": "PARAGUAY",
+    "latitude": -22.5,
+    "longitude": -55.733333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 780,
+    "name": "PENSACOLA",
+    "country": "FLORIDA",
+    "latitude": 30.416667,
+    "longitude": -87.216667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 781,
+    "name": "PEORIA",
+    "country": "ILLINOIS",
+    "latitude": 40.7,
+    "longitude": -89.6,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 782,
+    "name": "PEREIRA",
+    "country": "COLOMBIA",
+    "latitude": 4.783333,
+    "longitude": -75.766667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 783,
+    "name": "PERM",
+    "country": "USSR",
+    "latitude": 58.0,
+    "longitude": 56.25,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 784,
+    "name": "PERTH",
+    "country": "AUSTRALIA",
+    "latitude": -31.933333,
+    "longitude": 115.833333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 785,
+    "name": "PETACH-TIKVA",
+    "country": "ISRAEL",
+    "latitude": 31.866667,
+    "longitude": 34.916667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 786,
+    "name": "PETANGE",
+    "country": "LUXEMBOURG",
+    "latitude": 49.55,
+    "longitude": 5.883333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 787,
+    "name": "PETERSBURG",
+    "country": "VIRGINIA",
+    "latitude": 37.233333,
+    "longitude": -77.4,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 788,
+    "name": "PHILADELPHIA",
+    "country": "PENNSYLVANIA",
+    "latitude": 39.95,
+    "longitude": -75.15,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 789,
+    "name": "PHNOM PENH",
+    "country": "CAMBODIA",
+    "latitude": 11.55,
+    "longitude": 104.916667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 790,
+    "name": "PHOENIX",
+    "country": "ARIZONA",
+    "latitude": 33.45,
+    "longitude": -112.066667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 791,
+    "name": "PINE BLUFF",
+    "country": "ARKANSAS",
+    "latitude": 34.216667,
+    "longitude": -92.016667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 792,
+    "name": "PIRAEUS",
+    "country": "GREECE",
+    "latitude": 37.95,
+    "longitude": 23.7,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 793,
+    "name": "PITTSBURGH",
+    "country": "PENNSYLVANIA",
+    "latitude": 40.433333,
+    "longitude": -80.0,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 794,
+    "name": "PITTSFIELD",
+    "country": "MASSACHUSETTS",
+    "latitude": 42.45,
+    "longitude": -73.25,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 795,
+    "name": "PIURA",
+    "country": "PERU",
+    "latitude": -5.25,
+    "longitude": -80.633333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 796,
+    "name": "PLOVDIV",
+    "country": "BULGARIA",
+    "latitude": 42.133333,
+    "longitude": 24.75,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 797,
+    "name": "PLYMOUTH",
+    "country": "ENGLAND",
+    "latitude": 50.383333,
+    "longitude": -4.1,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 798,
+    "name": "PLZEN",
+    "country": "CZECHOSLOVAKIA",
+    "latitude": 49.75,
+    "longitude": 13.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 799,
+    "name": "POCATELLO",
+    "country": "IDAHO",
+    "latitude": 42.866667,
+    "longitude": -112.45,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 800,
+    "name": "POINTE-NOIRE",
+    "country": "CONGO",
+    "latitude": -4.766667,
+    "longitude": 11.883333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 801,
+    "name": "PORI",
+    "country": "FINLAND",
+    "latitude": 61.466667,
+    "longitude": 21.75,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 802,
+    "name": "PORT ARTHUR",
+    "country": "TEXAS",
+    "latitude": 29.9,
+    "longitude": -93.933333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 803,
+    "name": "PORT AU PRINCE",
+    "country": "HAITI",
+    "latitude": 18.533333,
+    "longitude": -72.333333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 804,
+    "name": "PORT ELIZABETH",
+    "country": "SOUTH AFRICA",
+    "latitude": -33.966667,
+    "longitude": 25.6,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 805,
+    "name": "PORT GENTIL",
+    "country": "GABON",
+    "latitude": 0.666667,
+    "longitude": 8.833333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 806,
+    "name": "PORT LOUIS",
+    "country": "MAURITIUS",
+    "latitude": -20.166667,
+    "longitude": 57.5,
+    "utcOffset": 4.0
+  },
+  {
+    "id": 807,
+    "name": "PORT MORESBY",
+    "country": "PAPUA NEW GUINEA",
+    "latitude": -9.483333,
+    "longitude": 147.133333,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 808,
+    "name": "PORT OF SPAIN",
+    "country": "TRINIDAD",
+    "latitude": 10.65,
+    "longitude": -61.516667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 809,
+    "name": "PORT SAID",
+    "country": "EGYPT",
+    "latitude": 31.283333,
+    "longitude": 32.3,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 810,
+    "name": "PORT SUDAN",
+    "country": "SUDAN",
+    "latitude": 19.633333,
+    "longitude": 37.116667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 811,
+    "name": "PORT VILA",
+    "country": "VANUATU",
+    "latitude": -17.75,
+    "longitude": 168.3,
+    "utcOffset": 11.0
+  },
+  {
+    "id": 812,
+    "name": "PORTLAND",
+    "country": "MAINE",
+    "latitude": 43.666667,
+    "longitude": -70.25,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 813,
+    "name": "PORTLAND",
+    "country": "OREGON",
+    "latitude": 45.516667,
+    "longitude": -122.683333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 814,
+    "name": "PORTO ALEGRE",
+    "country": "BRAZIL",
+    "latitude": -8.966667,
+    "longitude": -67.8,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 815,
+    "name": "PORTO NOVO",
+    "country": "BENIN",
+    "latitude": 6.5,
+    "longitude": 2.783333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 816,
+    "name": "PORTO PRAIA",
+    "country": "CAPE VERDE",
+    "latitude": 14.916667,
+    "longitude": -23.5,
+    "utcOffset": -1.0
+  },
+  {
+    "id": 817,
+    "name": "PORTOVIEJO",
+    "country": "ECUADOR",
+    "latitude": -1.116667,
+    "longitude": -80.466667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 818,
+    "name": "PORTSMOUTH",
+    "country": "DOMINICA",
+    "latitude": 15.566667,
+    "longitude": -61.45,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 819,
+    "name": "POTOSI",
+    "country": "BOLIVIA",
+    "latitude": -19.583333,
+    "longitude": -65.75,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 820,
+    "name": "POTSDAM",
+    "country": "GERMANY",
+    "latitude": 52.4,
+    "longitude": 13.066667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 821,
+    "name": "POUGHKEEPSIE",
+    "country": "NEW YORK",
+    "latitude": 41.7,
+    "longitude": -73.933333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 822,
+    "name": "POZNAN",
+    "country": "POLAND",
+    "latitude": 52.416667,
+    "longitude": 16.883333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 823,
+    "name": "PRAGUE",
+    "country": "CZECHOSLOVAKIA",
+    "latitude": 50.066667,
+    "longitude": 14.45,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 824,
+    "name": "PRETORIA",
+    "country": "SOUTH AFRICA",
+    "latitude": -25.75,
+    "longitude": 28.2,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 825,
+    "name": "PROVIDENCE",
+    "country": "RHODE ISLAND",
+    "latitude": 41.833333,
+    "longitude": -71.416667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 826,
+    "name": "PROVO",
+    "country": "UTAH",
+    "latitude": 40.233333,
+    "longitude": -111.65,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 827,
+    "name": "PUEBLA DE ZARAGOZA",
+    "country": "MEXICO",
+    "latitude": 28.516667,
+    "longitude": -100.9,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 828,
+    "name": "PUEBLA",
+    "country": "MEXICO",
+    "latitude": 19.05,
+    "longitude": -98.2,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 829,
+    "name": "PUEBLO",
+    "country": "COLORADO",
+    "latitude": 38.266667,
+    "longitude": -104.616667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 830,
+    "name": "PUERTO BARRIOS",
+    "country": "GUATEMALA",
+    "latitude": 15.683333,
+    "longitude": -88.533333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 831,
+    "name": "PUERTO PLATA",
+    "country": "DOMINICAN REPUBLIC",
+    "latitude": 19.8,
+    "longitude": -70.683333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 832,
+    "name": "PUERTO STROESSNER",
+    "country": "PARAGUAY",
+    "latitude": -25.533333,
+    "longitude": -54.566667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 833,
+    "name": "PUNE",
+    "country": "INDIA",
+    "latitude": 18.566667,
+    "longitude": 73.966667,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 834,
+    "name": "PUNTARENAS",
+    "country": "COSTA RICA",
+    "latitude": 10.0,
+    "longitude": -84.833333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 835,
+    "name": "PUSAN",
+    "country": "SOUTH KOREA",
+    "latitude": 35.1,
+    "longitude": 129.05,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 836,
+    "name": "PYONGYANG",
+    "country": "NORTH KOREA",
+    "latitude": 39.016667,
+    "longitude": 125.75,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 837,
+    "name": "PYUTHAN",
+    "country": "NEPAL",
+    "latitude": 28.083333,
+    "longitude": 82.883333,
+    "utcOffset": 5.7
+  },
+  {
+    "id": 838,
+    "name": "QANDAHAR",
+    "country": "AFGHANISTAN",
+    "latitude": 31.583333,
+    "longitude": 65.75,
+    "utcOffset": 4.5
+  },
+  {
+    "id": 839,
+    "name": "QUEBEC",
+    "country": "CANADA",
+    "latitude": 46.816667,
+    "longitude": -71.216667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 840,
+    "name": "QUEZALTENANGO",
+    "country": "GUATEMALA",
+    "latitude": 14.833333,
+    "longitude": -91.5,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 841,
+    "name": "QUEZON CITY",
+    "country": "PHILIPPINES",
+    "latitude": 14.65,
+    "longitude": 121.033333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 842,
+    "name": "QUI NHON",
+    "country": "VIETNAM",
+    "latitude": 13.783333,
+    "longitude": 109.183333,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 843,
+    "name": "QUITO",
+    "country": "ECUADOR",
+    "latitude": 0.216667,
+    "longitude": -78.5,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 844,
+    "name": "RABAT",
+    "country": "MOROCCO",
+    "latitude": 34.033333,
+    "longitude": -6.85,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 845,
+    "name": "RABAUL",
+    "country": "PAPUA NEW GUINEA",
+    "latitude": -4.216667,
+    "longitude": 152.183333,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 846,
+    "name": "RAKKA",
+    "country": "SYRIA",
+    "latitude": 35.95,
+    "longitude": 39.05,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 847,
+    "name": "RALEIGH",
+    "country": "NORTH CAROLINA",
+    "latitude": 35.783333,
+    "longitude": -78.633333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 848,
+    "name": "RAMAT GAN",
+    "country": "ISRAEL",
+    "latitude": 32.066667,
+    "longitude": 34.8,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 849,
+    "name": "RANCAGUA",
+    "country": "CHILE",
+    "latitude": -34.166667,
+    "longitude": -70.75,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 850,
+    "name": "RANDERS",
+    "country": "DENMARK",
+    "latitude": 56.466667,
+    "longitude": 10.05,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 851,
+    "name": "RANGOON",
+    "country": "BURMA",
+    "latitude": 16.783333,
+    "longitude": 96.166667,
+    "utcOffset": 6.5
+  },
+  {
+    "id": 852,
+    "name": "RAPID CITY",
+    "country": "SOUTH DAKOTA",
+    "latitude": 44.083333,
+    "longitude": -103.233333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 853,
+    "name": "RAWALPINDI",
+    "country": "PAKISTAN",
+    "latitude": 33.666667,
+    "longitude": 73.133333,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 854,
+    "name": "RECIFE",
+    "country": "BRAZIL",
+    "latitude": -8.1,
+    "longitude": -34.883333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 855,
+    "name": "REGINA",
+    "country": "CANADA",
+    "latitude": 50.416667,
+    "longitude": -104.65,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 856,
+    "name": "REMICH",
+    "country": "LUXEMBOURG",
+    "latitude": 49.55,
+    "longitude": 6.383333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 857,
+    "name": "RENO",
+    "country": "NEVADA",
+    "latitude": 39.516667,
+    "longitude": -119.816667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 858,
+    "name": "REYKJAVIK",
+    "country": "ICELAND",
+    "latitude": 64.15,
+    "longitude": -21.95,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 859,
+    "name": "RICHMOND",
+    "country": "VIRGINIA",
+    "latitude": 37.533333,
+    "longitude": -77.433333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 860,
+    "name": "RIGA",
+    "country": "USSR",
+    "latitude": 56.95,
+    "longitude": 24.1,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 861,
+    "name": "RIO DE JANEIRO",
+    "country": "BRAZIL",
+    "latitude": -22.9,
+    "longitude": -43.233333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 862,
+    "name": "RIVERA",
+    "country": "URUGUAY",
+    "latitude": -31.0,
+    "longitude": -55.833333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 863,
+    "name": "RIVERSIDE",
+    "country": "CALIFORNIA",
+    "latitude": 33.983333,
+    "longitude": -117.366667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 864,
+    "name": "RIYADH",
+    "country": "SAUDI ARABIA",
+    "latitude": 24.633333,
+    "longitude": 46.716667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 865,
+    "name": "ROANOKE",
+    "country": "VIRGINIA",
+    "latitude": 37.266667,
+    "longitude": -79.95,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 866,
+    "name": "ROCHESTER",
+    "country": "MINNESOTA",
+    "latitude": 44.016667,
+    "longitude": -92.466667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 867,
+    "name": "ROCHESTER",
+    "country": "NEW YORK",
+    "latitude": 43.166667,
+    "longitude": -77.6,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 868,
+    "name": "ROCK ISLAND",
+    "country": "ILLINOIS",
+    "latitude": 41.483333,
+    "longitude": -90.566667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 869,
+    "name": "ROCKFORD",
+    "country": "ILLINOIS",
+    "latitude": 42.283333,
+    "longitude": -89.1,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 870,
+    "name": "ROME",
+    "country": "ITALY",
+    "latitude": 41.9,
+    "longitude": 12.483333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 871,
+    "name": "ROODEPOORT",
+    "country": "SOUTH AFRICA",
+    "latitude": -26.166667,
+    "longitude": 27.883333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 872,
+    "name": "ROSARIO",
+    "country": "ARGENTINA",
+    "latitude": -32.95,
+    "longitude": -60.666667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 873,
+    "name": "ROSEAU",
+    "country": "DOMINICA",
+    "latitude": 15.3,
+    "longitude": -61.383333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 874,
+    "name": "ROSKILDE",
+    "country": "DENMARK",
+    "latitude": 55.65,
+    "longitude": 12.116667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 875,
+    "name": "ROSTOCK",
+    "country": "GERMANY",
+    "latitude": 54.083333,
+    "longitude": 12.133333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 876,
+    "name": "ROSTOV NA DONU",
+    "country": "USSR",
+    "latitude": 47.233333,
+    "longitude": 39.7,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 877,
+    "name": "ROTTERDAM",
+    "country": "NETHERLANDS",
+    "latitude": 51.916667,
+    "longitude": 4.483333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 878,
+    "name": "RUSE",
+    "country": "BULGARIA",
+    "latitude": 43.833333,
+    "longitude": 27.983333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 879,
+    "name": "SAARBRUCKEN",
+    "country": "GERMANY",
+    "latitude": 49.233333,
+    "longitude": 7.0,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 880,
+    "name": "SACRAMENTO",
+    "country": "CALIFORNIA",
+    "latitude": 38.583333,
+    "longitude": -121.5,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 881,
+    "name": "SAFI",
+    "country": "MOROCCO",
+    "latitude": 32.3,
+    "longitude": -9.333333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 882,
+    "name": "SAGINAW",
+    "country": "MICHIGAN",
+    "latitude": 43.433333,
+    "longitude": -83.933333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 883,
+    "name": "SAINT AUGUSTINE",
+    "country": "FLORIDA",
+    "latitude": 29.883333,
+    "longitude": -81.316667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 884,
+    "name": "SAINT CATHARINE'S",
+    "country": "CANADA",
+    "latitude": 43.166667,
+    "longitude": -79.25,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 885,
+    "name": "SAINT-ETIENNE",
+    "country": "FRANCE",
+    "latitude": 45.433333,
+    "longitude": 4.383333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 886,
+    "name": "SAINT JOHN'S",
+    "country": "CANADA",
+    "latitude": 47.55,
+    "longitude": -52.716667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 887,
+    "name": "SAINT JOSEPH",
+    "country": "MISSOURI",
+    "latitude": 39.766667,
+    "longitude": -94.85,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 888,
+    "name": "SAINT LOUIS",
+    "country": "MISSOURI",
+    "latitude": 38.633333,
+    "longitude": -90.2,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 889,
+    "name": "SAINT-LOUIS",
+    "country": "SENEGAL",
+    "latitude": 16.016667,
+    "longitude": -16.5,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 890,
+    "name": "SAINT PAUL",
+    "country": "MINNESOTA",
+    "latitude": 44.95,
+    "longitude": -93.1,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 891,
+    "name": "SAINT PETERSBURG",
+    "country": "FLORIDA",
+    "latitude": 27.766667,
+    "longitude": -82.633333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 892,
+    "name": "SALEM",
+    "country": "MASSACHUSETTS",
+    "latitude": 42.516667,
+    "longitude": -70.883333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 893,
+    "name": "SALEM",
+    "country": "OREGON",
+    "latitude": 44.933333,
+    "longitude": -123.033333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 894,
+    "name": "SALINAS",
+    "country": "CALIFORNIA",
+    "latitude": 36.666667,
+    "longitude": -121.65,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 895,
+    "name": "SALIYAN",
+    "country": "NEPAL",
+    "latitude": 28.35,
+    "longitude": 82.183333,
+    "utcOffset": 5.7
+  },
+  {
+    "id": 896,
+    "name": "SALT LAKE CITY",
+    "country": "UTAH",
+    "latitude": 40.75,
+    "longitude": -111.883333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 897,
+    "name": "SALTA",
+    "country": "ARGENTINA",
+    "latitude": -24.783333,
+    "longitude": -65.416667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 898,
+    "name": "SALTO",
+    "country": "URUGUAY",
+    "latitude": -31.45,
+    "longitude": -57.833333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 899,
+    "name": "SALVADOR",
+    "country": "BRAZIL",
+    "latitude": -12.983333,
+    "longitude": -38.516667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 900,
+    "name": "SALZBURG",
+    "country": "AUSTRIA",
+    "latitude": 47.8,
+    "longitude": 13.05,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 901,
+    "name": "SAN ANTONIO",
+    "country": "TEXAS",
+    "latitude": 29.433333,
+    "longitude": -98.483333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 902,
+    "name": "SAN BERNARDINO",
+    "country": "CALIFORNIA",
+    "latitude": 34.1,
+    "longitude": -117.283333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 903,
+    "name": "SAN CRISTOBAL",
+    "country": "VENEZUELA",
+    "latitude": 7.766667,
+    "longitude": -72.25,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 904,
+    "name": "SAN DIEGO",
+    "country": "CALIFORNIA",
+    "latitude": 32.716667,
+    "longitude": -117.15,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 905,
+    "name": "SAN FRANCISCO",
+    "country": "CALIFORNIA",
+    "latitude": 37.783333,
+    "longitude": -122.416667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 906,
+    "name": "SAN JOSE",
+    "country": "CALIFORNIA",
+    "latitude": 37.333333,
+    "longitude": -121.883333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 907,
+    "name": "SAN JOSE",
+    "country": "COSTA RICA",
+    "latitude": 9.933333,
+    "longitude": -84.083333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 908,
+    "name": "SAN JUAN",
+    "country": "ARGENTINA",
+    "latitude": -31.533333,
+    "longitude": -68.516667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 909,
+    "name": "SAN JUAN",
+    "country": "DOMINICAN REPUBLIC",
+    "latitude": 18.816667,
+    "longitude": -71.2,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 910,
+    "name": "SAN JUAN",
+    "country": "PUERTO RICO",
+    "latitude": 18.466667,
+    "longitude": -66.116667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 911,
+    "name": "SAN LORENZO",
+    "country": "PARAGUAY",
+    "latitude": -25.333333,
+    "longitude": -57.533333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 912,
+    "name": "SAN LUIS POTOSI",
+    "country": "MEXICO",
+    "latitude": 22.15,
+    "longitude": -100.983333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 913,
+    "name": "SAN MARINO",
+    "country": "SAN MARINO",
+    "latitude": 43.916667,
+    "longitude": 12.466667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 914,
+    "name": "SAN MIGUEL DE TUCUMAN",
+    "country": "ARGENTINA",
+    "latitude": -26.783333,
+    "longitude": -65.25,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 915,
+    "name": "SAN MIGUEL",
+    "country": "EL SALVADOR",
+    "latitude": 13.466667,
+    "longitude": -88.166667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 916,
+    "name": "SAN PEDRO SULA",
+    "country": "HONDURAS",
+    "latitude": 15.433333,
+    "longitude": -88.016667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 917,
+    "name": "SAN SALVADOR",
+    "country": "EL SALVADOR",
+    "latitude": 13.7,
+    "longitude": -89.2,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 918,
+    "name": "SANA",
+    "country": "NORTH YEMEN",
+    "latitude": 15.383333,
+    "longitude": 44.2,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 919,
+    "name": "SANKT POELTEN",
+    "country": "AUSTRIA",
+    "latitude": 48.216667,
+    "longitude": 15.616667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 920,
+    "name": "SANTA ANA",
+    "country": "EL SALVADOR",
+    "latitude": 14.0,
+    "longitude": -89.516667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 921,
+    "name": "SANTA BARBARA",
+    "country": "CALIFORNIA",
+    "latitude": 34.416667,
+    "longitude": -119.7,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 922,
+    "name": "SANTA CLARA",
+    "country": "CUBA",
+    "latitude": 22.416667,
+    "longitude": -79.966667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 923,
+    "name": "SANTA CRUZ",
+    "country": "BOLIVIA",
+    "latitude": -17.8,
+    "longitude": -63.166667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 924,
+    "name": "SANTA FE",
+    "country": "ARGENTINA",
+    "latitude": -31.583333,
+    "longitude": -60.683333,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 925,
+    "name": "SANTA FE",
+    "country": "NEW MEXICO",
+    "latitude": 35.683333,
+    "longitude": -105.933333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 926,
+    "name": "SANTA ROSA",
+    "country": "CALIFORNIA",
+    "latitude": 38.433333,
+    "longitude": -122.716667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 927,
+    "name": "SANTIAGO",
+    "country": "CHILE",
+    "latitude": -33.45,
+    "longitude": -70.666667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 928,
+    "name": "SANTIAGO DE CUBA",
+    "country": "CUBA",
+    "latitude": 20.0,
+    "longitude": -75.816667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 929,
+    "name": "SANTIAGO",
+    "country": "DOMINICAN REPUBLIC",
+    "latitude": 19.5,
+    "longitude": -70.666667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 930,
+    "name": "SANTIAGO",
+    "country": "PANAMA",
+    "latitude": 8.133333,
+    "longitude": -80.983333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 931,
+    "name": "SANTO DOMINGO",
+    "country": "DOMINICAN REPUBLIC",
+    "latitude": 18.466667,
+    "longitude": -69.9,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 932,
+    "name": "SAO PAULO",
+    "country": "BRAZIL",
+    "latitude": -23.533333,
+    "longitude": -46.616667,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 933,
+    "name": "SAO TOME",
+    "country": "SAO TOME & PRINCIPE",
+    "latitude": 0.2,
+    "longitude": 6.716667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 934,
+    "name": "SAPPORO",
+    "country": "JAPAN",
+    "latitude": 43.05,
+    "longitude": 141.35,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 935,
+    "name": "SARAJEVO",
+    "country": "YUGOSLAVIA",
+    "latitude": 43.833333,
+    "longitude": 18.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 936,
+    "name": "SARH",
+    "country": "CHAD",
+    "latitude": 9.133333,
+    "longitude": 18.366667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 937,
+    "name": "SAVANNAH",
+    "country": "GEORGIA",
+    "latitude": 32.083333,
+    "longitude": -81.1,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 938,
+    "name": "SAVANNAKHET",
+    "country": "LAOS",
+    "latitude": 16.566667,
+    "longitude": 104.75,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 939,
+    "name": "SCHENECTADY",
+    "country": "NEW YORK",
+    "latitude": 42.816667,
+    "longitude": -73.95,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 940,
+    "name": "SCRANTON",
+    "country": "PENNSYLVANIA",
+    "latitude": 41.416667,
+    "longitude": -75.666667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 941,
+    "name": "SEATTLE",
+    "country": "WASHINGTON",
+    "latitude": 47.616667,
+    "longitude": -122.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 942,
+    "name": "SEGOU",
+    "country": "MALI",
+    "latitude": 13.466667,
+    "longitude": -6.3,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 943,
+    "name": "SEMARA",
+    "country": "WESTERN SAHARA",
+    "latitude": 26.8,
+    "longitude": -11.683333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 944,
+    "name": "SEMARANG",
+    "country": "INDONESIA",
+    "latitude": -6.966667,
+    "longitude": 110.483333,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 945,
+    "name": "SEOUL",
+    "country": "SOUTH KOREA",
+    "latitude": 37.566667,
+    "longitude": 127.0,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 946,
+    "name": "SERANGOON",
+    "country": "SINGAPORE",
+    "latitude": 1.383333,
+    "longitude": 103.916667,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 947,
+    "name": "SERRES",
+    "country": "GREECE",
+    "latitude": 41.083333,
+    "longitude": 23.516667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 948,
+    "name": "SETIF",
+    "country": "ALGERIA",
+    "latitude": 36.183333,
+    "longitude": 5.4,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 949,
+    "name": "SETUBAL",
+    "country": "PORTUGAL",
+    "latitude": 38.516667,
+    "longitude": -8.9,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 950,
+    "name": "SEVILLE",
+    "country": "SPAIN",
+    "latitude": 37.383333,
+    "longitude": -5.983333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 951,
+    "name": "SFAX",
+    "country": "TUNISIA",
+    "latitude": 34.75,
+    "longitude": 10.716667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 952,
+    "name": "SHANGHAI",
+    "country": "CHINA",
+    "latitude": 31.233333,
+    "longitude": 121.466667,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 953,
+    "name": "SHARJAH",
+    "country": "UNITED ARAB EMIRATES",
+    "latitude": 25.333333,
+    "longitude": 55.433333,
+    "utcOffset": 4.0
+  },
+  {
+    "id": 954,
+    "name": "SHEFFIELD",
+    "country": "ENGLAND",
+    "latitude": 53.383333,
+    "longitude": -1.5,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 955,
+    "name": "SHENYANG",
+    "country": "CHINA",
+    "latitude": 41.833333,
+    "longitude": 123.433333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 956,
+    "name": "SHIRAZ",
+    "country": "IRAN",
+    "latitude": 29.633333,
+    "longitude": 52.566667,
+    "utcOffset": 3.5
+  },
+  {
+    "id": 957,
+    "name": "SHKODER",
+    "country": "ALBANIA",
+    "latitude": 42.05,
+    "longitude": 19.016667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 958,
+    "name": "SHOUBRA EL-KHEIMA",
+    "country": "EGYPT",
+    "latitude": 30.1,
+    "longitude": 31.25,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 959,
+    "name": "SHREVEPORT",
+    "country": "LOUISIANA",
+    "latitude": 32.516667,
+    "longitude": -93.75,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 960,
+    "name": "SIDI-BEL-ABBES",
+    "country": "ALGERIA",
+    "latitude": 35.25,
+    "longitude": 0.65,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 961,
+    "name": "SIGUIRI",
+    "country": "GUINEA",
+    "latitude": 11.466667,
+    "longitude": -9.116667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 962,
+    "name": "SIKASSO",
+    "country": "MALI",
+    "latitude": 11.3,
+    "longitude": -5.633333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 963,
+    "name": "SINGAPORE",
+    "country": "SINGAPORE",
+    "latitude": 1.283333,
+    "longitude": 103.85,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 964,
+    "name": "SIOUX CITY",
+    "country": "IOWA",
+    "latitude": 42.5,
+    "longitude": -96.4,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 965,
+    "name": "SIOUX FALLS",
+    "country": "SOUTH DAKOTA",
+    "latitude": 43.55,
+    "longitude": -96.733333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 966,
+    "name": "SKOPJE",
+    "country": "YUGOSLAVIA",
+    "latitude": 42.0,
+    "longitude": 21.483333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 967,
+    "name": "SLIEMA",
+    "country": "MALTA",
+    "latitude": 35.916667,
+    "longitude": 14.516667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 968,
+    "name": "SOFIA",
+    "country": "BULGARIA",
+    "latitude": 42.683333,
+    "longitude": 23.316667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 969,
+    "name": "SOKODE",
+    "country": "TOGO",
+    "latitude": 8.983333,
+    "longitude": 1.183333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 970,
+    "name": "SONGKHLA",
+    "country": "THAILAND",
+    "latitude": 7.2,
+    "longitude": 100.583333,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 971,
+    "name": "SOSNOWIEC",
+    "country": "POLAND",
+    "latitude": 50.266667,
+    "longitude": 19.116667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 972,
+    "name": "SOUTH BEND",
+    "country": "INDIANA",
+    "latitude": 41.683333,
+    "longitude": -86.25,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 973,
+    "name": "SOUTH POLE",
+    "country": "EARTH",
+    "latitude": -89.983333,
+    "longitude": 0.0,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 974,
+    "name": "SOUTHAMPTON",
+    "country": "ENGLAND",
+    "latitude": 50.9,
+    "longitude": -1.383333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 975,
+    "name": "SPARTANBURG",
+    "country": "SOUTH CAROLINA",
+    "latitude": 34.933333,
+    "longitude": -81.95,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 976,
+    "name": "SPLIT",
+    "country": "YUGOSLAVIA",
+    "latitude": 43.516667,
+    "longitude": 16.466667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 977,
+    "name": "SPOKANE",
+    "country": "WASHINGTON",
+    "latitude": 47.666667,
+    "longitude": -117.433333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 978,
+    "name": "SPRINGFIELD",
+    "country": "ILLINOIS",
+    "latitude": 39.8,
+    "longitude": -89.65,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 979,
+    "name": "SPRINGFIELD",
+    "country": "MASSACHUSETTS",
+    "latitude": 42.1,
+    "longitude": -72.6,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 980,
+    "name": "SPRINGFIELD",
+    "country": "MISSOURI",
+    "latitude": 37.216667,
+    "longitude": -93.3,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 981,
+    "name": "ST. CATHARINE'S",
+    "country": "CANADA",
+    "latitude": 45.4,
+    "longitude": -73.566667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 982,
+    "name": "ST. GALLEN",
+    "country": "SWITZERLAND",
+    "latitude": 47.416667,
+    "longitude": 9.383333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 983,
+    "name": "ST. GEORGE",
+    "country": "BERMUDA",
+    "latitude": 32.4,
+    "longitude": -64.7,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 984,
+    "name": "ST. GEORGE'S",
+    "country": "GRENADA",
+    "latitude": 12.066667,
+    "longitude": -61.733333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 985,
+    "name": "ST. JOHN'S",
+    "country": "ANTIGUA",
+    "latitude": 17.133333,
+    "longitude": -61.833333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 986,
+    "name": "ST. LAURENT",
+    "country": "FRENCH GUIANA",
+    "latitude": 5.483333,
+    "longitude": -54.05,
+    "utcOffset": -3.0
+  },
+  {
+    "id": 987,
+    "name": "STAMFORD",
+    "country": "CONNECTICUT",
+    "latitude": 41.05,
+    "longitude": -73.533333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 988,
+    "name": "STARA ZAGORA",
+    "country": "BULGARIA",
+    "latitude": 42.416667,
+    "longitude": 25.616667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 989,
+    "name": "STAVANGER",
+    "country": "NORWAY",
+    "latitude": 58.966667,
+    "longitude": 5.75,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 990,
+    "name": "STEYR",
+    "country": "AUSTRIA",
+    "latitude": 48.066667,
+    "longitude": 14.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 991,
+    "name": "STOCKHOLM",
+    "country": "SWEDEN",
+    "latitude": 59.333333,
+    "longitude": 18.05,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 992,
+    "name": "STOCKTON",
+    "country": "CALIFORNIA",
+    "latitude": 37.95,
+    "longitude": -121.283333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 993,
+    "name": "STRASBOURG",
+    "country": "FRANCE",
+    "latitude": 48.583333,
+    "longitude": 7.75,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 994,
+    "name": "STUTTGART",
+    "country": "GERMANY",
+    "latitude": 48.766667,
+    "longitude": 9.183333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 995,
+    "name": "SUCRE",
+    "country": "BOLIVIA",
+    "latitude": -19.033333,
+    "longitude": -65.283333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 996,
+    "name": "SUDBURY",
+    "country": "CANADA",
+    "latitude": 46.5,
+    "longitude": -81.0,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 997,
+    "name": "SUEZ",
+    "country": "EGYPT",
+    "latitude": 29.983333,
+    "longitude": 32.55,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 998,
+    "name": "SUNNYVALE",
+    "country": "CALIFORNIA",
+    "latitude": 37.383333,
+    "longitude": -122.033333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 999,
+    "name": "SURABAYA",
+    "country": "INDONESIA",
+    "latitude": -7.233333,
+    "longitude": 112.75,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 1000,
+    "name": "SURAKARTA",
+    "country": "INDONESIA",
+    "latitude": -7.533333,
+    "longitude": 110.833333,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 1001,
+    "name": "SUVA",
+    "country": "FIJI",
+    "latitude": -18.133333,
+    "longitude": 178.416667,
+    "utcOffset": 12.0
+  },
+  {
+    "id": 1002,
+    "name": "SVERDLOVSK",
+    "country": "USSR",
+    "latitude": 56.85,
+    "longitude": 60.6,
+    "utcOffset": 5.0
+  },
+  {
+    "id": 1003,
+    "name": "SYDNEY",
+    "country": "AUSTRALIA",
+    "latitude": -33.883333,
+    "longitude": 151.2,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 1004,
+    "name": "SYRACUSE",
+    "country": "NEW YORK",
+    "latitude": 43.05,
+    "longitude": -76.15,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1005,
+    "name": "SZCZECIN",
+    "country": "POLAND",
+    "latitude": 53.416667,
+    "longitude": 14.533333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1006,
+    "name": "SZEGED",
+    "country": "HUNGARY",
+    "latitude": 46.25,
+    "longitude": 20.15,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1007,
+    "name": "TABOUK",
+    "country": "SAUDI ARABIA",
+    "latitude": 28.366667,
+    "longitude": 36.533333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 1008,
+    "name": "TABRIZ",
+    "country": "IRAN",
+    "latitude": 38.083333,
+    "longitude": 46.3,
+    "utcOffset": 3.5
+  },
+  {
+    "id": 1009,
+    "name": "TACOMA",
+    "country": "WASHINGTON",
+    "latitude": 47.25,
+    "longitude": -122.433333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1010,
+    "name": "TAEJON",
+    "country": "SOUTH KOREA",
+    "latitude": 36.333333,
+    "longitude": 127.433333,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 1011,
+    "name": "TAHOUA",
+    "country": "NIGER",
+    "latitude": 14.95,
+    "longitude": 5.316667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1012,
+    "name": "TAICHUNG",
+    "country": "TAIWAN",
+    "latitude": 24.15,
+    "longitude": 120.666667,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1013,
+    "name": "TAIF",
+    "country": "SAUDI ARABIA",
+    "latitude": 21.25,
+    "longitude": 40.35,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 1014,
+    "name": "TAINAN",
+    "country": "TAIWAN",
+    "latitude": 23.016667,
+    "longitude": 120.233333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1015,
+    "name": "TAIPEI",
+    "country": "TAIWAN",
+    "latitude": 25.05,
+    "longitude": 121.5,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1016,
+    "name": "TAIZZ",
+    "country": "NORTH YEMEN",
+    "latitude": 13.583333,
+    "longitude": 44.033333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 1017,
+    "name": "TALCA",
+    "country": "CHILE",
+    "latitude": -35.466667,
+    "longitude": -71.666667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 1018,
+    "name": "TALCAHUANO",
+    "country": "CHILE",
+    "latitude": -36.666667,
+    "longitude": -73.166667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 1019,
+    "name": "TALLAHASSEE",
+    "country": "FLORIDA",
+    "latitude": 30.45,
+    "longitude": -84.283333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1020,
+    "name": "TAMALE",
+    "country": "GHANA",
+    "latitude": 9.433333,
+    "longitude": 0.816667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1021,
+    "name": "TAMPA",
+    "country": "FLORIDA",
+    "latitude": 27.95,
+    "longitude": -82.45,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1022,
+    "name": "TAMPERE",
+    "country": "FINLAND",
+    "latitude": 61.533333,
+    "longitude": 23.75,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1023,
+    "name": "TAMPICO",
+    "country": "MEXICO",
+    "latitude": 22.216667,
+    "longitude": -97.85,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 1024,
+    "name": "TANGA",
+    "country": "TANZANIA",
+    "latitude": -5.116667,
+    "longitude": 30.833333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 1025,
+    "name": "TANGIER",
+    "country": "MOROCCO",
+    "latitude": 35.8,
+    "longitude": -5.833333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1026,
+    "name": "TANTA",
+    "country": "EGYPT",
+    "latitude": 30.8,
+    "longitude": 31.0,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1027,
+    "name": "TARAWA",
+    "country": "KIRIBATI",
+    "latitude": 1.5,
+    "longitude": 173.0,
+    "utcOffset": -11.0
+  },
+  {
+    "id": 1028,
+    "name": "TASHKENT",
+    "country": "USSR",
+    "latitude": 41.333333,
+    "longitude": 69.3,
+    "utcOffset": 6.0
+  },
+  {
+    "id": 1029,
+    "name": "TAUNGGYI",
+    "country": "BURMA",
+    "latitude": 20.916667,
+    "longitude": 96.883333,
+    "utcOffset": 6.5
+  },
+  {
+    "id": 1030,
+    "name": "TBILISI",
+    "country": "USSR",
+    "latitude": 41.7,
+    "longitude": 44.75,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 1031,
+    "name": "TEGUCIGALPA",
+    "country": "HONDURAS",
+    "latitude": 14.1,
+    "longitude": -87.216667,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 1032,
+    "name": "TEHRAN",
+    "country": "IRAN",
+    "latitude": 35.666667,
+    "longitude": 51.433333,
+    "utcOffset": 3.5
+  },
+  {
+    "id": 1033,
+    "name": "TEL AVIV",
+    "country": "ISRAEL",
+    "latitude": 32.083333,
+    "longitude": 34.766667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1034,
+    "name": "TEMPE",
+    "country": "ARIZONA",
+    "latitude": 33.416667,
+    "longitude": -111.933333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1035,
+    "name": "TEMUCO",
+    "country": "CHILE",
+    "latitude": -38.75,
+    "longitude": -72.666667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 1036,
+    "name": "TERRE HAUTE",
+    "country": "INDIANA",
+    "latitude": 39.466667,
+    "longitude": -87.4,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1037,
+    "name": "TETOUAN",
+    "country": "MOROCCO",
+    "latitude": 35.566667,
+    "longitude": -5.366667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1038,
+    "name": "THE HAGUE",
+    "country": "NETHERLANDS",
+    "latitude": 52.066667,
+    "longitude": 4.316667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1039,
+    "name": "THESSALONIKI",
+    "country": "GREECE",
+    "latitude": 40.633333,
+    "longitude": 22.966667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1040,
+    "name": "THIES",
+    "country": "SENEGAL",
+    "latitude": 14.816667,
+    "longitude": -16.866667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1041,
+    "name": "THIMPHU",
+    "country": "BHUTAN",
+    "latitude": 27.533333,
+    "longitude": 89.75,
+    "utcOffset": 5.5
+  },
+  {
+    "id": 1042,
+    "name": "THUN",
+    "country": "SWITZERLAND",
+    "latitude": 46.766667,
+    "longitude": 7.633333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1043,
+    "name": "TIANJIN",
+    "country": "CHINA",
+    "latitude": 39.133333,
+    "longitude": 117.2,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1044,
+    "name": "TIJUANA",
+    "country": "MEXICO",
+    "latitude": 32.533333,
+    "longitude": -117.016667,
+    "utcOffset": -8.0
+  },
+  {
+    "id": 1045,
+    "name": "TILBURG",
+    "country": "NETHERLANDS",
+    "latitude": 51.566667,
+    "longitude": 5.083333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1046,
+    "name": "TIMBUKTU",
+    "country": "MALI",
+    "latitude": 16.766667,
+    "longitude": -3.016667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1047,
+    "name": "TIMISOARA",
+    "country": "ROMANIA",
+    "latitude": 45.75,
+    "longitude": 21.25,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1048,
+    "name": "TIRANE",
+    "country": "ALBANIA",
+    "latitude": 41.333333,
+    "longitude": 19.833333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1049,
+    "name": "TLEMCEN",
+    "country": "ALGERIA",
+    "latitude": 34.883333,
+    "longitude": -1.35,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1050,
+    "name": "TOAMASINA",
+    "country": "MADAGASCAR",
+    "latitude": -18.166667,
+    "longitude": 49.383333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 1051,
+    "name": "TOKYO",
+    "country": "JAPAN",
+    "latitude": 35.7,
+    "longitude": 139.766667,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 1052,
+    "name": "TOLEDO",
+    "country": "OHIO",
+    "latitude": 41.65,
+    "longitude": -83.55,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1053,
+    "name": "TOLIARY",
+    "country": "MADAGASCAR",
+    "latitude": -23.333333,
+    "longitude": 43.683333,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 1054,
+    "name": "TOPEKA",
+    "country": "KANSAS",
+    "latitude": 39.05,
+    "longitude": -95.666667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1055,
+    "name": "TORONTO",
+    "country": "CANADA",
+    "latitude": 43.65,
+    "longitude": -79.383333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 1056,
+    "name": "TORREON",
+    "country": "MEXICO",
+    "latitude": 25.55,
+    "longitude": -103.433333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 1057,
+    "name": "TOULOUSE",
+    "country": "FRANCE",
+    "latitude": 43.616667,
+    "longitude": 1.45,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1058,
+    "name": "TOURS",
+    "country": "FRANCE",
+    "latitude": 47.383333,
+    "longitude": 0.683333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1059,
+    "name": "TRENTON",
+    "country": "NEW JERSEY",
+    "latitude": 40.216667,
+    "longitude": -74.766667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1060,
+    "name": "TRIPOLI",
+    "country": "LEBANON",
+    "latitude": 34.45,
+    "longitude": 35.833333,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1061,
+    "name": "TRIPOLI",
+    "country": "LIBYA",
+    "latitude": 32.9,
+    "longitude": 13.183333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1062,
+    "name": "TRONDHEIM",
+    "country": "NORWAY",
+    "latitude": 63.416667,
+    "longitude": 10.416667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1063,
+    "name": "TROY",
+    "country": "NEW YORK",
+    "latitude": 42.733333,
+    "longitude": -73.683333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1064,
+    "name": "TRUJILLO",
+    "country": "PERU",
+    "latitude": -8.116667,
+    "longitude": -79.033333,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 1065,
+    "name": "TSUMEB",
+    "country": "NAMIBIA",
+    "latitude": -19.216667,
+    "longitude": 17.7,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1066,
+    "name": "TUCSON",
+    "country": "ARIZONA",
+    "latitude": 32.216667,
+    "longitude": -110.966667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1067,
+    "name": "TULSA",
+    "country": "OKLAHOMA",
+    "latitude": 36.15,
+    "longitude": -96.0,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1068,
+    "name": "TUNIS",
+    "country": "TUNISIA",
+    "latitude": 36.8,
+    "longitude": 10.2,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1069,
+    "name": "TURIN",
+    "country": "ITALY",
+    "latitude": 45.05,
+    "longitude": 7.666667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1070,
+    "name": "TURKU",
+    "country": "FINLAND",
+    "latitude": 60.45,
+    "longitude": 22.25,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1071,
+    "name": "TUSCALOOSA",
+    "country": "ALABAMA",
+    "latitude": 33.2,
+    "longitude": -87.566667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1072,
+    "name": "UJUNG PANDANG",
+    "country": "INDONESIA",
+    "latitude": -5.15,
+    "longitude": 119.466667,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1073,
+    "name": "ULAN BATOR",
+    "country": "MONGOLIA",
+    "latitude": 47.916667,
+    "longitude": 106.883333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1074,
+    "name": "UMHLAZI",
+    "country": "SOUTH AFRICA",
+    "latitude": -29.883333,
+    "longitude": 31.0,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1075,
+    "name": "UPPSALA",
+    "country": "SWEDEN",
+    "latitude": 59.916667,
+    "longitude": 17.633333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1076,
+    "name": "UTICA",
+    "country": "NEW YORK",
+    "latitude": 43.1,
+    "longitude": -75.233333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1077,
+    "name": "UTRECHT",
+    "country": "NETHERLANDS",
+    "latitude": 52.1,
+    "longitude": 5.116667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1078,
+    "name": "VADUZ",
+    "country": "LIECHTENSTEIN",
+    "latitude": 47.133333,
+    "longitude": 9.533333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1079,
+    "name": "VALENCIA",
+    "country": "SPAIN",
+    "latitude": 39.466667,
+    "longitude": 0.366667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1080,
+    "name": "VALENCIA",
+    "country": "VENEZUELA",
+    "latitude": 10.183333,
+    "longitude": -68.0,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 1081,
+    "name": "VALLADOLID",
+    "country": "SPAIN",
+    "latitude": 41.65,
+    "longitude": -4.75,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1082,
+    "name": "VALLETTA",
+    "country": "MALTA",
+    "latitude": 35.9,
+    "longitude": 14.533333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1083,
+    "name": "VALPARAISO",
+    "country": "CHILE",
+    "latitude": -33.083333,
+    "longitude": -71.666667,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 1084,
+    "name": "VANCOUVER",
+    "country": "CANADA",
+    "latitude": 49.283333,
+    "longitude": -123.116667,
+    "utcOffset": -8.0
+  },
+  {
+    "id": 1085,
+    "name": "VANTAA",
+    "country": "FINLAND",
+    "latitude": 60.3,
+    "longitude": 24.95,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1086,
+    "name": "VARNA",
+    "country": "BULGARIA",
+    "latitude": 43.2,
+    "longitude": 27.95,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1087,
+    "name": "VASTERAS",
+    "country": "SWEDEN",
+    "latitude": 59.6,
+    "longitude": 16.533333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1088,
+    "name": "VEJLE",
+    "country": "DENMARK",
+    "latitude": 55.716667,
+    "longitude": 9.55,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1089,
+    "name": "VENICE",
+    "country": "ITALY",
+    "latitude": 45.45,
+    "longitude": 12.35,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1090,
+    "name": "VERA CRUZ",
+    "country": "MEXICO",
+    "latitude": 19.2,
+    "longitude": -96.133333,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 1091,
+    "name": "VICTORIA",
+    "country": "CANADA",
+    "latitude": 48.416667,
+    "longitude": -123.366667,
+    "utcOffset": -7.0
+  },
+  {
+    "id": 1092,
+    "name": "VICTORIA",
+    "country": "HONG KONG",
+    "latitude": 22.266667,
+    "longitude": 114.216667,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1093,
+    "name": "VICTORIA",
+    "country": "SEYCHELLES",
+    "latitude": -4.633333,
+    "longitude": 55.466667,
+    "utcOffset": 4.0
+  },
+  {
+    "id": 1094,
+    "name": "VIENNA",
+    "country": "AUSTRIA",
+    "latitude": 48.2,
+    "longitude": 16.366667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1095,
+    "name": "VIENTIANE",
+    "country": "LAOS",
+    "latitude": 17.966667,
+    "longitude": 102.6,
+    "utcOffset": 7.0
+  },
+  {
+    "id": 1096,
+    "name": "VILA NOVA DE GAIA",
+    "country": "PORTUGAL",
+    "latitude": 41.066667,
+    "longitude": -8.666667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1097,
+    "name": "VILLACH",
+    "country": "AUSTRIA",
+    "latitude": 46.616667,
+    "longitude": 13.85,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1098,
+    "name": "VINA DEL MAR",
+    "country": "CHILE",
+    "latitude": -33.033333,
+    "longitude": -71.583333,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 1099,
+    "name": "VINELAND",
+    "country": "NEW JERSEY",
+    "latitude": 39.483333,
+    "longitude": -75.033333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1100,
+    "name": "VLADIVOSTOK",
+    "country": "USSR",
+    "latitude": 43.133333,
+    "longitude": 131.9,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 1101,
+    "name": "VOLGOGRAD",
+    "country": "USSR",
+    "latitude": 48.75,
+    "longitude": 44.416667,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 1102,
+    "name": "VOLOS",
+    "country": "GREECE",
+    "latitude": 39.366667,
+    "longitude": 22.95,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1103,
+    "name": "WACO",
+    "country": "TEXAS",
+    "latitude": 31.55,
+    "longitude": -97.133333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1104,
+    "name": "WADI MEDANI",
+    "country": "SUDAN",
+    "latitude": 14.4,
+    "longitude": 33.05,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1105,
+    "name": "WARSAW",
+    "country": "POLAND",
+    "latitude": 52.25,
+    "longitude": 21.0,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1106,
+    "name": "WARWICK",
+    "country": "RHODE ISLAND",
+    "latitude": 41.7,
+    "longitude": -71.45,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1107,
+    "name": "WASHINGTON",
+    "country": "D.C.",
+    "latitude": 38.9,
+    "longitude": -77.016667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1108,
+    "name": "WATERBURY",
+    "country": "CONNECTICUT",
+    "latitude": 41.55,
+    "longitude": -73.05,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1109,
+    "name": "WATERFORD",
+    "country": "IRELAND",
+    "latitude": 52.25,
+    "longitude": -7.1,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1110,
+    "name": "WATERLOO",
+    "country": "IOWA",
+    "latitude": 42.5,
+    "longitude": -92.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1111,
+    "name": "WELLINGTON",
+    "country": "NEW ZEALAND",
+    "latitude": -41.466667,
+    "longitude": 174.85,
+    "utcOffset": 12.0
+  },
+  {
+    "id": 1112,
+    "name": "WELS",
+    "country": "AUSTRIA",
+    "latitude": 48.166667,
+    "longitude": 14.033333,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1113,
+    "name": "WEST PALM BEACH",
+    "country": "FLORIDA",
+    "latitude": 26.716667,
+    "longitude": -80.05,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1114,
+    "name": "WHEELING",
+    "country": "WEST VIRGINIA",
+    "latitude": 40.066667,
+    "longitude": -80.716667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1115,
+    "name": "WICHITA FALLS",
+    "country": "TEXAS",
+    "latitude": 33.916667,
+    "longitude": -98.483333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1116,
+    "name": "WICHITA",
+    "country": "KANSAS",
+    "latitude": 37.683333,
+    "longitude": -97.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1117,
+    "name": "WILKES BARRE",
+    "country": "PENNSYLVANIA",
+    "latitude": 41.25,
+    "longitude": -75.883333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1118,
+    "name": "WILLEMSTAD",
+    "country": "CURACAO",
+    "latitude": 12.1,
+    "longitude": -68.95,
+    "utcOffset": -4.0
+  },
+  {
+    "id": 1119,
+    "name": "WILLIAMSBURG",
+    "country": "VIRGINIA",
+    "latitude": 37.266667,
+    "longitude": -76.7,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1120,
+    "name": "WILLISTON",
+    "country": "NORTH DAKOTA",
+    "latitude": 48.183333,
+    "longitude": -103.616667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1121,
+    "name": "WILMINGTON",
+    "country": "DELAWARE",
+    "latitude": 39.75,
+    "longitude": -75.55,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1122,
+    "name": "WILMINGTON",
+    "country": "NORTH CAROLINA",
+    "latitude": 34.233333,
+    "longitude": -77.916667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1123,
+    "name": "WINDHOEK",
+    "country": "NAMIBIA",
+    "latitude": -22.566667,
+    "longitude": 17.1,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1124,
+    "name": "WINDSOR",
+    "country": "CANADA",
+    "latitude": 42.3,
+    "longitude": -83.016667,
+    "utcOffset": -5.0
+  },
+  {
+    "id": 1125,
+    "name": "WINNIPEG",
+    "country": "CANADA",
+    "latitude": 49.883333,
+    "longitude": -97.15,
+    "utcOffset": -6.0
+  },
+  {
+    "id": 1126,
+    "name": "WINSTON SALEM",
+    "country": "NORTH CAROLINA",
+    "latitude": 36.1,
+    "longitude": -80.25,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1127,
+    "name": "WINTERTHUR",
+    "country": "SWITZERLAND",
+    "latitude": 47.5,
+    "longitude": 8.75,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1128,
+    "name": "WOLLONGONG",
+    "country": "AUSTRALIA",
+    "latitude": -17.216667,
+    "longitude": 137.95,
+    "utcOffset": 10.0
+  },
+  {
+    "id": 1129,
+    "name": "WORCESTER",
+    "country": "MASSACHUSETTS",
+    "latitude": 42.266667,
+    "longitude": -71.8,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1130,
+    "name": "WROCLAW",
+    "country": "POLAND",
+    "latitude": 51.083333,
+    "longitude": 17.0,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1131,
+    "name": "WUHAN",
+    "country": "CHINA",
+    "latitude": 36.75,
+    "longitude": 114.25,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1132,
+    "name": "XIAN",
+    "country": "CHINA",
+    "latitude": 34.266667,
+    "longitude": 108.9,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1133,
+    "name": "YAKIMA",
+    "country": "WASHINGTON",
+    "latitude": 46.6,
+    "longitude": -120.516667,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1134,
+    "name": "YAOUNDE",
+    "country": "CAMEROON",
+    "latitude": 3.85,
+    "longitude": 11.516667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1135,
+    "name": "YAREN",
+    "country": "NAURU",
+    "latitude": -1.833333,
+    "longitude": 167.166667,
+    "utcOffset": 12.0
+  },
+  {
+    "id": 1136,
+    "name": "YEREVAN",
+    "country": "USSR",
+    "latitude": 40.183333,
+    "longitude": 44.5,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 1137,
+    "name": "YOKOHAMA",
+    "country": "JAPAN",
+    "latitude": 41.066667,
+    "longitude": 141.25,
+    "utcOffset": 9.0
+  },
+  {
+    "id": 1138,
+    "name": "YORK",
+    "country": "ENGLAND",
+    "latitude": 53.95,
+    "longitude": -1.083333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1139,
+    "name": "YORK",
+    "country": "PENNSYLVANIA",
+    "latitude": 39.966667,
+    "longitude": -76.733333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1140,
+    "name": "YOUNGSTOWN",
+    "country": "PENNSYLVANIA",
+    "latitude": 41.1,
+    "longitude": -80.65,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1141,
+    "name": "YUNGHU",
+    "country": "TAIWAN",
+    "latitude": 24.85,
+    "longitude": 120.05,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1142,
+    "name": "ZAGAZIG",
+    "country": "EGYPT",
+    "latitude": 30.583333,
+    "longitude": 31.5,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1143,
+    "name": "ZAGREB",
+    "country": "YUGOSLAVIA",
+    "latitude": 45.8,
+    "longitude": 16.0,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1144,
+    "name": "ZAMBOANGA",
+    "country": "PHILIPPINES",
+    "latitude": 6.916667,
+    "longitude": 122.083333,
+    "utcOffset": 8.0
+  },
+  {
+    "id": 1145,
+    "name": "ZANZIBAR TOWN",
+    "country": "TANZANIA",
+    "latitude": -6.2,
+    "longitude": 39.2,
+    "utcOffset": 3.0
+  },
+  {
+    "id": 1146,
+    "name": "ZARAGOZA",
+    "country": "SPAIN",
+    "latitude": 41.65,
+    "longitude": 0.9,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1147,
+    "name": "ZARQA",
+    "country": "JORDAN",
+    "latitude": 32.066667,
+    "longitude": 36.1,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1148,
+    "name": "ZINDER",
+    "country": "NIGER",
+    "latitude": 13.766667,
+    "longitude": 8.966667,
+    "utcOffset": 1.0
+  },
+  {
+    "id": 1149,
+    "name": "ZINGUINCHOR",
+    "country": "SENEGAL",
+    "latitude": 12.583333,
+    "longitude": -16.333333,
+    "utcOffset": 0.0
+  },
+  {
+    "id": 1150,
+    "name": "ZOMBA",
+    "country": "MALAWI",
+    "latitude": -15.366667,
+    "longitude": 35.366667,
+    "utcOffset": 2.0
+  },
+  {
+    "id": 1151,
+    "name": "ZURICH",
+    "country": "SWITZERLAND",
+    "latitude": 47.366667,
+    "longitude": 8.516667,
+    "utcOffset": 1.0
+  }
+]

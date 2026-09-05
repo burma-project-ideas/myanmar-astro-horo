@@ -1,0 +1,22 @@
+@using BlazorMyanmarAstroHoro.Services
+
+<section class="rounded-lg border border-border bg-card text-card-foreground shadow-sm">
+    <div class="p-4 border-b border-border bg-muted/20">
+        <h3 class="font-semibold flex items-center gap-2"><i class="fa-solid fa-compass text-primary"></i> ရိုးရာအညွှန်းများ</h3>
+        <p class="mt-1 text-xs text-muted-foreground">Lsnk, Hawrat, Tarin, Dini နှင့် Astro စဉ်များကို ဖတ်ရှုလွယ်စေရန် မြန်မာစာဖြင့် ပြထားပါသည်။</p>
+    </div>
+    <div class="grid gap-3 p-4 md:grid-cols-2">
+        @foreach (var indicator in Indicators)
+        {
+            <div class="rounded-md border border-border/70 bg-background/40 p-3">
+                <div class="font-medium">@indicator.Label</div>
+                <div class="mt-1 text-primary">@indicator.Value</div>
+                <p class="mt-1 text-xs leading-5 text-muted-foreground">@indicator.Note</p>
+            </div>
+        }
+    </div>
+</section>
+
+@code {
+    [Parameter, EditorRequired] public IReadOnlyList<TraditionalIndicatorRow> Indicators { get; set; } = [];
+}

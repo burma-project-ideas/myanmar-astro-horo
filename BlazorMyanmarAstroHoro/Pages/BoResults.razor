@@ -1,0 +1,24 @@
+@using System.Globalization
+
+<section class="rounded-lg border border-border bg-card text-card-foreground shadow-sm">
+    <div class="p-4 border-b border-border bg-muted/20">
+        <h3 class="font-semibold flex items-center gap-2"><i class="fa-solid fa-table-cells text-primary"></i> သူရိယသိဒ္ဓန္တ BO (၂၁ နှစ်)</h3>
+        <p class="mt-1 text-sm text-muted-foreground">မူရင်း `Kp2` နည်းအတိုင်း ကလိယုဂ်နှစ်မှ နောက် ၂၁ နှစ်အတွက် ရိုးရာပြက္ခဒိန်တန်ဖိုးများကို ပြပါသည်။</p>
+    </div>
+    <div class="overflow-x-auto p-4">
+        <table class="w-full text-xs">
+            <thead><tr class="border-b border-border bg-muted/20 text-left text-muted-foreground"><th class="p-2">ကလိ</th><th class="p-2">သာဝန</th><th class="p-2">ကြမတ်</th><th class="p-2">တိထီ</th><th class="p-2">စန္ဒြာမာသ</th><th class="p-2">ရက်လွန်</th><th class="p-2">နေ့</th><th class="p-2">အဓိမတ်</th><th class="p-2">ရက်ငင်</th></tr></thead>
+            <tbody>
+                @foreach (var row in Rows)
+                {
+                    <tr class="border-b border-border/50 hover:bg-muted/30"><td class="p-2">@row.KaliYear</td><td class="p-2">@row.Sawana</td><td class="p-2">@row.Kyamat</td><td class="p-2">@row.Tithi</td><td class="p-2">@row.LunarMonth</td><td class="p-2">@row.LunarDay</td><td class="p-2">@Weekdays[row.Weekday]</td><td class="p-2">@row.Adimat</td><td class="p-2">@row.Yetngin</td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
+
+@code {
+    private static readonly string[] Weekdays = ["တနင်္ဂနွေ", "တနင်္လာ", "အင်္ဂါ", "ဗုဒ္ဓဟူး", "ကြာသပတေး", "သောကြာ", "စနေ"];
+    [Parameter, EditorRequired] public IReadOnlyList<BoCalendarRow> Rows { get; set; } = [];
+}

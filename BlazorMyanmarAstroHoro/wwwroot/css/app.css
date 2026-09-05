@@ -152,3 +152,11 @@ body {
 .animate-fade-in {
     animation: fadeInUp 0.5s ease-out forwards;
 }
+@media print {
+    .no-print { display: none !important; }
+    body { background: white !important; color: black !important; }
+    .shadow-sm, .shadow-lg, .shadow-md { box-shadow: none !important; }
+    .max-w-4xl { max-width: none !important; }
+    details { display: block !important; }
+    details > *:not(summary) { display: block !important; }
+}

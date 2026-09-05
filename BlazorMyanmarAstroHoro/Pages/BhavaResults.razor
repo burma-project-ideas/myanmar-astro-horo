@@ -1,0 +1,27 @@
+@using BlazorMyanmarAstroHoro.Services
+
+<section class="rounded-lg border border-border bg-card text-card-foreground shadow-sm">
+    <div class="p-4 border-b border-border bg-muted/20">
+        <h3 class="font-semibold flex items-center gap-2">
+            <i class="fa-solid fa-house text-primary"></i>
+            ဘာဝအိမ်နှင့် စန္ဒြများ (Bhava)
+        </h3>
+        <p class="mt-1 text-xs text-muted-foreground">ရည်ညွှန်း VB6 ၏ h(1–12) နှင့် c(1–12) ကို လဂ်နှင့် ဒေသတည်နေရာမှ တွက်ထားပါသည်။</p>
+    </div>
+    <div class="overflow-x-auto p-4">
+        <table class="w-full min-w-[34rem] text-sm">
+            <thead><tr class="border-b border-border bg-muted/20 text-left text-muted-foreground"><th class="px-3 py-2">အိမ်</th><th class="px-3 py-2">အိမ်စ</th><th class="px-3 py-2">နယ်စပ်စံ</th></tr></thead>
+            <tbody>
+                @foreach (var row in Rows)
+                {
+                    <tr class="border-b border-border/50 hover:bg-muted/50"><td class="px-3 py-2 font-medium">@ToMyanmar(row.House)</td><td class="px-3 py-2">@row.Cusp</td><td class="px-3 py-2 text-muted-foreground">@row.Boundary</td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
+
+@code {
+    [Parameter, EditorRequired] public IReadOnlyList<HouseCuspRow> Rows { get; set; } = [];
+    private static string ToMyanmar(int value) => string.Concat(value.ToString().Select(d => "၀၁၂၃၄၅၆၇၈၉"[d - '0']));
+}

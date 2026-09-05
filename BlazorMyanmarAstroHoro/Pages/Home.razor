@@ -1,10 +1,13 @@
 ﻿@page "/"
 @inject AstroDataService AstroService
+@inject CityDirectoryService CityDirectory
+@inject SavedHoroscopeService SavedHoroscopes
+@inject IJSRuntime JS
 
 <PageTitle>Myanmar Astro Horo — Horoscope Calculator</PageTitle>
 
 <!-- Hero Section -->
-<div class="text-center mb-10">
+<div class="no-print text-center mb-10">
     <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary/10 mb-4">
         <i class="fa-solid fa-star-and-crescent text-3xl text-primary"></i>
     </div>
@@ -17,7 +20,7 @@
 </div>
 
 <!-- Input Form Card -->
-<div class="max-w-2xl mx-auto">
+<div class="no-print max-w-2xl mx-auto">
     <div class="rounded-lg border border-border bg-card text-card-foreground shadow-lg">
         <div class="flex flex-col space-y-1.5 p-6 pb-4">
             <h2 class="font-zodiac text-2xl font-semibold leading-none tracking-tight flex items-center gap-2">
@@ -27,6 +30,15 @@
             <p class="text-sm text-muted-foreground">Enter the date, time, and location to calculate the horoscope.</p>
         </div>
         <div class="p-6 pt-0 space-y-6">
+            <!-- Name Row -->
+            <div>
+                <label class="text-sm font-medium leading-none text-muted-foreground mb-2 block">
+                    <i class="fa-regular fa-user mr-1"></i> Name
+                </label>
+                <input type="text" @bind="inputModel.Name" placeholder="Enter name"
+                       class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" />
+            </div>
+
             <!-- Date Row -->
             <div>
                 <label class="text-sm font-medium leading-none text-muted-foreground mb-2 block">
@@ -85,6 +97,7 @@
                         <label class="text-xs text-muted-foreground mb-1 block">City</label>
                         <select @bind="SelectedCity"
                                 class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+                            <optgroup label="Myanmar quick locations">
                             <option value="Yangon">Yangon</option>
                             <option value="Mandalay">Mandalay</option>
                             <option value="Naypyidaw">Naypyidaw</option>
@@ -92,6 +105,13 @@
                             <option value="Taunggyi">Taunggyi</option>
                             <option value="Mawlamyine">Mawlamyine</option>
                             <option value="Custom">Custom</option>
+                            </optgroup>
+                            <optgroup label="Legacy city directory (1,152 cities)">
+                                @foreach (var city in legacyCities)
+                                {
+                                    <option value="@city.Id">@city.Name, @city.Country</option>
+                                }
+                            </optgroup>
                         </select>
                     </div>
                     <div>
@@ -105,6 +125,11 @@
                                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" />
                     </div>
                 </div>
+                <label class="mt-3 flex items-center gap-2 text-sm text-muted-foreground cursor-pointer">
+                    <input type="checkbox" @bind="inputModel.IsLocalMeanTime"
+                           class="h-4 w-4 rounded border-input text-primary focus:ring-ring" />
+                    Use local mean time (longitude-based) instead of Myanmar Standard Time (UTC+6:30)
+                </label>
             </div>
         </div>
 
@@ -124,6 +149,29 @@
                 }
             </button>
         </div>
+        @if (savedRecords.Count > 0)
+        {
+            <div class="mx-6 mb-6 rounded-md border border-border bg-muted/10 p-4">
+                <label class="mb-2 block text-sm font-medium"><i class="fa-regular fa-folder-open mr-1 text-primary"></i> သိမ်းထားသော ဇာတာများ</label>
+                <div class="flex flex-col gap-2 sm:flex-row">
+                    <select @bind="selectedRecordId" class="h-10 flex-1 rounded-md border border-input bg-background px-3 py-2 text-sm">
+                        <option value="">ဇာတာတစ်ခုရွေးပါ</option>
+                        @foreach (var record in savedRecords)
+                        {
+                            <option value="@record.Id">@SavedLabel(record)</option>
+                        }
+                    </select>
+                    <button @onclick="LoadSaved" disabled="@string.IsNullOrEmpty(selectedRecordId)" class="rounded-md border border-border px-3 py-2 text-sm hover:bg-muted disabled:opacity-50">ဖွင့်ရန်</button>
+                    <button @onclick="DeleteSaved" disabled="@string.IsNullOrEmpty(selectedRecordId)" class="rounded-md border border-border px-3 py-2 text-sm text-destructive hover:bg-destructive/10 disabled:opacity-50">ဖျက်ရန်</button>
+                </div>
+            </div>
+        }
+        @if (!string.IsNullOrWhiteSpace(calculationError))
+        {
+            <div role="alert" class="mx-6 mb-6 rounded-md border border-destructive/40 bg-destructive/10 px-4 py-3 text-sm text-destructive">
+                @calculationError
+            </div>
+        }
     </div>
 </div>
 
@@ -138,95 +186,49 @@
                 Horoscope Results
                 <i class="fa-solid fa-moon"></i>
             </h2>
-            <p class="text-muted-foreground text-sm mt-1">@result.DayOfWeekMyanmar · @result.MyanmarYear · @result.MyanmarMonth</p>
+            <p class="text-muted-foreground text-sm mt-1">@inputModel.Name · @result.SummaryTable.FirstOrDefault(s => s.Label == "နေ့")?.Value · @result.SummaryTable.FirstOrDefault(s => s.Label == "နေရာ")?.Value</p>
+            <button @onclick="PrintResults" class="no-print mt-3 inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-sm text-muted-foreground hover:bg-muted" title="Print or save as PDF">
+                <i class="fa-solid fa-print"></i> ပုံနှိပ် / PDF သိမ်းရန်
+            </button>
+            <button @onclick="SaveCurrent" class="no-print mt-3 ml-2 inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-sm text-muted-foreground hover:bg-muted">
+                <i class="fa-regular fa-floppy-disk"></i> ဇာတာသိမ်းရန်
+            </button>
         </div>
 
-        <!-- Cards Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <!-- Myanmar Calendar Card -->
-            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+        <!-- 13-Row Summary / Zata Charts Split -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            
+            <!-- Left Panel: 13-Row Summary (VB6 Style) -->
+            <div class="lg:col-span-5 rounded-lg border border-border bg-card text-card-foreground shadow-sm">
+                <div class="p-4 border-b border-border bg-muted/20">
+                    <h3 class="font-semibold text-sm flex items-center gap-2">
+                        <i class="fa-solid fa-list-ul text-primary"></i>
+                        Astrological Summary
+                    </h3>
+                </div>
                 <div class="p-4">
-                    <div class="flex items-center gap-2 mb-3">
-                        <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
-                            <i class="fa-solid fa-calendar-alt text-primary text-sm"></i>
-                        </div>
-                        <h3 class="font-semibold text-sm">Myanmar Calendar</h3>
-                    </div>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex justify-between"><span class="text-muted-foreground">Year</span><span class="font-medium">@result.MyanmarYear</span></div>
-                        <div class="flex justify-between"><span class="text-muted-foreground">Month</span><span class="font-medium">@result.MyanmarMonth</span></div>
-                        <div class="flex justify-between"><span class="text-muted-foreground">Day</span><span class="font-medium">@result.MyanmarDay</span></div>
-                        <div class="flex justify-between"><span class="text-muted-foreground">Moon Phase</span><span class="font-medium">@result.MoonPhase</span></div>
+                    <div class="space-y-1.5 text-sm">
+                        @foreach(var row in result.SummaryTable)
+                        {
+                            <div class="flex justify-between py-1 border-b border-border/40 hover:bg-muted/30">
+                                <span class="text-muted-foreground">@row.Label</span>
+                                <span class="font-medium text-right font-zodiac tracking-wide">@row.Value</span>
+                            </div>
+                        }
                     </div>
                 </div>
             </div>
 
-            <!-- Astro Data Card -->
-            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
-                <div class="p-4">
-                    <div class="flex items-center gap-2 mb-3">
-                        <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
-                            <i class="fa-solid fa-star text-primary text-sm"></i>
-                        </div>
-                        <h3 class="font-semibold text-sm">Astrological Data</h3>
-                    </div>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex justify-between"><span class="text-muted-foreground">Thithi</span><span class="font-medium">@result.Thithi</span></div>
-                        <div class="flex justify-between"><span class="text-muted-foreground">Nakshatra</span><span class="font-medium text-right max-w-[60%]">@result.Nakshatra</span></div>
-                        <div class="flex justify-between"><span class="text-muted-foreground">Yoga</span><span class="font-medium">@result.Yoga</span></div>
-                        <div class="flex justify-between"><span class="text-muted-foreground">Karana</span><span class="font-medium">@result.Karana</span></div>
-                    </div>
+            <!-- Right Panel: Zata Wheels -->
+            <div class="lg:col-span-7 rounded-lg border border-border bg-card text-card-foreground shadow-sm aspect-auto flex flex-col items-center justify-center p-6 pb-2">
+                <div class="flex flex-row flex-wrap justify-around w-full gap-4">
+                    <AstroWheel Title="ရာသီ (Rasi)" Houses="@result.RasiHouses" />
+                    <AstroWheel Title="နဝင်း (Navamsa)" Houses="@result.NavamsaHouses" />
+                    <AstroWheel Title="ဒြေက္ကဏ (Drekkana)" Houses="@result.DrekkanaHouses" />
                 </div>
+                 <p class="text-xs text-muted-foreground mt-4 text-center">Charts are rendered dynamically based on the ancient Surya Siddhanta method.</p>
             </div>
 
-            <!-- Day & Time Card -->
-            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
-                <div class="p-4">
-                    <div class="flex items-center gap-2 mb-3">
-                        <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
-                            <i class="fa-regular fa-sun text-primary text-sm"></i>
-                        </div>
-                        <h3 class="font-semibold text-sm">Day & Solar</h3>
-                    </div>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex justify-between"><span class="text-muted-foreground">Day</span><span class="font-medium">@result.DayOfWeekMyanmar</span></div>
-                        <div class="flex justify-between"><span class="text-muted-foreground">Sunrise</span><span class="font-medium">@result.Sunrise</span></div>
-                        <div class="flex justify-between"><span class="text-muted-foreground">Sunset</span><span class="font-medium">@result.Sunset</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Zodiac Signs Card -->
-            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
-                <div class="p-4">
-                    <div class="flex items-center gap-2 mb-3">
-                        <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
-                            <i class="fa-solid fa-yin-yang text-primary text-sm"></i>
-                        </div>
-                        <h3 class="font-semibold text-sm">Zodiac Signs</h3>
-                    </div>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex justify-between"><span class="text-muted-foreground">Sun Sign</span><span class="font-medium text-right max-w-[60%]">@result.SunSign</span></div>
-                        <div class="flex justify-between"><span class="text-muted-foreground">Moon Sign</span><span class="font-medium text-right max-w-[60%]">@result.MoonSign</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Fortune Card -->
-            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
-                <div class="p-4">
-                    <div class="flex items-center gap-2 mb-3">
-                        <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
-                            <i class="fa-solid fa-gem text-primary text-sm"></i>
-                        </div>
-                        <h3 class="font-semibold text-sm">Fortune (Tarin / Hawrat)</h3>
-                    </div>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex justify-between"><span class="text-muted-foreground">Tarin</span><span class="font-medium">@result.Tarin</span></div>
-                        <div class="flex justify-between"><span class="text-muted-foreground">Hawrat</span><span class="font-medium">@result.Hawrat</span></div>
-                    </div>
-                </div>
-            </div>
         </div>
 
         <!-- Planetary Positions Table -->
@@ -236,22 +238,29 @@
                     <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
                         <i class="fa-solid fa-globe text-primary text-sm"></i>
                     </div>
-                    <h3 class="font-semibold">Planetary Positions</h3>
+                    <h3 class="font-semibold">Detailed Planetary Status</h3>
                 </div>
                 <div class="overflow-x-auto">
                     <table class="w-full text-sm">
                         <thead>
-                            <tr class="border-b border-border">
-                                <th class="text-left py-2 px-3 text-muted-foreground font-medium">Planet</th>
-                                <th class="text-left py-2 px-3 text-muted-foreground font-medium">Position</th>
+                            <tr class="border-b border-border bg-muted/20">
+                                <th class="text-left py-3 px-4 text-muted-foreground font-medium rounded-tl-md">Planet (ဂြိုဟ်)</th>
+                                <th class="text-left py-3 px-4 text-muted-foreground font-medium">Position (စံ)</th>
+                                <th class="text-left py-3 px-4 text-muted-foreground font-medium">Navamsa Sign (နဝင်း)</th>
+                                <th class="text-left py-3 px-4 text-muted-foreground font-medium rounded-tr-md">Status (ဥစ် / နိစ်)</th>
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach (var planet in result.PlanetaryPositions)
+                            @foreach (var planet in result.DetailedPlanets)
                             {
                                 <tr class="border-b border-border/50 hover:bg-muted/50 transition-colors">
-                                    <td class="py-2.5 px-3 font-medium">@planet.Key</td>
-                                    <td class="py-2.5 px-3 text-muted-foreground">@planet.Value</td>
+                                    <td class="py-3 px-4 font-medium flex items-center gap-2">
+                                        <i class="fa-solid fa-circle text-[8px] text-primary/70"></i>
+                                        @planet.Planet
+                                    </td>
+                                    <td class="py-3 px-4 text-muted-foreground">@planet.Position</td>
+                                    <td class="py-3 px-4 text-muted-foreground">@planet.Navamsa</td>
+                                    <td class="py-3 px-4 text-muted-foreground font-medium">@planet.Status</td>
                                 </tr>
                             }
                         </tbody>
@@ -259,11 +268,21 @@
                 </div>
             </div>
         </div>
+
+        <BhavaResults Rows="result.HouseCusps" />
+        <TraditionalResults Indicators="result.TraditionalIndicators" />
+
+        @if (result.Dasa is not null)
+        {
+            <DasaResults Result="result.Dasa" />
+        }
+        <BoResults Rows="result.BoCalendar" />
+        <HoroscopeGuide />
     </div>
 }
 
 <!-- Footer -->
-<footer class="mt-16 mb-8 text-center text-sm text-muted-foreground">
+<footer class="no-print mt-16 mb-8 text-center text-sm text-muted-foreground">
     <div class="flex items-center justify-center gap-2 mb-2">
         <i class="fa-solid fa-star text-primary/50 text-xs"></i>
         <span>Powered by Surya Siddhanta (Makaranta) System</span>
@@ -285,7 +304,11 @@
 @code {
     private AstroInputModel inputModel = new();
     private AstroResultModel? result;
-    private bool isCalculating = false;
+    private bool isCalculating;
+    private string? calculationError;
+    private IReadOnlyList<CityLocation> legacyCities = [];
+    private IReadOnlyList<SavedHoroscope> savedRecords = [];
+    private string selectedRecordId = "";
 
     private string _selectedCity = "Yangon";
     private string SelectedCity
@@ -294,8 +317,37 @@
         set
         {
             _selectedCity = value;
+            if (int.TryParse(value, out var cityId))
+            {
+                var city = legacyCities.FirstOrDefault(item => item.Id == cityId);
+                if (city is not null)
+                {
+                    SetCityCoordinates(city);
+                }
+                return;
+            }
             SetCityCoordinates(value);
         }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        legacyCities = await CityDirectory.GetLegacyCitiesAsync();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender) return;
+        savedRecords = await SavedHoroscopes.LoadAsync();
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private void SetCityCoordinates(CityLocation city)
+    {
+        inputModel.Latitude = city.Latitude;
+        inputModel.Longitude = city.Longitude;
+        inputModel.StandardTimeOffset = city.UtcOffset;
+        inputModel.LocationName = $"{city.Name}, {city.Country}";
     }
 
     private void SetCityCoordinates(string city)
@@ -306,31 +358,41 @@
                 inputModel.Latitude = 16.8661;
                 inputModel.Longitude = 96.1951;
                 inputModel.LocationName = "Yangon";
+                inputModel.StandardTimeOffset = 6.5;
                 break;
             case "Mandalay":
                 inputModel.Latitude = 21.9588;
                 inputModel.Longitude = 96.0891;
                 inputModel.LocationName = "Mandalay";
+                inputModel.StandardTimeOffset = 6.5;
                 break;
             case "Naypyidaw":
                 inputModel.Latitude = 19.7633;
                 inputModel.Longitude = 96.0785;
                 inputModel.LocationName = "Naypyidaw";
+                inputModel.StandardTimeOffset = 6.5;
                 break;
             case "Bagan":
                 inputModel.Latitude = 21.1717;
                 inputModel.Longitude = 94.8585;
                 inputModel.LocationName = "Bagan";
+                inputModel.StandardTimeOffset = 6.5;
                 break;
             case "Taunggyi":
                 inputModel.Latitude = 20.7891;
                 inputModel.Longitude = 97.0378;
                 inputModel.LocationName = "Taunggyi";
+                inputModel.StandardTimeOffset = 6.5;
                 break;
             case "Mawlamyine":
                 inputModel.Latitude = 16.4905;
                 inputModel.Longitude = 97.6286;
                 inputModel.LocationName = "Mawlamyine";
+                inputModel.StandardTimeOffset = 6.5;
+                break;
+            case "Custom":
+                inputModel.LocationName = "Custom location";
+                inputModel.StandardTimeOffset = 6.5;
                 break;
         }
     }
@@ -338,11 +400,22 @@
     private async Task CalculateHoroscope()
     {
         isCalculating = true;
+        calculationError = null;
         StateHasChanged();
 
         try
         {
             result = await AstroService.CalculateAstroAsync(inputModel);
+        }
+        catch (ArgumentOutOfRangeException)
+        {
+            result = null;
+            calculationError = "Please enter a valid date, time, latitude, and longitude.";
+        }
+        catch (ArgumentException)
+        {
+            result = null;
+            calculationError = "Please enter a valid date, time, latitude, and longitude.";
         }
         finally
         {
@@ -350,4 +423,28 @@
             StateHasChanged();
         }
     }
+
+    private async Task PrintResults() => await JS.InvokeVoidAsync("window.print");
+
+    private async Task SaveCurrent()
+    {
+        savedRecords = await SavedHoroscopes.SaveAsync(inputModel);
+        selectedRecordId = savedRecords[0].Id;
+    }
+
+    private async Task LoadSaved()
+    {
+        var record = savedRecords.FirstOrDefault(item => item.Id == selectedRecordId);
+        if (record is null) return;
+        inputModel = record.Input;
+        await CalculateHoroscope();
+    }
+
+    private async Task DeleteSaved()
+    {
+        savedRecords = await SavedHoroscopes.DeleteAsync(selectedRecordId);
+        selectedRecordId = "";
+    }
+
+    private static string SavedLabel(SavedHoroscope record) => $"{(string.IsNullOrWhiteSpace(record.Input.Name) ? record.Input.LocationName : record.Input.Name)} — {record.Input.Day:00}/{record.Input.Month:00}/{record.Input.Year:0000} {record.Input.Hour:00}:{record.Input.Minute:00}";
 }

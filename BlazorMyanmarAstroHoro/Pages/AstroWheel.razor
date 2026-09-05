@@ -1,0 +1,49 @@
+@namespace BlazorMyanmarAstroHoro.Pages
+
+<div class="flex flex-col items-center justify-center p-2">
+    <h3 class="font-zodiac font-bold text-md mb-3 text-foreground/80">@Title</h3>
+    
+    <div class="relative w-full aspect-square max-w-[220px]">
+        <svg viewBox="0 0 200 200" class="absolute inset-0 w-full h-full rounded-full border border-primary bg-background shadow-md">
+            
+            <!-- Radiating Lines to divide into 12 wedges -->
+            @for(int i = 0; i < 6; i++) {
+                <line x1="100" y1="0" x2="100" y2="200"
+                      stroke="currentColor" stroke-width="0.5" class="text-primary"
+                      transform="rotate(@(i * 30), 100, 100)" />
+            }
+            
+            <!-- Inner concentric circles for styling (like the original VB6 wheels) -->
+            <circle cx="100" cy="100" r="35" fill="none" stroke="currentColor" stroke-width="0.5" class="text-primary" />
+            <circle cx="100" cy="100" r="65" fill="none" stroke="currentColor" stroke-width="0.5" class="text-primary/50" />
+            
+            <!-- Text for each house -->
+            @if (Houses != null && Houses.Count == 12)
+            {
+                @for(int i = 0; i < 12; i++) {
+                    // Calculate angle for text (middle of wedge)
+                    // Wedge 0 is 0-30 degrees. Middle is 15.
+                    var angle = i * 30 + 15;
+                    // Start 0 at top-leftish or whatever rotation suits. Typical is -90 to start top.
+                    var rad = (angle - 105) * Math.PI / 180;
+                    
+                    var r = 82; // radius for text placement
+                    var cx = Math.Round(100 + r * Math.Cos(rad), 2);
+                    var cy = Math.Round(100 + r * Math.Sin(rad), 2);
+                    var houseText = Houses[i];
+                    
+                    @((MarkupString)$@"<text x=""{cx}"" y=""{cy}"" text-anchor=""middle"" dominant-baseline=""middle"" class=""fill-foreground text-[12px] font-medium tracking-tighter"" style=""font-family: inherit;"">{houseText}</text>")
+                }
+            }
+            
+        </svg>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "Zata";
+
+    [Parameter]
+    public List<string> Houses { get; set; } = new();
+}

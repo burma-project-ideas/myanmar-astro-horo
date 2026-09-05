@@ -1,0 +1,22 @@
+<div class="overflow-x-auto">
+    <h4 class="mb-2 text-sm font-medium">@Title</h4>
+    <table class="w-full text-xs">
+        <thead><tr class="border-b border-border text-left text-muted-foreground"><th class="p-2">ဂြိုဟ်</th><th class="p-2">စတင်</th><th class="p-2">ပြီးဆုံး</th><th class="p-2">နှစ်</th></tr></thead>
+        <tbody>
+            @foreach (var period in Periods)
+            {
+                <tr class="border-b border-border/50"><td class="p-2 font-medium">@Lord(period.Lord)</td><td class="p-2">@Date(period.Start)</td><td class="p-2">@Date(period.End)</td><td class="p-2">@MyanmarDecimal(period.DurationYears)</td></tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    [Parameter, EditorRequired] public string Title { get; set; } = "";
+    [Parameter, EditorRequired] public IReadOnlyList<DasaPeriod> Periods { get; set; } = [];
+    private static readonly string[] Months = ["", "ဇန်", "ဖေ", "မတ်", "ဧ", "မေ", "ဇွန်", "ဇူ", "ဩ", "စက်", "အောက်", "နို", "ဒီ"];
+    private static string Date(DateOnly date) => $"{Myanmar(date.Day)} {Months[date.Month]} {Myanmar(date.Year % 100)}";
+    private static string Lord(string lord) => lord switch { "Ketu" => "ကိတ်တု", "Venus" => "သောကြာ", "Sun" => "နေ", "Moon" => "လ", "Mars" => "အင်္ဂါ", "Rahu" => "ရာဟု", "Jupiter" => "ကြာသပတေး", "Saturn" => "စနေ", "Mercury" => "ဗုဒ္ဓဟူး", _ => lord };
+    private static string MyanmarDecimal(double value) => string.Concat(value.ToString("0.00", System.Globalization.CultureInfo.InvariantCulture).Select(c => c == '.' ? '။' : "၀၁၂၃၄၅၆၇၈၉"[c - '0']));
+    private static string Myanmar(int number) => string.Concat(number.ToString().Select(digit => "၀၁၂၃၄၅၆၇၈၉"[digit - '0']));
+}
