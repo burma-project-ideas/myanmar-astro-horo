@@ -2,7 +2,7 @@
 
 မွေးနေ့၊ မွေးချိန်နဲ့ မွေးရာနေရာကို ထည့်ပြီး ရိုးရာဇာတာ၊ ရာသီ၊ နဝင်း၊ ဒြေက္ကာဏ၊ ဒသာ၊ ဘာဝနဲ့ မြန်မာပြက္ခဒိန်ဆိုင်ရာ ရလဒ်တွေကို ကြည့်နိုင်တဲ့ **.NET 10 Blazor WebAssembly Project** ပါ။
 
-[Burma Project Ideas](https://github.com/burma-project-ideas) အောက်မှာ နောက်လာမယ့်သူတွေ Calculation Flow ကို လေ့လာပြီး ကိုယ်နှစ်သက်တဲ့ Language နဲ့ ပြန်ရေးကြည့်နိုင်ဖို့ ထားပေးထားတာပါ။ လက်ရှိ Repository Metadata မှာ အတည်ပြုထားတဲ့ Live URL မပါသေးပါဘူး။
+[Burma Project Ideas](https://github.com/burma-project-ideas) အောက်မှာ နောက်လာမယ့်သူတွေ Calculation Flow ကို လေ့လာပြီး ကိုယ်နှစ်သက်တဲ့ Language နဲ့ ပြန်ရေးကြည့်နိုင်ဖို့ ထားပေးထားတာပါ။ [Live App ကို ဒီမှာ ဖွင့်နိုင်ပါတယ်](https://myanmar-astro-horo.vercel.app/)။
 
 ## အဓိက ပံ့ပိုးသူများနှင့် မူရင်း Data
 
@@ -56,7 +56,7 @@ dotnet build BlazorMyanmarAstroHoro.slnx -c Release
 dotnet publish BlazorMyanmarAstroHoro/BlazorMyanmarAstroHoro.csproj -c Release -o artifacts/publish
 ```
 
-`artifacts/publish/wwwroot` ကို Static Host မှာ Serve လုပ်ပြီး Client-side Routes အတွက် `index.html` Fallback သတ်မှတ်ပါ။ ဒီ Migration မှာ Hosting အသစ် မဖန်တီးထားပါဘူး။
+`artifacts/publish/wwwroot` ကို Static Host မှာ Serve လုပ်ပြီး Client-side Routes အတွက် `index.html` Fallback သတ်မှတ်ပါ။ Production ကို Vercel မှာ Deploy လုပ်ထားပြီး [Live App](https://myanmar-astro-horo.vercel.app/) ကို အသုံးပြုနိုင်ပါတယ်။ .NET Publish ပြီးသား Static Files ကို Vercel Build Output API Format နဲ့ `vercel deploy --prebuilt --prod` သုံးကာ Deploy လုပ်ထားတာပါ။ Published File တွေကို အရင် Serve ပြီး Client-side Routes အတွက် `index.html` Fallback သုံးပါတယ်။ လက်ရှိ Deployment က Manual CLI Deployment ဖြစ်ပြီး Git Push ကနေ Auto-deploy မသတ်မှတ်ထားသေးပါဘူး။
 
 ## စစ်ဆေးမယ်
 
