@@ -1,33 +1,11 @@
-﻿@inherits LayoutComponentBase
+@inherits LayoutComponentBase
 @inject IJSRuntime JSRuntime
-
-<div class="min-h-screen bg-background text-foreground transition-colors duration-300">
-    <header class="sticky top-0 z-40 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div class="container mx-auto px-4 flex h-16 items-center justify-between">
-            <div class="flex items-center gap-2">
-                <i class="fa-solid fa-star text-primary text-xl"></i>
-                <span class="font-zodiac font-bold text-xl tracking-tight">Myanmar Astro Horo</span>
-            </div>
-            
-            <button @onclick="ToggleTheme" class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10">
-                @if (IsDarkMode)
-                {
-                    <i class="fa-solid fa-moon text-lg"></i>
-                }
-                else
-                {
-                    <i class="fa-solid fa-sun text-lg"></i>
-                }
-                <span class="sr-only">Toggle theme</span>
-            </button>
-        </div>
-    </header>
-
-    <main class="container mx-auto px-4 py-8">
-        @Body
-    </main>
+<a class="ui-skip" href="#main-content">Skip to calculator</a>
+<div class="astro-app">
+    <header class="ui-header"><div class="ui-header-inner"><a class="ui-brand" href="/"><span class="ui-brand-mark" aria-hidden="true">ဇ</span>Myanmar Astro Horo</a><nav aria-label="Main navigation"><a href="#astro-form" aria-current="page">Calculator</a><a class="ui-desktop" href="https://github.com/burma-project-ideas/myanmar-astro-horo">Source code</a><button @onclick="ToggleTheme" type="button" class="ui-button" aria-label="Toggle theme">@(IsDarkMode ? "Light theme" : "Dark theme")</button></nav></div></header>
+    <main id="main-content" class="ui-main">@Body</main>
+    <footer class="ui-footer"><span>Traditional calculations · Browser-based</span><a href="https://github.com/burma-project-ideas">Burma Project Ideas</a></footer>
 </div>
-
 @code {
     private bool IsDarkMode = false;
 
@@ -36,12 +14,8 @@
         if (firstRender)
         {
             // Check initial state from localStorage or system preference via JS interop
-            var theme = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "theme");
-            if (theme == "dark")
-            {
-                IsDarkMode = true;
-                StateHasChanged();
-            }
+            IsDarkMode = await JSRuntime.InvokeAsync<bool>("document.documentElement.classList.contains", "dark");
+            StateHasChanged();
         }
     }
 
