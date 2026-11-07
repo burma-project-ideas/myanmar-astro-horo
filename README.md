@@ -65,3 +65,11 @@ Build ပြီး Input Validation၊ City Directory၊ Calculation၊ Save/Ope
 ## ကိုယ်တိုင် ပြန်ရေးကြည့်ချင်ရင်
 
 Input → Time/Location Normalization → Calculation → Result Model → Charts ဆိုတဲ့ Flow ကို ခွဲလေ့လာပါ။ မူရင်း VB6 နဲ့ တူညီတဲ့ Inputs အတွက် Output Comparison Tests ထည့်ပြီးမှ Calculation ပြောင်းလဲပါ။ Upstream Credit ကို ဆက်လက်ထိန်းသိမ်းပြီး Bug Report နဲ့ Documentation ကို Issue / Pull Request နဲ့ ပံ့ပိုးနိုင်ပါတယ်။
+
+## UI Design Update
+
+လက်ရှိ Interface က [Untitled UI](https://www.untitledui.com/react/components) ရဲ့ Form၊ Card၊ Table၊ Badge နဲ့ Page Header Visual Patterns ကို **Blazor နဲ့ ပြန်လည်ဖန်တီးထားတာ** ပါ။ React Component Package ကို သုံးထားတာ မဟုတ်ပါဘူး။ White/Gray Surfaces၊ Restrained Purple Accent၊ Visible Focus နဲ့ Responsive Layout ကို အသုံးပြုထားပါတယ်။ မူရင်း App Data၊ Calculation နဲ့ Browser Storage Keys တွေကို ဆက်လက်ထိန်းသိမ်းထားပါတယ်။ Myanmar စာအတွက် Self-hosted Padauk Font ကို သုံးပြီး Font Notice ကို `wwwroot/fonts/OFL-Padauk.txt` မှာ ထိန်းသိမ်းထားပါတယ်။
+
+![Redesigned desktop interface](screenshots/redesign-desktop.jpg)
+
+[Mobile preview](screenshots/redesign-mobile.jpg)
