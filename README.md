@@ -1,3 +1,5 @@
+![Project logo](BlazorMyanmarAstroHoro/wwwroot/branding/icon-192.png)
+
 # Myanmar Astro Horo (မြန်မာဇာတာတွက်စက်)
 
 မွေးနေ့၊ မွေးချိန်နဲ့ မွေးရာနေရာကို ထည့်ပြီး ရိုးရာဇာတာ၊ ရာသီ၊ နဝင်း၊ ဒြေက္ကာဏ၊ ဒသာ၊ ဘာဝနဲ့ မြန်မာပြက္ခဒိန်ဆိုင်ရာ ရလဒ်တွေကို ကြည့်နိုင်တဲ့ **.NET 10 Blazor WebAssembly Project** ပါ။
@@ -77,3 +79,7 @@ After changing styles or utility classes, run `npm ci` and `npm run build:css` b
 ![Bencho-inspired desktop interface](screenshots/redesign-desktop.jpg)
 
 [Mobile preview](screenshots/redesign-mobile.jpg)
+
+## Brand assets
+
+The original monochrome mark matches the dark interface. Transparent SVG/PNG masters, a dark-on-light variant, favicon sizes (16/32/48), Apple touch icon (180), app icons (192/512), and a 1200×630 social image are generated from `wwwroot/branding/logo-master.svg`. Run `npm ci && npm run build:brand` to regenerate them. Existing font and data licenses remain unchanged.
