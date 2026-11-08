@@ -1,3 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ============================================
+   Myanmar Astro Horo — Shadcn Theme Variables
+   ============================================ */
+
+:root {
+    --background: 0 0% 98%;
+    --foreground: 240 10% 4%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 4%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 4%;
+    
+    /* Gold color: #D4AF37 */
+    --primary: 46 65% 52%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 240 6% 10%;
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
+    --accent: 46 65% 52%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 46 65% 52%;
+    
+    --radius: 0.5rem;
+}
+
+.dark {
+    /* Dark Grey Background: #121212 */
+    --background: 0 0% 7%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 98%;
+    
+    /* Gold optimized for dark mode contrast */
+    --primary: 46 65% 52%;
+    --primary-foreground: 0 0% 9%;
+    
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 46 65% 52%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 46 65% 52%;
+}
+
+/* ============================================
+   Global base styles
+   ============================================ */
+* {
+    border-color: hsl(var(--border));
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom Zodiac Font */
+.font-zodiac {
+    font-family: 'Playfair Display', serif;
+}
+
+/* ============================================
+   Blazor Error UI
+   ============================================ */
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+/* ============================================
+   Loading Progress (Blazor WASM boot)
+   ============================================ */
+.loading-progress {
+    position: absolute;
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    inset: 20vh 0 auto 0;
+    margin: 0 auto 0 auto;
+}
+
+.loading-progress circle {
+    fill: none;
+    stroke: hsl(var(--muted));
+    stroke-width: 0.6rem;
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+}
+
+.loading-progress circle:last-child {
+    stroke: hsl(var(--primary));
+    stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
+    transition: stroke-dasharray 0.05s ease-in-out;
+}
+
+.loading-progress-text {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: hsl(var(--foreground));
+    inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
+}
+
+.loading-progress-text:after {
+    content: var(--blazor-load-percentage-text, "Loading");
+}
+
+/* ============================================
+   Animations
+   ============================================ */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeInUp 0.5s ease-out forwards;
+}
+@media print {
+    .no-print { display: none !important; }
+    body { background: white !important; color: black !important; }
+    .shadow-sm, .shadow-lg, .shadow-md { box-shadow: none !important; }
+    .max-w-4xl { max-width: none !important; }
+    details { display: block !important; }
+    details > *:not(summary) { display: block !important; }
+}
+
 /* Untitled UI-inspired Blazor foundations; no React runtime. */
 @font-face {
     font-family:PadaukUI;
@@ -279,7 +445,7 @@ button:active {
     left:16px;
     top:-100px;
     z-index:1000;
-    background:white;
+    background:#171717;
     padding:12px;
     border:1px solid var(--ui-accent);
     border-radius:8px;
@@ -743,3 +909,10 @@ body {
     }
 
 }
+
+:root,.dark{--ui-bg:#080808;--ui-surface:#171717;--ui-fg:#fafafa;--ui-muted:#b0b0b0;--ui-subtle:#aaa;--ui-border:#303030;--ui-accent:#fff;--ui-soft:#242424;--ui-ring:#737373;--background:0 0% 3%;--foreground:0 0% 98%;--card:0 0% 9%;--card-foreground:0 0% 98%;--primary:0 0% 98%;--primary-foreground:0 0% 4%;--muted:0 0% 15%;--muted-foreground:0 0% 70%;--border:0 0% 18%;--input:0 0% 18%}
+body{@apply bg-neutral-950 text-neutral-100 antialiased;}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",PadaukUI,sans-serif;background:#080808;color:#fafafa}
+a{color:inherit}.pb-highlight{background:none!important;color:inherit!important;-webkit-text-fill-color:currentColor}.ui-header,.site-header,.family-header{background:#080808;border-color:#262626}.ui-brand-mark{background:#262626;color:white}.ui-heading,.intro{background:none!important;border:0!important;text-align:center;padding:64px 20px 48px;max-width:900px;margin:0 auto 32px}.ui-heading h1,.astro-app .ui-heading h1,.intro h1{font-size:clamp(30px,4vw,44px);line-height:1.65;letter-spacing:-1.2px}.ui-heading p,.intro p{color:#a3a3a3}.ui-card,.flow-panel,.letter-picker,.drawing-panel,.lesson-guide,.astro-form>div,.result-card{background:#171717!important;border:1px solid #303030!important;border-radius:24px!important;box-shadow:none!important}.ui-button,.ui-button.primary,button.primary-button,.calculate-button,.start-button{border-radius:999px;background:#fafafa;color:#080808;border-color:#fafafa}.ui-badge,.pb-label{background:#191919;color:#d4d4d4;border:1px solid #333;border-radius:999px}.ui-note,.formula-item,.value-pill{background:#222;color:#ddd;border-color:#333}.ui-footer{border-color:#262626;color:#aaa}input,select,textarea{color-scheme:dark;background:#222!important;color:#fafafa!important;border-color:#404040!important}button,a,summary{touch-action:manipulation}button:not(:disabled){transition:transform .18s ease,background-color .18s ease}button:active:not(:disabled){transform:scale(.97)}:is(button,a,input,select,summary):focus-visible{outline:2px solid #fafafa!important;outline-offset:4px}button:disabled{opacity:.45}.reading-guide h2{font-size:32px;line-height:1.5;color:#fafafa}.reading-guide p,.reading-guide small{color:#aaa}.welcome-panel,.disclaimer,.important-note{background:#171717!important;color:#d4d4d4!important;border-color:#333!important}.question-card,.covered-symbol{background:#222!important;color:#fafafa!important;border-color:#3a3a3a!important;border-radius:18px}.question-card:hover,.covered-symbol:hover{background:#303030!important}.progress .is-reached{color:#fff}.letter-tile{background:#222!important;color:#fafafa!important;border-color:#333!important}.letter-tile[aria-pressed=true]{background:#fafafa!important;color:#080808!important}.intro h1 span{color:inherit}.letter-list{display:flex!important;overflow-x:auto;gap:10px;padding-bottom:14px}.letter-list button{flex:0 0 48px}.astro-guide-mark{background:#222;color:#fff}.astro-guide{color:#ddd}.astro-form button.bg-primary{background:#fafafa;color:#080808;border-radius:999px}.ui-heading .pb-label{display:inline-flex;margin-bottom:15px}.ui-heading br{display:none}.ui-heading h1 br:after{content:' '}.fruit-library-header{border-color:#333}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+button{background:#222;color:#fafafa;border:1px solid #404040;border-radius:999px}button span,button strong,button small{color:inherit!important}.primary-action,.name-form button,.welcome-actions button,.button-primary{background:#fafafa!important;color:#080808!important;border-radius:999px}.calculator-panel,.reference-panel,.writing-panel,.lesson-panel{background:#171717!important;border:1px solid #333;border-radius:24px}.intro{display:block!important}.intro p{margin:20px auto;max-width:600px}.ui-heading{display:flex!important;flex-direction:column;align-items:center;gap:16px}.ui-heading h1{margin-top:18px}.ui-heading .panel-heading{width:100%}.ui-breadcrumb{display:none}.ui-badge{background:#222!important;color:#ddd!important}.letter-picker button{background:#262626;color:#fafafa;border-radius:999px}.letter-picker button[aria-pressed=true]{background:#fafafa;color:#080808}.ui-heading h1:focus,h1:focus{outline:none}.ui-brand-mark{color:#fafafa!important}#blazor-error-ui{display:none;background:#7f1d1d;color:white;position:fixed;bottom:0;left:0;right:0;padding:20px;z-index:1000}

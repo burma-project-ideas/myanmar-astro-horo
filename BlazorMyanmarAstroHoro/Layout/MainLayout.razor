@@ -1,40 +1,7 @@
 @inherits LayoutComponentBase
-@inject IJSRuntime JSRuntime
 <a class="ui-skip" href="#main-content">Skip to calculator</a>
 <div class="astro-app">
-    <header class="ui-header"><div class="ui-header-inner"><a class="ui-brand" href="/"><span class="ui-brand-mark" aria-hidden="true">ဇ</span>Myanmar Astro Horo</a><nav aria-label="Main navigation"><a href="#astro-form" aria-current="page">Calculator</a><a class="ui-desktop" href="https://github.com/burma-project-ideas/myanmar-astro-horo">Source code</a><button @onclick="ToggleTheme" type="button" class="ui-button" aria-label="Toggle theme">@(IsDarkMode ? "Light theme" : "Dark theme")</button></nav></div></header>
+    <header class="ui-header"><div class="ui-header-inner"><a class="ui-brand" href="/"><span class="ui-brand-mark" aria-hidden="true">ဇ</span>Myanmar Astro Horo</a><nav aria-label="Main navigation"><a href="#astro-form" aria-current="page">Calculator</a><a class="ui-desktop" href="https://github.com/burma-project-ideas/myanmar-astro-horo">Source code</a></nav></div></header>
     <main id="main-content" class="ui-main">@Body</main>
     <footer class="ui-footer"><span>Traditional calculations · Browser-based</span><a href="https://github.com/burma-project-ideas">Burma Project Ideas</a></footer>
 </div>
-@code {
-    private bool IsDarkMode = false;
-
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            // Check initial state from localStorage or system preference via JS interop
-            IsDarkMode = await JSRuntime.InvokeAsync<bool>("document.documentElement.classList.contains", "dark");
-            StateHasChanged();
-        }
-    }
-
-    private async Task ToggleTheme()
-    {
-        IsDarkMode = !IsDarkMode;
-        var themeString = IsDarkMode ? "dark" : "light";
-        
-        // Update class on HTML element
-        if (IsDarkMode)
-        {
-            await JSRuntime.InvokeVoidAsync("document.documentElement.classList.add", "dark");
-        }
-        else
-        {
-            await JSRuntime.InvokeVoidAsync("document.documentElement.classList.remove", "dark");
-        }
-        
-        // Save preference
-        await JSRuntime.InvokeVoidAsync("localStorage.setItem", "theme", themeString);
-    }
-}
