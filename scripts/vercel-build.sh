@@ -8,6 +8,9 @@ if [[ ! -x "${dotnet_dir}/dotnet" ]]; then
   bash "${install_script}" --channel 10.0 --install-dir "${dotnet_dir}" --no-path
 fi
 
+npm ci
+npm run build:css
+
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export DOTNET_NOLOGO=1
 "${dotnet_dir}/dotnet" publish BlazorMyanmarAstroHoro/BlazorMyanmarAstroHoro.csproj --configuration Release --output artifacts/vercel -p:WasmBuildNative=false
